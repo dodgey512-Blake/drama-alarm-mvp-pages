@@ -1,0 +1,241 @@
+{
+  "version": "6.0.0",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "pixelRatio": 2,
+  "pngSize": {
+    "width": 780,
+    "height": 1688
+  },
+  "exampleAlarmTime": "06:30",
+  "runHistory": "empty",
+  "themes": {
+    "daybreak": "Daybreak",
+    "velvet": "Velvet Stage"
+  },
+  "screens": [
+    {
+      "id": "01",
+      "label": "Home",
+      "filename": "01-Home.png"
+    },
+    {
+      "id": "02",
+      "label": "Alarm Editor",
+      "filename": "02-Alarm-Editor.png"
+    },
+    {
+      "id": "03",
+      "label": "Showtime",
+      "filename": "03-Showtime.png"
+    },
+    {
+      "id": "04",
+      "label": "Math",
+      "filename": "04-Math.png"
+    },
+    {
+      "id": "05",
+      "label": "Math Wrong",
+      "filename": "05-Math-Wrong.png"
+    },
+    {
+      "id": "06",
+      "label": "Riddle",
+      "filename": "06-Riddle.png"
+    },
+    {
+      "id": "07",
+      "label": "Bravo",
+      "filename": "07-Bravo.png"
+    },
+    {
+      "id": "08",
+      "label": "Welcome",
+      "filename": "08-Welcome.png"
+    },
+    {
+      "id": "09",
+      "label": "Rehearsal Bravo",
+      "filename": "09-Rehearsal-Bravo.png"
+    },
+    {
+      "id": "10",
+      "label": "Sound Booth",
+      "filename": "10-Sound-Booth.png"
+    },
+    {
+      "id": "11",
+      "label": "Backstage Pass",
+      "filename": "11-Backstage-Pass.png"
+    },
+    {
+      "id": "12",
+      "label": "Your Run",
+      "filename": "12-Your-Run.png"
+    },
+    {
+      "id": "13",
+      "label": "Standing Ovation",
+      "filename": "13-Standing-Ovation.png"
+    },
+    {
+      "id": "14",
+      "label": "Settings",
+      "filename": "14-Settings.png"
+    },
+    {
+      "id": "15",
+      "label": "Emergency Stop",
+      "filename": "15-Emergency-Stop.png"
+    },
+    {
+      "id": "16",
+      "label": "Curtain Rising",
+      "filename": "16-Curtain-Rising.png"
+    },
+    {
+      "id": "17",
+      "label": "Alarm Access",
+      "filename": "17-Alarm-Access.png"
+    },
+    {
+      "id": "18",
+      "label": "Sound & Rehearsal",
+      "filename": "18-Sound-Rehearsal.png"
+    },
+    {
+      "id": "19",
+      "label": "Alarm Ready",
+      "filename": "19-Alarm-Ready.png"
+    },
+    {
+      "id": "20",
+      "label": "Riddle Wrong",
+      "filename": "20-Riddle-Wrong.png"
+    },
+    {
+      "id": "21",
+      "label": "Safety Valve",
+      "filename": "21-Safety-Valve.png"
+    },
+    {
+      "id": "22",
+      "label": "Wake-up Check",
+      "filename": "22-Wake-up-Check.png"
+    },
+    {
+      "id": "23",
+      "label": "Permission Off",
+      "filename": "23-Permission-Off.png"
+    },
+    {
+      "id": "24",
+      "label": "iOS System Entry",
+      "filename": "24-iOS-System-Entry.png"
+    },
+    {
+      "id": "25",
+      "label": "Difficulty",
+      "filename": "25-Difficulty.png"
+    },
+    {
+      "id": "26",
+      "label": "Riddle Finale",
+      "filename": "26-Riddle-Finale.png"
+    },
+    {
+      "id": "27",
+      "label": "Volume Strategy",
+      "filename": "27-Volume-Strategy.png"
+    },
+    {
+      "id": "28",
+      "label": "Wake-up Check Timing",
+      "filename": "28-Wake-up-Check-Timing.png"
+    },
+    {
+      "id": "29",
+      "label": "Emergency Rules",
+      "filename": "29-Emergency-Rules.png"
+    },
+    {
+      "id": "30",
+      "label": "Haptics",
+      "filename": "30-Haptics.png"
+    },
+    {
+      "id": "31",
+      "label": "Curtain Call Detail",
+      "filename": "31-Curtain-Call-Detail.png"
+    },
+    {
+      "id": "32",
+      "label": "Delete Alarm",
+      "filename": "32-Delete-Alarm.png"
+    },
+    {
+      "id": "33",
+      "label": "Test Countdown",
+      "filename": "33-Test-Countdown.png"
+    },
+    {
+      "id": "34",
+      "label": "Purchase Preview",
+      "filename": "34-Purchase-Preview.png"
+    },
+    {
+      "id": "35",
+      "label": "Restore Result",
+      "filename": "35-Restore-Result.png"
+    },
+    {
+      "id": "36",
+      "label": "Alarm Access Settings",
+      "filename": "36-Alarm-Access-Settings.png"
+    },
+    {
+      "id": "37",
+      "label": "Choose Your Theme",
+      "filename": "37-Choose-Your-Theme.png"
+    },
+    {
+      "id": "38",
+      "label": "Official Free Themes",
+      "filename": "38-Official-Free-Themes.png"
+    },
+    {
+      "id": "39",
+      "label": "Theme Preview",
+      "filename": "39-Theme-Preview.png"
+    },
+    {
+      "id": "40",
+      "label": "Future Collections",
+      "filename": "40-Future-Collections.png"
+    },
+    {
+      "id": "41",
+      "label": "Help & Reliability",
+      "filename": "41-Help-Reliability.png"
+    },
+    {
+      "id": "42",
+      "label": "Privacy",
+      "filename": "42-Privacy.png"
+    },
+    {
+      "id": "43",
+      "label": "Diagnostics",
+      "filename": "43-Diagnostics.png"
+    },
+    {
+      "id": "44",
+      "label": "Alarm Results",
+      "filename": "44-Alarm-Results.png"
+    }
+  ],
+  "pngCount": 88
+}
