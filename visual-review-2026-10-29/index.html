@@ -263,10 +263,10 @@
       const target=root.ownerDocument.getElementById(button.dataset.section);
       if(!target) return;
       const box=target.getBBox();
-      const matrix=target.getCTM();
-      const point=root.createSVGPoint();point.x=box.x;point.y=box.y;
-      const location=matrix ? point.matrixTransform(matrix) : point;
-      viewport.scrollTop=Math.max(0,location.y*state.scale+stage.offsetTop-12);
+      // Section groups are expressed directly in root viewBox coordinates.
+      // getCTM() already includes the object's CSS scale: multiplying it again
+      // would make section jumps land near the top on a fitted canvas.
+      viewport.scrollTop=Math.max(0,box.y*state.scale+stage.offsetTop-12);
       viewport.scrollLeft=0;
       document.querySelectorAll('[data-section]').forEach(item=>item.setAttribute('aria-current',String(item===button)));
     });
