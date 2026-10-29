@@ -1,0 +1,1518 @@
+{
+  "version": "7.1.0",
+  "date": "2026-10-29",
+  "storageGeneration": "v7",
+  "businessSchema": 7,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "pixelRatio": 2,
+  "pngSize": {
+    "width": 780,
+    "height": 1688
+  },
+  "exampleAlarmTime": "06:30",
+  "runHistory": "empty",
+  "fixtureClock": "2026-10-29T06:00:00-04:00",
+  "fixtureTimeZone": "America/New_York",
+  "fixtureTimersPausedForDesignOnly": true,
+  "themes": {
+    "daybreak": "Daybreak",
+    "velvet": "Velvet Stage"
+  },
+  "screens": [
+    {
+      "id": "01",
+      "label": "Home",
+      "filename": "01-Home.png",
+      "mode": "recaptured-7.1"
+    },
+    {
+      "id": "02",
+      "label": "Alarm Editor",
+      "filename": "02-Alarm-Editor.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "03",
+      "label": "Showtime",
+      "filename": "03-Showtime.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "04",
+      "label": "Math",
+      "filename": "04-Math.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "05",
+      "label": "Math Wrong",
+      "filename": "05-Math-Wrong.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "06",
+      "label": "Riddle",
+      "filename": "06-Riddle.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "07",
+      "label": "Bravo",
+      "filename": "07-Bravo.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "08",
+      "label": "Welcome",
+      "filename": "08-Welcome.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "09",
+      "label": "Rehearsal Bravo",
+      "filename": "09-Rehearsal-Bravo.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "10",
+      "label": "Sound Booth",
+      "filename": "10-Sound-Booth.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "11",
+      "label": "Backstage Pass",
+      "filename": "11-Backstage-Pass.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "12",
+      "label": "Your Run",
+      "filename": "12-Your-Run.png",
+      "mode": "recaptured-7.1"
+    },
+    {
+      "id": "13",
+      "label": "Standing Ovation",
+      "filename": "13-Standing-Ovation.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "14",
+      "label": "Settings",
+      "filename": "14-Settings.png",
+      "mode": "recaptured-7.1"
+    },
+    {
+      "id": "15",
+      "label": "Emergency Stop",
+      "filename": "15-Emergency-Stop.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "16",
+      "label": "Curtain Rising",
+      "filename": "16-Curtain-Rising.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "17",
+      "label": "Alarm Access",
+      "filename": "17-Alarm-Access.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "18",
+      "label": "Sound & Rehearsal",
+      "filename": "18-Sound-Rehearsal.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "19",
+      "label": "Alarm Ready",
+      "filename": "19-Alarm-Ready.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "20",
+      "label": "Riddle Wrong",
+      "filename": "20-Riddle-Wrong.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "21",
+      "label": "Safety Valve",
+      "filename": "21-Safety-Valve.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "22",
+      "label": "Wake-up Check",
+      "filename": "22-Wake-up-Check.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "23",
+      "label": "Permission Off",
+      "filename": "23-Permission-Off.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "24",
+      "label": "iOS System Entry",
+      "filename": "24-iOS-System-Entry.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "25",
+      "label": "Difficulty",
+      "filename": "25-Difficulty.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "26",
+      "label": "Riddle Finale",
+      "filename": "26-Riddle-Finale.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "27",
+      "label": "Volume Strategy",
+      "filename": "27-Volume-Strategy.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "28",
+      "label": "Wake-up Check Timing",
+      "filename": "28-Wake-up-Check-Timing.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "29",
+      "label": "Emergency Rules",
+      "filename": "29-Emergency-Rules.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "30",
+      "label": "Haptics",
+      "filename": "30-Haptics.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "31",
+      "label": "Curtain Call Detail",
+      "filename": "31-Curtain-Call-Detail.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "32",
+      "label": "Delete Alarm",
+      "filename": "32-Delete-Alarm.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "33",
+      "label": "Test Countdown",
+      "filename": "33-Test-Countdown.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "34",
+      "label": "Purchase Preview",
+      "filename": "34-Purchase-Preview.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "35",
+      "label": "Restore Result",
+      "filename": "35-Restore-Result.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "36",
+      "label": "Alarm Access Settings",
+      "filename": "36-Alarm-Access-Settings.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "37",
+      "label": "Choose Your Theme",
+      "filename": "37-Choose-Your-Theme.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "38",
+      "label": "Official Free Themes",
+      "filename": "38-Official-Free-Themes.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "39",
+      "label": "Theme Preview",
+      "filename": "39-Theme-Preview.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "40",
+      "label": "Future Collections",
+      "filename": "40-Future-Collections.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "41",
+      "label": "Help & Reliability",
+      "filename": "41-Help-Reliability.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "42",
+      "label": "Privacy",
+      "filename": "42-Privacy.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "43",
+      "label": "Diagnostics",
+      "filename": "43-Diagnostics.png",
+      "mode": "reused-7.0"
+    },
+    {
+      "id": "44",
+      "label": "Alarm Results",
+      "filename": "44-Alarm-Results.png",
+      "mode": "reused-7.0"
+    }
+  ],
+  "pngCount": 88,
+  "recaptureIds": [
+    "01",
+    "12",
+    "14"
+  ],
+  "recaptureCount": 6,
+  "reusedCount": 82,
+  "baseline": "versions/v7.0/设计稿/v7.0/",
+  "reusedCapturesMayShowHistoricalVersionLabels": true,
+  "files": [
+    {
+      "path": "daybreak/01-Home.png",
+      "screenId": "01",
+      "theme": "daybreak",
+      "mode": "recaptured-7.1",
+      "source": "docs/v7.1/index.html",
+      "sourceVersion": "7.1.0",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+      "bytes": 315321,
+      "sha256": "1099b623b000bfac1a9cf1861079d57e9ec89944e84cd965d631f445aa14731d"
+    },
+    {
+      "path": "daybreak/02-Alarm-Editor.png",
+      "screenId": "02",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/02-Alarm-Editor.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "9e3639756f0a85b976bddf5aae86bd32b67220cbe8acf74ce9bd5d25529360ae",
+      "bytes": 209544,
+      "sha256": "9e3639756f0a85b976bddf5aae86bd32b67220cbe8acf74ce9bd5d25529360ae"
+    },
+    {
+      "path": "daybreak/03-Showtime.png",
+      "screenId": "03",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/03-Showtime.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "9ca278ac87bbe0249f154554ac5d6d70f9d466de6105b36ad1765b77575ec028",
+      "bytes": 377019,
+      "sha256": "9ca278ac87bbe0249f154554ac5d6d70f9d466de6105b36ad1765b77575ec028"
+    },
+    {
+      "path": "daybreak/04-Math.png",
+      "screenId": "04",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/04-Math.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "e67c80603acb05df8feb4fdf0a6e84879d67c0e3818a5b1b62627f7c3d3e8c4b",
+      "bytes": 127689,
+      "sha256": "e67c80603acb05df8feb4fdf0a6e84879d67c0e3818a5b1b62627f7c3d3e8c4b"
+    },
+    {
+      "path": "daybreak/05-Math-Wrong.png",
+      "screenId": "05",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/05-Math-Wrong.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "9c257a46e47145001d3e31cf794cdde249cb6dafe6381e909981f1aaf94b4a9c",
+      "bytes": 124564,
+      "sha256": "9c257a46e47145001d3e31cf794cdde249cb6dafe6381e909981f1aaf94b4a9c"
+    },
+    {
+      "path": "daybreak/06-Riddle.png",
+      "screenId": "06",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/06-Riddle.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "1797802b7ae08888f9ee60af8a8ca168305d695d7f66786c5bf0dd3622fce463",
+      "bytes": 180041,
+      "sha256": "1797802b7ae08888f9ee60af8a8ca168305d695d7f66786c5bf0dd3622fce463"
+    },
+    {
+      "path": "daybreak/07-Bravo.png",
+      "screenId": "07",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/07-Bravo.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "d989b549d0abfaedd97dadd926c52617f2dd807239f7f5c28223dbfe2ec4f810",
+      "bytes": 290541,
+      "sha256": "d989b549d0abfaedd97dadd926c52617f2dd807239f7f5c28223dbfe2ec4f810"
+    },
+    {
+      "path": "daybreak/08-Welcome.png",
+      "screenId": "08",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/08-Welcome.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "0c7bb0d39457f90be5d54464ae3216aca379ac72243bb46e8522679fe61755e3",
+      "bytes": 234247,
+      "sha256": "0c7bb0d39457f90be5d54464ae3216aca379ac72243bb46e8522679fe61755e3"
+    },
+    {
+      "path": "daybreak/09-Rehearsal-Bravo.png",
+      "screenId": "09",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/09-Rehearsal-Bravo.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "7c5e4489693b719a3e3b5b1655c7d84dcdd48a6f11e118de1595f770e1f60c4f",
+      "bytes": 280551,
+      "sha256": "7c5e4489693b719a3e3b5b1655c7d84dcdd48a6f11e118de1595f770e1f60c4f"
+    },
+    {
+      "path": "daybreak/10-Sound-Booth.png",
+      "screenId": "10",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/10-Sound-Booth.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "7e76c39f1360999e22c99bbc7cbd1082debb8f780c91ace50a844222219b908c",
+      "bytes": 224860,
+      "sha256": "7e76c39f1360999e22c99bbc7cbd1082debb8f780c91ace50a844222219b908c"
+    },
+    {
+      "path": "daybreak/11-Backstage-Pass.png",
+      "screenId": "11",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/11-Backstage-Pass.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "e6a8bbd4238660ed79dfce99641dcb881d35345bfdb4516ca467e64326908012",
+      "bytes": 271673,
+      "sha256": "e6a8bbd4238660ed79dfce99641dcb881d35345bfdb4516ca467e64326908012"
+    },
+    {
+      "path": "daybreak/12-Your-Run.png",
+      "screenId": "12",
+      "theme": "daybreak",
+      "mode": "recaptured-7.1",
+      "source": "docs/v7.1/index.html",
+      "sourceVersion": "7.1.0",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+      "bytes": 205748,
+      "sha256": "3d56774681197639dbdd153c582454e980531a8e02ded00c364ff734a3de6f47"
+    },
+    {
+      "path": "daybreak/13-Standing-Ovation.png",
+      "screenId": "13",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/13-Standing-Ovation.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "bf08dfebe8c97d3c2d88bcb142093b83b8d8a8a29acc82a94d5ea6b0ddd54c45",
+      "bytes": 394620,
+      "sha256": "bf08dfebe8c97d3c2d88bcb142093b83b8d8a8a29acc82a94d5ea6b0ddd54c45"
+    },
+    {
+      "path": "daybreak/14-Settings.png",
+      "screenId": "14",
+      "theme": "daybreak",
+      "mode": "recaptured-7.1",
+      "source": "docs/v7.1/index.html",
+      "sourceVersion": "7.1.0",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+      "bytes": 222609,
+      "sha256": "dd3b6b04ce0134108323c4f071718cb9ed757605d7245c2364ccf25ed94936e7"
+    },
+    {
+      "path": "daybreak/15-Emergency-Stop.png",
+      "screenId": "15",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/15-Emergency-Stop.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "a5b140063052e2aeaa00fe823b222e744060ddf40c9f64acf663bd86070a4141",
+      "bytes": 417021,
+      "sha256": "a5b140063052e2aeaa00fe823b222e744060ddf40c9f64acf663bd86070a4141"
+    },
+    {
+      "path": "daybreak/16-Curtain-Rising.png",
+      "screenId": "16",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/16-Curtain-Rising.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "90ff4494c8eeaf9a68a9561660110d48b0ae6e93ff29e2e99c70ddb0496d9e11",
+      "bytes": 391176,
+      "sha256": "90ff4494c8eeaf9a68a9561660110d48b0ae6e93ff29e2e99c70ddb0496d9e11"
+    },
+    {
+      "path": "daybreak/17-Alarm-Access.png",
+      "screenId": "17",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/17-Alarm-Access.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "9d740f9592756adff2cefe3d61ef5c295a5767c23770f781e6934be656f3d051",
+      "bytes": 240622,
+      "sha256": "9d740f9592756adff2cefe3d61ef5c295a5767c23770f781e6934be656f3d051"
+    },
+    {
+      "path": "daybreak/18-Sound-Rehearsal.png",
+      "screenId": "18",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/18-Sound-Rehearsal.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "f4554834f5ebb6e19cdcba9505c240266c5ac7961ba8ae306b8b2e2d09164325",
+      "bytes": 237908,
+      "sha256": "f4554834f5ebb6e19cdcba9505c240266c5ac7961ba8ae306b8b2e2d09164325"
+    },
+    {
+      "path": "daybreak/19-Alarm-Ready.png",
+      "screenId": "19",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/19-Alarm-Ready.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "464c436d4b2ec1e271a318914d2e835d4f7d0ba758d4f3a528e3ac427d1eb148",
+      "bytes": 247434,
+      "sha256": "464c436d4b2ec1e271a318914d2e835d4f7d0ba758d4f3a528e3ac427d1eb148"
+    },
+    {
+      "path": "daybreak/20-Riddle-Wrong.png",
+      "screenId": "20",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/20-Riddle-Wrong.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "b067b754470dbde5f97786baa5266a1629a2194710aafffa4c43795eb5d098c3",
+      "bytes": 144379,
+      "sha256": "b067b754470dbde5f97786baa5266a1629a2194710aafffa4c43795eb5d098c3"
+    },
+    {
+      "path": "daybreak/21-Safety-Valve.png",
+      "screenId": "21",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/21-Safety-Valve.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "738699f9892b8ef558c3293bdb702ed0cffd9d952ba941f0c236b18df8593da8",
+      "bytes": 180160,
+      "sha256": "738699f9892b8ef558c3293bdb702ed0cffd9d952ba941f0c236b18df8593da8"
+    },
+    {
+      "path": "daybreak/22-Wake-up-Check.png",
+      "screenId": "22",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/22-Wake-up-Check.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "70945729cda119b851c4f4cfcbb6a5a287639d76e315a9472a8768e9ebe902a6",
+      "bytes": 213473,
+      "sha256": "70945729cda119b851c4f4cfcbb6a5a287639d76e315a9472a8768e9ebe902a6"
+    },
+    {
+      "path": "daybreak/23-Permission-Off.png",
+      "screenId": "23",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/23-Permission-Off.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "aa448c218f42c485a23fbaaa4e099b71abe1f5708eb243aa4aed8f63ff9ea9cc",
+      "bytes": 173347,
+      "sha256": "aa448c218f42c485a23fbaaa4e099b71abe1f5708eb243aa4aed8f63ff9ea9cc"
+    },
+    {
+      "path": "daybreak/24-iOS-System-Entry.png",
+      "screenId": "24",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/24-iOS-System-Entry.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "392fa2dd6704a485ed847738320de2ccb38dc8c632156ff023e90880466468d3",
+      "bytes": 182742,
+      "sha256": "392fa2dd6704a485ed847738320de2ccb38dc8c632156ff023e90880466468d3"
+    },
+    {
+      "path": "daybreak/25-Difficulty.png",
+      "screenId": "25",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/25-Difficulty.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "4a9501ea4a0c6fc4ccaf8d5097cbbecf02043c1882ff8a38eb6f17dfde9b5c6a",
+      "bytes": 209765,
+      "sha256": "4a9501ea4a0c6fc4ccaf8d5097cbbecf02043c1882ff8a38eb6f17dfde9b5c6a"
+    },
+    {
+      "path": "daybreak/26-Riddle-Finale.png",
+      "screenId": "26",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/26-Riddle-Finale.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "687117b513538c557a1f74b7f2616199e13d983b02107a3a349af99957af7a84",
+      "bytes": 191505,
+      "sha256": "687117b513538c557a1f74b7f2616199e13d983b02107a3a349af99957af7a84"
+    },
+    {
+      "path": "daybreak/27-Volume-Strategy.png",
+      "screenId": "27",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/27-Volume-Strategy.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "f40bb5ddc7a9a90efa37b2f8eb12bbcbc76658c38a6a6ba5fcff3989bc542530",
+      "bytes": 225206,
+      "sha256": "f40bb5ddc7a9a90efa37b2f8eb12bbcbc76658c38a6a6ba5fcff3989bc542530"
+    },
+    {
+      "path": "daybreak/28-Wake-up-Check-Timing.png",
+      "screenId": "28",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/28-Wake-up-Check-Timing.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "e19c32a07c45b0cd2297187f4fda0c6c69e004d8bd4e286245d052d36d483457",
+      "bytes": 166001,
+      "sha256": "e19c32a07c45b0cd2297187f4fda0c6c69e004d8bd4e286245d052d36d483457"
+    },
+    {
+      "path": "daybreak/29-Emergency-Rules.png",
+      "screenId": "29",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/29-Emergency-Rules.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "8b946083f6a8a7c6507a185505018bc0ef04188c62f20c46f29184ed9f0e5ba5",
+      "bytes": 178026,
+      "sha256": "8b946083f6a8a7c6507a185505018bc0ef04188c62f20c46f29184ed9f0e5ba5"
+    },
+    {
+      "path": "daybreak/30-Haptics.png",
+      "screenId": "30",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/30-Haptics.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "057a8953de422e154717ff70b1ebbfb9f4aca924e06e28991440ba126af36a4b",
+      "bytes": 176317,
+      "sha256": "057a8953de422e154717ff70b1ebbfb9f4aca924e06e28991440ba126af36a4b"
+    },
+    {
+      "path": "daybreak/31-Curtain-Call-Detail.png",
+      "screenId": "31",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/31-Curtain-Call-Detail.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "2b8842ac2ec6030845928eb2a6230394b1445a3525ab476d6fb854f0e8230303",
+      "bytes": 245760,
+      "sha256": "2b8842ac2ec6030845928eb2a6230394b1445a3525ab476d6fb854f0e8230303"
+    },
+    {
+      "path": "daybreak/32-Delete-Alarm.png",
+      "screenId": "32",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/32-Delete-Alarm.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "3f5b71fd576f9588745b7b9a95573d3b34182c44413c962a26658d774676a121",
+      "bytes": 158347,
+      "sha256": "3f5b71fd576f9588745b7b9a95573d3b34182c44413c962a26658d774676a121"
+    },
+    {
+      "path": "daybreak/33-Test-Countdown.png",
+      "screenId": "33",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/33-Test-Countdown.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "898365a28ada579af59c7dd9415a80464001d16333f9c68179debfaff2358576",
+      "bytes": 199686,
+      "sha256": "898365a28ada579af59c7dd9415a80464001d16333f9c68179debfaff2358576"
+    },
+    {
+      "path": "daybreak/34-Purchase-Preview.png",
+      "screenId": "34",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/34-Purchase-Preview.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "b8afa831616725c8efd7afe8c59828d7a9181f00793a0132f91d4b9a5c47b32a",
+      "bytes": 234161,
+      "sha256": "b8afa831616725c8efd7afe8c59828d7a9181f00793a0132f91d4b9a5c47b32a"
+    },
+    {
+      "path": "daybreak/35-Restore-Result.png",
+      "screenId": "35",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/35-Restore-Result.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "d72a195731056c5eda993c0c5e50fd0e58159fc6cbb1dffb8dc3e1b2b1582dd2",
+      "bytes": 198458,
+      "sha256": "d72a195731056c5eda993c0c5e50fd0e58159fc6cbb1dffb8dc3e1b2b1582dd2"
+    },
+    {
+      "path": "daybreak/36-Alarm-Access-Settings.png",
+      "screenId": "36",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/36-Alarm-Access-Settings.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "df0fe13783ffb4e7c99427ea7152fbe17c2dbd4c5f444308bb7d4cf7bcbfb704",
+      "bytes": 233490,
+      "sha256": "df0fe13783ffb4e7c99427ea7152fbe17c2dbd4c5f444308bb7d4cf7bcbfb704"
+    },
+    {
+      "path": "daybreak/37-Choose-Your-Theme.png",
+      "screenId": "37",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/37-Choose-Your-Theme.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "c8a2fa906bff81320985dc97bcaa445f2d81ddfb5c22f68c173ecd8965186f59",
+      "bytes": 235922,
+      "sha256": "c8a2fa906bff81320985dc97bcaa445f2d81ddfb5c22f68c173ecd8965186f59"
+    },
+    {
+      "path": "daybreak/38-Official-Free-Themes.png",
+      "screenId": "38",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/38-Official-Free-Themes.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "e83f58224c6567537df91f03de993daba02de6d19d2233db764bd93d29989b17",
+      "bytes": 233921,
+      "sha256": "e83f58224c6567537df91f03de993daba02de6d19d2233db764bd93d29989b17"
+    },
+    {
+      "path": "daybreak/39-Theme-Preview.png",
+      "screenId": "39",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/39-Theme-Preview.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "98484dbb001810b9d48758a780bb323be6b8ee335511779bdb2d69d8800704f9",
+      "bytes": 210677,
+      "sha256": "98484dbb001810b9d48758a780bb323be6b8ee335511779bdb2d69d8800704f9"
+    },
+    {
+      "path": "daybreak/40-Future-Collections.png",
+      "screenId": "40",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/40-Future-Collections.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "f2899f7ecfc77db8fed7e8b9543086dccf48b9d2a66bf646f00f4fd564b5782d",
+      "bytes": 274779,
+      "sha256": "f2899f7ecfc77db8fed7e8b9543086dccf48b9d2a66bf646f00f4fd564b5782d"
+    },
+    {
+      "path": "daybreak/41-Help-Reliability.png",
+      "screenId": "41",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/41-Help-Reliability.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "91b15cd4db4ba5b88e08221159fa1e234845d086afa0df063941ef64f5182338",
+      "bytes": 289728,
+      "sha256": "91b15cd4db4ba5b88e08221159fa1e234845d086afa0df063941ef64f5182338"
+    },
+    {
+      "path": "daybreak/42-Privacy.png",
+      "screenId": "42",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/42-Privacy.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "847bc3e036b960619a9063adfcdb4642a0934eb6ee46cf47b16b463955448cf7",
+      "bytes": 255937,
+      "sha256": "847bc3e036b960619a9063adfcdb4642a0934eb6ee46cf47b16b463955448cf7"
+    },
+    {
+      "path": "daybreak/43-Diagnostics.png",
+      "screenId": "43",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/43-Diagnostics.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "0c18f4236cd7095af7e19db8d003f4a9492fd3b03c2bcf6a45b8f99d76266c7f",
+      "bytes": 188158,
+      "sha256": "0c18f4236cd7095af7e19db8d003f4a9492fd3b03c2bcf6a45b8f99d76266c7f"
+    },
+    {
+      "path": "daybreak/44-Alarm-Results.png",
+      "screenId": "44",
+      "theme": "daybreak",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/daybreak/44-Alarm-Results.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "cf9c95833d36e60ccb52c4e25c725e6edb50a9129cea9459085043d931fb5aed",
+      "bytes": 212455,
+      "sha256": "cf9c95833d36e60ccb52c4e25c725e6edb50a9129cea9459085043d931fb5aed"
+    },
+    {
+      "path": "velvet/01-Home.png",
+      "screenId": "01",
+      "theme": "velvet",
+      "mode": "recaptured-7.1",
+      "source": "docs/v7.1/index.html",
+      "sourceVersion": "7.1.0",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+      "bytes": 308607,
+      "sha256": "440cb5edd6d8df55cd1df15583045101bec61532b50f00aedcc79c8ec63edb3a"
+    },
+    {
+      "path": "velvet/02-Alarm-Editor.png",
+      "screenId": "02",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/02-Alarm-Editor.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "b5aca11000eabd5fc4ae933cd65d6dd16d0dbe820a0c157b1bd10e56521fc588",
+      "bytes": 213028,
+      "sha256": "b5aca11000eabd5fc4ae933cd65d6dd16d0dbe820a0c157b1bd10e56521fc588"
+    },
+    {
+      "path": "velvet/03-Showtime.png",
+      "screenId": "03",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/03-Showtime.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "7f9dd90ea2717e1e1f8c681eaadb0e7ed7c5b030cc5d6123992a8c612b9267dc",
+      "bytes": 373907,
+      "sha256": "7f9dd90ea2717e1e1f8c681eaadb0e7ed7c5b030cc5d6123992a8c612b9267dc"
+    },
+    {
+      "path": "velvet/04-Math.png",
+      "screenId": "04",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/04-Math.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "ce6748815c05ac23745d2f3895d972062a8014e7c464fe7922f5699013da6e3d",
+      "bytes": 133440,
+      "sha256": "ce6748815c05ac23745d2f3895d972062a8014e7c464fe7922f5699013da6e3d"
+    },
+    {
+      "path": "velvet/05-Math-Wrong.png",
+      "screenId": "05",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/05-Math-Wrong.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "9f7b126ef7dd811d6cbcc9d350658179ee782d30c91b0c1bbc69724a980d9dab",
+      "bytes": 129709,
+      "sha256": "9f7b126ef7dd811d6cbcc9d350658179ee782d30c91b0c1bbc69724a980d9dab"
+    },
+    {
+      "path": "velvet/06-Riddle.png",
+      "screenId": "06",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/06-Riddle.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "48f539c102ff4379a480b1399779fc5e738564205cc87ecd7327c66c021f174b",
+      "bytes": 188963,
+      "sha256": "48f539c102ff4379a480b1399779fc5e738564205cc87ecd7327c66c021f174b"
+    },
+    {
+      "path": "velvet/07-Bravo.png",
+      "screenId": "07",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/07-Bravo.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "052116664bdf9ca7aba962c481bae7e1fca069e24d1286eee4aeac533e2f3a98",
+      "bytes": 296646,
+      "sha256": "052116664bdf9ca7aba962c481bae7e1fca069e24d1286eee4aeac533e2f3a98"
+    },
+    {
+      "path": "velvet/08-Welcome.png",
+      "screenId": "08",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/08-Welcome.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "55ec8eb763bb0fad8fc7c0422a5c5aface1503ab9dd649c8512fc1cc738c6278",
+      "bytes": 225709,
+      "sha256": "55ec8eb763bb0fad8fc7c0422a5c5aface1503ab9dd649c8512fc1cc738c6278"
+    },
+    {
+      "path": "velvet/09-Rehearsal-Bravo.png",
+      "screenId": "09",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/09-Rehearsal-Bravo.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "59266b2e1d5f39ccf83e8578d33808d4e990a3a4f56d75cb73934160b759d728",
+      "bytes": 288725,
+      "sha256": "59266b2e1d5f39ccf83e8578d33808d4e990a3a4f56d75cb73934160b759d728"
+    },
+    {
+      "path": "velvet/10-Sound-Booth.png",
+      "screenId": "10",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/10-Sound-Booth.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "51c512051006d3e094a0ebbc417c113fa4467d262286eb00e561e9f165e54818",
+      "bytes": 234433,
+      "sha256": "51c512051006d3e094a0ebbc417c113fa4467d262286eb00e561e9f165e54818"
+    },
+    {
+      "path": "velvet/11-Backstage-Pass.png",
+      "screenId": "11",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/11-Backstage-Pass.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "bfe4336b6f6c89a4600333a6ccb6ed99cc5e9879db2f855a1d29509b29be5b69",
+      "bytes": 278596,
+      "sha256": "bfe4336b6f6c89a4600333a6ccb6ed99cc5e9879db2f855a1d29509b29be5b69"
+    },
+    {
+      "path": "velvet/12-Your-Run.png",
+      "screenId": "12",
+      "theme": "velvet",
+      "mode": "recaptured-7.1",
+      "source": "docs/v7.1/index.html",
+      "sourceVersion": "7.1.0",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+      "bytes": 203858,
+      "sha256": "41892a51c1b4ed16713fd20a4d9b257c8bcf58c8547ac9d952e8a5ad83ebd6b4"
+    },
+    {
+      "path": "velvet/13-Standing-Ovation.png",
+      "screenId": "13",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/13-Standing-Ovation.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "5a575d1748e7fa51fd0c638fa2fc358957dc7e75a32e2d0b9c46973b86f3e1b8",
+      "bytes": 388464,
+      "sha256": "5a575d1748e7fa51fd0c638fa2fc358957dc7e75a32e2d0b9c46973b86f3e1b8"
+    },
+    {
+      "path": "velvet/14-Settings.png",
+      "screenId": "14",
+      "theme": "velvet",
+      "mode": "recaptured-7.1",
+      "source": "docs/v7.1/index.html",
+      "sourceVersion": "7.1.0",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+      "bytes": 223066,
+      "sha256": "823dd8775fd86b98e3a84881dce38269ff586fb78a3dd39ece6fafc876d2bca0"
+    },
+    {
+      "path": "velvet/15-Emergency-Stop.png",
+      "screenId": "15",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/15-Emergency-Stop.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "411a80d4639364a646a4fb11daa1c6b9f1d57cb65814f3e63327233789e9963c",
+      "bytes": 411509,
+      "sha256": "411a80d4639364a646a4fb11daa1c6b9f1d57cb65814f3e63327233789e9963c"
+    },
+    {
+      "path": "velvet/16-Curtain-Rising.png",
+      "screenId": "16",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/16-Curtain-Rising.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "91da64b6e494deb6395606f26051b2385b0fbac8bce20f4db37c3c386692f0d1",
+      "bytes": 519219,
+      "sha256": "91da64b6e494deb6395606f26051b2385b0fbac8bce20f4db37c3c386692f0d1"
+    },
+    {
+      "path": "velvet/17-Alarm-Access.png",
+      "screenId": "17",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/17-Alarm-Access.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "a681281a2325b54fcbc4e26ce513ac8f6de5af5a9bbdaad631f32446f95dbd40",
+      "bytes": 239855,
+      "sha256": "a681281a2325b54fcbc4e26ce513ac8f6de5af5a9bbdaad631f32446f95dbd40"
+    },
+    {
+      "path": "velvet/18-Sound-Rehearsal.png",
+      "screenId": "18",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/18-Sound-Rehearsal.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "feae7bb4ccf2f8b2ba0483e0d5fc40aa3dd0c954ed840f7b07b96a8fdeded948",
+      "bytes": 232913,
+      "sha256": "feae7bb4ccf2f8b2ba0483e0d5fc40aa3dd0c954ed840f7b07b96a8fdeded948"
+    },
+    {
+      "path": "velvet/19-Alarm-Ready.png",
+      "screenId": "19",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/19-Alarm-Ready.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "013f05e2647239236a729f079a1ca7b733b90bda59f69dcf17cc78bdc4f10017",
+      "bytes": 251509,
+      "sha256": "013f05e2647239236a729f079a1ca7b733b90bda59f69dcf17cc78bdc4f10017"
+    },
+    {
+      "path": "velvet/20-Riddle-Wrong.png",
+      "screenId": "20",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/20-Riddle-Wrong.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "2a4ced9741ebdf41c330de1ec70d8ee66b8b241c13c047bd34640c96b293fe67",
+      "bytes": 149976,
+      "sha256": "2a4ced9741ebdf41c330de1ec70d8ee66b8b241c13c047bd34640c96b293fe67"
+    },
+    {
+      "path": "velvet/21-Safety-Valve.png",
+      "screenId": "21",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/21-Safety-Valve.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "e8b36edd9022ae66807ce58ad7cda250dc674993c0a319afd90d00960ee41ec7",
+      "bytes": 183319,
+      "sha256": "e8b36edd9022ae66807ce58ad7cda250dc674993c0a319afd90d00960ee41ec7"
+    },
+    {
+      "path": "velvet/22-Wake-up-Check.png",
+      "screenId": "22",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/22-Wake-up-Check.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "d0d2916795eae8ce1441fa24b6e25c1979de446f9ec62db0db350b6ecbef8cff",
+      "bytes": 214887,
+      "sha256": "d0d2916795eae8ce1441fa24b6e25c1979de446f9ec62db0db350b6ecbef8cff"
+    },
+    {
+      "path": "velvet/23-Permission-Off.png",
+      "screenId": "23",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/23-Permission-Off.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "d79049d3fcf1263c6cdf60b4c010c0c9fc5893b5b2cb49d098a937259773cd39",
+      "bytes": 177855,
+      "sha256": "d79049d3fcf1263c6cdf60b4c010c0c9fc5893b5b2cb49d098a937259773cd39"
+    },
+    {
+      "path": "velvet/24-iOS-System-Entry.png",
+      "screenId": "24",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/24-iOS-System-Entry.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "034126ca1c781942cb1cfc1d70e1e16e78896ed78dff188db3153190481d7cdd",
+      "bytes": 183670,
+      "sha256": "034126ca1c781942cb1cfc1d70e1e16e78896ed78dff188db3153190481d7cdd"
+    },
+    {
+      "path": "velvet/25-Difficulty.png",
+      "screenId": "25",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/25-Difficulty.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "4e8c94f1ea3d23cd1c356ac0d86638387544dd25e79f87d4c07dcf9cc45e9f30",
+      "bytes": 207854,
+      "sha256": "4e8c94f1ea3d23cd1c356ac0d86638387544dd25e79f87d4c07dcf9cc45e9f30"
+    },
+    {
+      "path": "velvet/26-Riddle-Finale.png",
+      "screenId": "26",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/26-Riddle-Finale.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "fffbe4efbf9126b360d437eea3fea8bbac97e3505ecf6fe8215e6b0d49e3047a",
+      "bytes": 194603,
+      "sha256": "fffbe4efbf9126b360d437eea3fea8bbac97e3505ecf6fe8215e6b0d49e3047a"
+    },
+    {
+      "path": "velvet/27-Volume-Strategy.png",
+      "screenId": "27",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/27-Volume-Strategy.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "8c5eb3bfad54b1b3f01a3ed39654158170660f7520c550e1cd31d1cb9debda31",
+      "bytes": 226743,
+      "sha256": "8c5eb3bfad54b1b3f01a3ed39654158170660f7520c550e1cd31d1cb9debda31"
+    },
+    {
+      "path": "velvet/28-Wake-up-Check-Timing.png",
+      "screenId": "28",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/28-Wake-up-Check-Timing.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "cb1bd66d9262b0366e2086f6b74067ccdcf8f7431d9e02241c4129e0d0c8b1a7",
+      "bytes": 167018,
+      "sha256": "cb1bd66d9262b0366e2086f6b74067ccdcf8f7431d9e02241c4129e0d0c8b1a7"
+    },
+    {
+      "path": "velvet/29-Emergency-Rules.png",
+      "screenId": "29",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/29-Emergency-Rules.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "487094b9872a7fd42e86dda50c6e5897e7a9268701e7fe8fe08a2fd91d82b90f",
+      "bytes": 170983,
+      "sha256": "487094b9872a7fd42e86dda50c6e5897e7a9268701e7fe8fe08a2fd91d82b90f"
+    },
+    {
+      "path": "velvet/30-Haptics.png",
+      "screenId": "30",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/30-Haptics.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "0b066a34626c3a132cd4c447a868860fec9874d2a26b012a4a9a9fb8d72dd203",
+      "bytes": 184515,
+      "sha256": "0b066a34626c3a132cd4c447a868860fec9874d2a26b012a4a9a9fb8d72dd203"
+    },
+    {
+      "path": "velvet/31-Curtain-Call-Detail.png",
+      "screenId": "31",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/31-Curtain-Call-Detail.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "b0cb5001dc0eb38fde13a9f649e77672a158b846e2d4ce53c7d4ebc33e3503a9",
+      "bytes": 246789,
+      "sha256": "b0cb5001dc0eb38fde13a9f649e77672a158b846e2d4ce53c7d4ebc33e3503a9"
+    },
+    {
+      "path": "velvet/32-Delete-Alarm.png",
+      "screenId": "32",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/32-Delete-Alarm.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "e1995109a78d59709b5523eed289978795d2f4155f7b871f920626fcf2d64a87",
+      "bytes": 149480,
+      "sha256": "e1995109a78d59709b5523eed289978795d2f4155f7b871f920626fcf2d64a87"
+    },
+    {
+      "path": "velvet/33-Test-Countdown.png",
+      "screenId": "33",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/33-Test-Countdown.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "3ab175d95dd6171db0e03ee466fea84dbdb61a589f62216c50e5606949198e49",
+      "bytes": 196255,
+      "sha256": "3ab175d95dd6171db0e03ee466fea84dbdb61a589f62216c50e5606949198e49"
+    },
+    {
+      "path": "velvet/34-Purchase-Preview.png",
+      "screenId": "34",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/34-Purchase-Preview.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "9731ee0b08ad436411836aea91191ac4206df37e55302287e3d2b2d3b753d170",
+      "bytes": 233629,
+      "sha256": "9731ee0b08ad436411836aea91191ac4206df37e55302287e3d2b2d3b753d170"
+    },
+    {
+      "path": "velvet/35-Restore-Result.png",
+      "screenId": "35",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/35-Restore-Result.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "3c1497b2b33a04fdd32b7163176936f7a43341bd1cc5025935c39dfea987b726",
+      "bytes": 198209,
+      "sha256": "3c1497b2b33a04fdd32b7163176936f7a43341bd1cc5025935c39dfea987b726"
+    },
+    {
+      "path": "velvet/36-Alarm-Access-Settings.png",
+      "screenId": "36",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/36-Alarm-Access-Settings.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "a3f77e46708ba690c722745fa744f953462074a6a1c29bf2b676a080bfa28a7a",
+      "bytes": 230755,
+      "sha256": "a3f77e46708ba690c722745fa744f953462074a6a1c29bf2b676a080bfa28a7a"
+    },
+    {
+      "path": "velvet/37-Choose-Your-Theme.png",
+      "screenId": "37",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/37-Choose-Your-Theme.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "b550be70953581f177559382808f662389fa1e0feb0c9a71a2d6862b5aabfb79",
+      "bytes": 243849,
+      "sha256": "b550be70953581f177559382808f662389fa1e0feb0c9a71a2d6862b5aabfb79"
+    },
+    {
+      "path": "velvet/38-Official-Free-Themes.png",
+      "screenId": "38",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/38-Official-Free-Themes.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "63635d89a78c090295ff118f565b5851210eb6497e6ef24e15996f0ade402ded",
+      "bytes": 232731,
+      "sha256": "63635d89a78c090295ff118f565b5851210eb6497e6ef24e15996f0ade402ded"
+    },
+    {
+      "path": "velvet/39-Theme-Preview.png",
+      "screenId": "39",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/39-Theme-Preview.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "05efd22e77a1d46a76959026bd735d93cadfe2beda39bbc67645675f595edb26",
+      "bytes": 223669,
+      "sha256": "05efd22e77a1d46a76959026bd735d93cadfe2beda39bbc67645675f595edb26"
+    },
+    {
+      "path": "velvet/40-Future-Collections.png",
+      "screenId": "40",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/40-Future-Collections.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "19e8ac6622a082e9953b756efe6ff5b7f8f04c8f6243078e7cceda495405fd56",
+      "bytes": 282176,
+      "sha256": "19e8ac6622a082e9953b756efe6ff5b7f8f04c8f6243078e7cceda495405fd56"
+    },
+    {
+      "path": "velvet/41-Help-Reliability.png",
+      "screenId": "41",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/41-Help-Reliability.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "53983433efdf7511d4554f9b07bb3cc988f57602401fd8751accad38fc062ef1",
+      "bytes": 296719,
+      "sha256": "53983433efdf7511d4554f9b07bb3cc988f57602401fd8751accad38fc062ef1"
+    },
+    {
+      "path": "velvet/42-Privacy.png",
+      "screenId": "42",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/42-Privacy.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "33a4a3ad5f1f98d49f6e59be2cf0b174014d87edab3565b119a0b8e5c15c7b0c",
+      "bytes": 260802,
+      "sha256": "33a4a3ad5f1f98d49f6e59be2cf0b174014d87edab3565b119a0b8e5c15c7b0c"
+    },
+    {
+      "path": "velvet/43-Diagnostics.png",
+      "screenId": "43",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/43-Diagnostics.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "04860d1ef4211e5a4620660a5aa096959e66c02904da9971eef25589d89c35a0",
+      "bytes": 193070,
+      "sha256": "04860d1ef4211e5a4620660a5aa096959e66c02904da9971eef25589d89c35a0"
+    },
+    {
+      "path": "velvet/44-Alarm-Results.png",
+      "screenId": "44",
+      "theme": "velvet",
+      "mode": "reused-7.0",
+      "source": "versions/v7.0/设计稿/v7.0/velvet/44-Alarm-Results.png",
+      "sourceVersion": "7.0.0",
+      "sourceSha256": "8cfaaa43d5e0d36c1260816d7305eb124def99205669606ee00f7c8201f0cefd",
+      "bytes": 217261,
+      "sha256": "8cfaaa43d5e0d36c1260816d7305eb124def99205669606ee00f7c8201f0cefd"
+    }
+  ],
+  "referenceCount": 12,
+  "references": [
+    {
+      "path": "motion/daybreak-01-active.png",
+      "theme": "daybreak",
+      "screenId": "01",
+      "tabIndex": 0,
+      "phase": "active",
+      "gestureState": "holding",
+      "selectedIndex": 0,
+      "previewIndex": 0,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 372117,
+      "sha256": "21a8f730e38542fb5fcceba0cfee2cab82c5fb684c45e6a8fabd229139912c2d",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/daybreak-01-dragging.png",
+      "theme": "daybreak",
+      "screenId": "01",
+      "tabIndex": 0,
+      "phase": "dragging",
+      "gestureState": "dragging",
+      "selectedIndex": 0,
+      "previewIndex": 0,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 375802,
+      "sha256": "f949928ced6027723cd471ad8502d08a7ca009cc59200ea08b93cfa74ef1841b",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/daybreak-12-active.png",
+      "theme": "daybreak",
+      "screenId": "12",
+      "tabIndex": 1,
+      "phase": "active",
+      "gestureState": "holding",
+      "selectedIndex": 1,
+      "previewIndex": 1,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 215764,
+      "sha256": "ad4b913e6567b3421170b1c9ce0fd551cd432fa27b46fd6a6bb895490c3ebb4a",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/daybreak-12-dragging.png",
+      "theme": "daybreak",
+      "screenId": "12",
+      "tabIndex": 1,
+      "phase": "dragging",
+      "gestureState": "dragging",
+      "selectedIndex": 1,
+      "previewIndex": 1,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 221780,
+      "sha256": "9d60745fcc1b277aeb7137eb46668a02b5e33d9f968aa43d34cb34bb37084f23",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/daybreak-14-active.png",
+      "theme": "daybreak",
+      "screenId": "14",
+      "tabIndex": 2,
+      "phase": "active",
+      "gestureState": "holding",
+      "selectedIndex": 2,
+      "previewIndex": 2,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 252389,
+      "sha256": "1800a03aaccf8a2576553a9330a9dd349d940204f6a168acc287cfad4c38208a",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/daybreak-14-dragging.png",
+      "theme": "daybreak",
+      "screenId": "14",
+      "tabIndex": 2,
+      "phase": "dragging",
+      "gestureState": "dragging",
+      "selectedIndex": 2,
+      "previewIndex": 1,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 253943,
+      "sha256": "3d758dcf89721fe5c2d19bae44b2526f353b5fdf673430be4b0736226aa00f76",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/velvet-01-active.png",
+      "theme": "velvet",
+      "screenId": "01",
+      "tabIndex": 0,
+      "phase": "active",
+      "gestureState": "holding",
+      "selectedIndex": 0,
+      "previewIndex": 0,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 377905,
+      "sha256": "4b19297999350efb446eb1778c6d0a50d86996254dadc570ac131872844e3f6b",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/velvet-01-dragging.png",
+      "theme": "velvet",
+      "screenId": "01",
+      "tabIndex": 0,
+      "phase": "dragging",
+      "gestureState": "dragging",
+      "selectedIndex": 0,
+      "previewIndex": 0,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 380850,
+      "sha256": "5a7d2b5d1126974d7a13d1e28c07ba9833aacf558fc86cac3b8898e029133028",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/velvet-12-active.png",
+      "theme": "velvet",
+      "screenId": "12",
+      "tabIndex": 1,
+      "phase": "active",
+      "gestureState": "holding",
+      "selectedIndex": 1,
+      "previewIndex": 1,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 219354,
+      "sha256": "fc8295d8127297459b01c6ff3cfdb2e19c2264c0aaf2482175e4c39bf93d2ac0",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/velvet-12-dragging.png",
+      "theme": "velvet",
+      "screenId": "12",
+      "tabIndex": 1,
+      "phase": "dragging",
+      "gestureState": "dragging",
+      "selectedIndex": 1,
+      "previewIndex": 1,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 225816,
+      "sha256": "9a926143684a6787cc74f3fd3f37376e53c921da65b899efc9a0f02205813653",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/velvet-14-active.png",
+      "theme": "velvet",
+      "screenId": "14",
+      "tabIndex": 2,
+      "phase": "active",
+      "gestureState": "holding",
+      "selectedIndex": 2,
+      "previewIndex": 2,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 261561,
+      "sha256": "f69f1832ad6c5bd5f8c4dde227d516c78c0e74133ce082a10cb45dae686884f9",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    },
+    {
+      "path": "motion/velvet-14-dragging.png",
+      "theme": "velvet",
+      "screenId": "14",
+      "tabIndex": 2,
+      "phase": "dragging",
+      "gestureState": "dragging",
+      "selectedIndex": 2,
+      "previewIndex": 1,
+      "renderer": "webgl",
+      "contentRefraction": true,
+      "activity": 1,
+      "captureMethod": "real pointer held/dragging before release; no app navigation submitted",
+      "productState": false,
+      "bytes": 264617,
+      "sha256": "3a8ff706016101031077f2821b733baf422968172ad15ac56c1682199ae63aeb",
+      "sourceVersion": "7.1.0",
+      "source": "docs/v7.1/index.html",
+      "sourceSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f"
+    }
+  ],
+  "totalPngFiles": 100,
+  "captureBundleSha256": "94e19bf8ac20c83ddf9d5e250fa2991293922ca67768305d85611f5d28c3474f",
+  "captureSource": "docs/v7.1/index.html",
+  "dynamicOpticsScope": "three bottom navigation buttons only",
+  "canvasTemplate": "web-design-engineer/references/canvas-board.md; static PNG figure variant"
+}
