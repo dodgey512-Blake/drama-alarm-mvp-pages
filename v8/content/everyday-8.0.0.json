@@ -1,0 +1,2608 @@
+{
+  "schemaVersion": 1,
+  "id": "everyday",
+  "version": "8.0.0",
+  "locale": "en-US",
+  "provenance": "R002-R040 retained from the existing v1 bank. R041-R081 are original everyday logic questions.",
+  "tutorial": {
+    "id": "R001",
+    "level": "Gentle",
+    "type": "Object",
+    "question": "What gets wetter while helping something else get dry?",
+    "options": [
+      "A towel",
+      "A mirror",
+      "A lamp",
+      "A spoon"
+    ],
+    "answer": 0,
+    "explanation": "A towel absorbs the water used to dry something.",
+    "optionIds": [
+      "R001:0",
+      "R001:1",
+      "R001:2",
+      "R001:3"
+    ],
+    "correctOptionId": "R001:0",
+    "contentVersion": "1.1.0",
+    "locale": "en-US",
+    "reviewStatus": "independent-human-review-pending",
+    "retired": false
+  },
+  "sources": [
+    {
+      "id": "legacy-v1",
+      "title": "Existing Drama Alarm v1 question bank",
+      "kind": "project-authored",
+      "origin": "谜题题库-v1.md"
+    },
+    {
+      "id": "original-v8-logic",
+      "title": "Original v8 everyday logic",
+      "kind": "original-authored",
+      "checkedAt": "2026-10-30"
+    }
+  ],
+  "questions": [
+    {
+      "id": "R002",
+      "level": "Gentle",
+      "type": "Object",
+      "question": "What becomes shorter the longer it works?",
+      "options": [
+        "A candle",
+        "A ladder",
+        "A road",
+        "A window"
+      ],
+      "answer": 0,
+      "explanation": "A burning candle becomes shorter over time.",
+      "optionIds": [
+        "R002:0",
+        "R002:1",
+        "R002:2",
+        "R002:3"
+      ],
+      "correctOptionId": "R002:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What becomes shorter the longer it works?",
+      "answerText": "A candle",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R003",
+      "level": "Gentle",
+      "type": "Object",
+      "question": "What goes up when rain comes down?",
+      "options": [
+        "An umbrella",
+        "A shoe",
+        "A carpet",
+        "A pillow"
+      ],
+      "answer": 0,
+      "explanation": "People raise an umbrella when it rains.",
+      "optionIds": [
+        "R003:0",
+        "R003:1",
+        "R003:2",
+        "R003:3"
+      ],
+      "correctOptionId": "R003:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What goes up when rain comes down?",
+      "answerText": "An umbrella",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R004",
+      "level": "Gentle",
+      "type": "Object",
+      "question": "What has a face and two hands but no arms or legs?",
+      "options": [
+        "A clock",
+        "A chair",
+        "A book",
+        "A cup"
+      ],
+      "answer": 0,
+      "explanation": "A clock has a face and hour and minute hands.",
+      "optionIds": [
+        "R004:0",
+        "R004:1",
+        "R004:2",
+        "R004:3"
+      ],
+      "correctOptionId": "R004:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What has a face and two hands but no arms or legs?",
+      "answerText": "A clock",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R005",
+      "level": "Gentle",
+      "type": "Object",
+      "question": "What has many keys but opens no doors?",
+      "options": [
+        "A piano",
+        "A suitcase",
+        "A map",
+        "A basket"
+      ],
+      "answer": 0,
+      "explanation": "Piano keys make notes rather than open locks.",
+      "optionIds": [
+        "R005:0",
+        "R005:1",
+        "R005:2",
+        "R005:3"
+      ],
+      "correctOptionId": "R005:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What has many keys but opens no doors?",
+      "answerText": "A piano",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R006",
+      "level": "Gentle",
+      "type": "Object",
+      "question": "What has teeth but cannot bite?",
+      "options": [
+        "A comb",
+        "A blanket",
+        "A plate",
+        "A candle"
+      ],
+      "answer": 0,
+      "explanation": "The points on a comb are called teeth.",
+      "optionIds": [
+        "R006:0",
+        "R006:1",
+        "R006:2",
+        "R006:3"
+      ],
+      "correctOptionId": "R006:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What has teeth but cannot bite?",
+      "answerText": "A comb",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R007",
+      "level": "Gentle",
+      "type": "Object",
+      "question": "What has one eye but cannot see?",
+      "options": [
+        "A needle",
+        "A button",
+        "A shoe",
+        "A coin"
+      ],
+      "answer": 0,
+      "explanation": "The opening in a needle is called its eye.",
+      "optionIds": [
+        "R007:0",
+        "R007:1",
+        "R007:2",
+        "R007:3"
+      ],
+      "correctOptionId": "R007:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What has one eye but cannot see?",
+      "answerText": "A needle",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R008",
+      "level": "Gentle",
+      "type": "Cause",
+      "question": "An object blocks the light from a lamp. What forms behind the object?",
+      "options": [
+        "A shadow",
+        "A sound",
+        "A flavor",
+        "A breeze"
+      ],
+      "answer": 0,
+      "explanation": "The blocked light creates a shadow behind the object.",
+      "optionIds": [
+        "R008:0",
+        "R008:1",
+        "R008:2",
+        "R008:3"
+      ],
+      "correctOptionId": "R008:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "An object blocks the light from a lamp. What forms behind the object?",
+      "answerText": "A shadow",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R009",
+      "level": "Gentle",
+      "type": "State",
+      "question": "What does an ice cube become when it melts?",
+      "options": [
+        "Liquid water",
+        "Steam",
+        "Sand",
+        "Glass"
+      ],
+      "answer": 0,
+      "explanation": "Melting changes solid ice into liquid water.",
+      "optionIds": [
+        "R009:0",
+        "R009:1",
+        "R009:2",
+        "R009:3"
+      ],
+      "correctOptionId": "R009:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What does an ice cube become when it melts?",
+      "answerText": "Liquid water",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R010",
+      "level": "Gentle",
+      "type": "Sequence",
+      "question": "What comes next: 2, 4, 6, 8, __?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "The sequence increases by 2.",
+      "optionIds": [
+        "R010:0",
+        "R010:1",
+        "R010:2",
+        "R010:3"
+      ],
+      "correctOptionId": "R010:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What comes next: 2, 4, 6, 8, __?",
+      "answerText": "10",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R011",
+      "level": "Gentle",
+      "type": "Sequence",
+      "question": "What comes next: A, B, C, D, __?",
+      "options": [
+        "E",
+        "F",
+        "G",
+        "Z"
+      ],
+      "answer": 0,
+      "explanation": "E follows D in the alphabet.",
+      "optionIds": [
+        "R011:0",
+        "R011:1",
+        "R011:2",
+        "R011:3"
+      ],
+      "correctOptionId": "R011:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What comes next: A, B, C, D, __?",
+      "answerText": "E",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R012",
+      "level": "Gentle",
+      "type": "Logic",
+      "question": "One box holds only red balls. Which color ball will you pick?",
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "Yellow"
+      ],
+      "answer": 2,
+      "explanation": "Every ball in the box is red.",
+      "optionIds": [
+        "R012:0",
+        "R012:1",
+        "R012:2",
+        "R012:3"
+      ],
+      "correctOptionId": "R012:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "One box holds only red balls. Which color ball will you pick?",
+      "answerText": "Red",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R013",
+      "level": "Gentle",
+      "type": "Time",
+      "question": "A clock reads 3:00. Where is the minute hand?",
+      "options": [
+        "At 3",
+        "At 6",
+        "At 9",
+        "At 12"
+      ],
+      "answer": 3,
+      "explanation": "At an exact hour, the minute hand points to 12.",
+      "optionIds": [
+        "R013:0",
+        "R013:1",
+        "R013:2",
+        "R013:3"
+      ],
+      "correctOptionId": "R013:3",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "A clock reads 3:00. Where is the minute hand?",
+      "answerText": "At 12",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R014",
+      "level": "Gentle",
+      "type": "Quantity",
+      "question": "Which is heavier?",
+      "options": [
+        "1 kg of cotton",
+        "1 kg of metal",
+        "They weigh the same",
+        "Not enough information"
+      ],
+      "answer": 2,
+      "explanation": "Both amounts weigh exactly 1 kilogram.",
+      "optionIds": [
+        "R014:0",
+        "R014:1",
+        "R014:2",
+        "R014:3"
+      ],
+      "correctOptionId": "R014:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Which is heavier?",
+      "answerText": "They weigh the same",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R015",
+      "level": "Gentle",
+      "type": "Spatial",
+      "question": "A square has how many corners?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "A square has four corners.",
+      "optionIds": [
+        "R015:0",
+        "R015:1",
+        "R015:2",
+        "R015:3"
+      ],
+      "correctOptionId": "R015:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "A square has how many corners?",
+      "answerText": "4",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R016",
+      "level": "Gentle",
+      "type": "Logic",
+      "question": "When you turn off a lamp, what does it stop producing?",
+      "options": [
+        "Light",
+        "The lamp",
+        "A table",
+        "A room"
+      ],
+      "answer": 0,
+      "explanation": "A switched-off lamp stops producing light.",
+      "optionIds": [
+        "R016:0",
+        "R016:1",
+        "R016:2",
+        "R016:3"
+      ],
+      "correctOptionId": "R016:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "When you turn off a lamp, what does it stop producing?",
+      "answerText": "Light",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R017",
+      "level": "Gentle",
+      "type": "Cause",
+      "question": "Which item makes a dark room brighter?",
+      "options": [
+        "A flashlight",
+        "A towel",
+        "A pillow",
+        "A glove"
+      ],
+      "answer": 0,
+      "explanation": "A flashlight produces light.",
+      "optionIds": [
+        "R017:0",
+        "R017:1",
+        "R017:2",
+        "R017:3"
+      ],
+      "correctOptionId": "R017:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Which item makes a dark room brighter?",
+      "answerText": "A flashlight",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R018",
+      "level": "Gentle",
+      "type": "Order",
+      "question": "Mia is ahead of Leo. Who is behind?",
+      "options": [
+        "Mia",
+        "Leo",
+        "Both",
+        "Neither"
+      ],
+      "answer": 1,
+      "explanation": "If Mia is ahead, Leo is behind her.",
+      "optionIds": [
+        "R018:0",
+        "R018:1",
+        "R018:2",
+        "R018:3"
+      ],
+      "correctOptionId": "R018:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Mia is ahead of Leo. Who is behind?",
+      "answerText": "Leo",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R019",
+      "level": "Gentle",
+      "type": "Quantity",
+      "question": "In this puzzle, each of two hands has five fingers. How many fingers in total?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "Five plus five is ten.",
+      "optionIds": [
+        "R019:0",
+        "R019:1",
+        "R019:2",
+        "R019:3"
+      ],
+      "correctOptionId": "R019:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "In this puzzle, each of two hands has five fingers. How many fingers in total?",
+      "answerText": "10",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R020",
+      "level": "Gentle",
+      "type": "Logic",
+      "question": "An otherwise empty glass is open to the air. What fills its space?",
+      "options": [
+        "Air",
+        "Water",
+        "Sand",
+        "Metal"
+      ],
+      "answer": 0,
+      "explanation": "Air fills the open space even when the glass has no liquid.",
+      "optionIds": [
+        "R020:0",
+        "R020:1",
+        "R020:2",
+        "R020:3"
+      ],
+      "correctOptionId": "R020:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "An otherwise empty glass is open to the air. What fills its space?",
+      "answerText": "Air",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R021",
+      "level": "Classic",
+      "type": "Sequence",
+      "question": "What comes next: 3, 6, 12, 24, __?",
+      "options": [
+        "27",
+        "36",
+        "48",
+        "96"
+      ],
+      "answer": 2,
+      "explanation": "Each number is doubled.",
+      "optionIds": [
+        "R021:0",
+        "R021:1",
+        "R021:2",
+        "R021:3"
+      ],
+      "correctOptionId": "R021:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What comes next: 3, 6, 12, 24, __?",
+      "answerText": "48",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R022",
+      "level": "Classic",
+      "type": "Sequence",
+      "question": "What comes next: 1, 1, 2, 3, 5, __?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "Each number is the sum of the previous two.",
+      "optionIds": [
+        "R022:0",
+        "R022:1",
+        "R022:2",
+        "R022:3"
+      ],
+      "correctOptionId": "R022:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What comes next: 1, 1, 2, 3, 5, __?",
+      "answerText": "8",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R023",
+      "level": "Classic",
+      "type": "Logic",
+      "question": "All roses are flowers. This is a rose. What must it be?",
+      "options": [
+        "A tree",
+        "A flower",
+        "A fruit",
+        "A stone"
+      ],
+      "answer": 1,
+      "explanation": "The statement says every rose is a flower.",
+      "optionIds": [
+        "R023:0",
+        "R023:1",
+        "R023:2",
+        "R023:3"
+      ],
+      "correctOptionId": "R023:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "All roses are flowers. This is a rose. What must it be?",
+      "answerText": "A flower",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R024",
+      "level": "Classic",
+      "type": "Logic",
+      "question": "No blue blocks are round. This block is blue. What cannot it be?",
+      "options": [
+        "Heavy",
+        "Small",
+        "Round",
+        "New"
+      ],
+      "answer": 2,
+      "explanation": "The rule excludes round blue blocks.",
+      "optionIds": [
+        "R024:0",
+        "R024:1",
+        "R024:2",
+        "R024:3"
+      ],
+      "correctOptionId": "R024:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "No blue blocks are round. This block is blue. What cannot it be?",
+      "answerText": "Round",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R025",
+      "level": "Classic",
+      "type": "Spatial",
+      "question": "Face north, turn right, then right again. Which way do you face?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "answer": 1,
+      "explanation": "Two right turns from north point south.",
+      "optionIds": [
+        "R025:0",
+        "R025:1",
+        "R025:2",
+        "R025:3"
+      ],
+      "correctOptionId": "R025:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Face north, turn right, then right again. Which way do you face?",
+      "answerText": "South",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R026",
+      "level": "Classic",
+      "type": "Spatial",
+      "question": "A cube has how many faces?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "A cube has six square faces.",
+      "optionIds": [
+        "R026:0",
+        "R026:1",
+        "R026:2",
+        "R026:3"
+      ],
+      "correctOptionId": "R026:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "A cube has how many faces?",
+      "answerText": "6",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R027",
+      "level": "Classic",
+      "type": "Order",
+      "question": "Ava finished before Ben but after Cole. Who finished first?",
+      "options": [
+        "Ava",
+        "Ben",
+        "Cole",
+        "A tie"
+      ],
+      "answer": 2,
+      "explanation": "The order is Cole, Ava, then Ben.",
+      "optionIds": [
+        "R027:0",
+        "R027:1",
+        "R027:2",
+        "R027:3"
+      ],
+      "correctOptionId": "R027:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Ava finished before Ben but after Cole. Who finished first?",
+      "answerText": "Cole",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R028",
+      "level": "Classic",
+      "type": "Quantity",
+      "question": "Four cats sit in four corners. How many cats are there?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "There is one cat in each of four corners.",
+      "optionIds": [
+        "R028:0",
+        "R028:1",
+        "R028:2",
+        "R028:3"
+      ],
+      "correctOptionId": "R028:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Four cats sit in four corners. How many cats are there?",
+      "answerText": "4",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R029",
+      "level": "Classic",
+      "type": "Logic",
+      "question": "A closed book has 120 pages. You turn it upside down. How many pages now?",
+      "options": [
+        "60",
+        "120",
+        "240",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Turning a book changes its orientation, not its page count.",
+      "optionIds": [
+        "R029:0",
+        "R029:1",
+        "R029:2",
+        "R029:3"
+      ],
+      "correctOptionId": "R029:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "A closed book has 120 pages. You turn it upside down. How many pages now?",
+      "answerText": "120",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R030",
+      "level": "Classic",
+      "type": "Cause",
+      "question": "An ice cube stays in a warm room until it changes state. What does it become?",
+      "options": [
+        "Liquid water",
+        "More ice",
+        "Metal",
+        "Glass"
+      ],
+      "answer": 0,
+      "explanation": "In a warm room, the ice melts into liquid water.",
+      "optionIds": [
+        "R030:0",
+        "R030:1",
+        "R030:2",
+        "R030:3"
+      ],
+      "correctOptionId": "R030:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "An ice cube stays in a warm room until it changes state. What does it become?",
+      "answerText": "Liquid water",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R031",
+      "level": "Classic",
+      "type": "Sequence",
+      "question": "What comes next: 20, 18, 16, 14, __?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "The sequence decreases by 2.",
+      "optionIds": [
+        "R031:0",
+        "R031:1",
+        "R031:2",
+        "R031:3"
+      ],
+      "correctOptionId": "R031:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "What comes next: 20, 18, 16, 14, __?",
+      "answerText": "12",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R032",
+      "level": "Classic",
+      "type": "Pattern",
+      "question": "Which item does not belong?",
+      "options": [
+        "Triangle",
+        "Square",
+        "Circle",
+        "Banana"
+      ],
+      "answer": 3,
+      "explanation": "The first three are geometric shapes.",
+      "optionIds": [
+        "R032:0",
+        "R032:1",
+        "R032:2",
+        "R032:3"
+      ],
+      "correctOptionId": "R032:3",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Which item does not belong?",
+      "answerText": "Banana",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R033",
+      "level": "Classic",
+      "type": "Logic",
+      "question": "If every Zim is quiet and Lee is a Zim, Lee must be what?",
+      "options": [
+        "Quiet",
+        "Loud",
+        "Tall",
+        "Blue"
+      ],
+      "answer": 0,
+      "explanation": "Lee inherits the stated property of every Zim.",
+      "optionIds": [
+        "R033:0",
+        "R033:1",
+        "R033:2",
+        "R033:3"
+      ],
+      "correctOptionId": "R033:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "If every Zim is quiet and Lee is a Zim, Lee must be what?",
+      "answerText": "Quiet",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R034",
+      "level": "Classic",
+      "type": "Time",
+      "question": "It is 7:50. How many minutes until 8:00?",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "50"
+      ],
+      "answer": 1,
+      "explanation": "Ten minutes take the time from 7:50 to 8:00.",
+      "optionIds": [
+        "R034:0",
+        "R034:1",
+        "R034:2",
+        "R034:3"
+      ],
+      "correctOptionId": "R034:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "It is 7:50. How many minutes until 8:00?",
+      "answerText": "10",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R035",
+      "level": "Classic",
+      "type": "Quantity",
+      "question": "Three pairs of socks contain how many socks?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Each pair contains two socks, so three pairs contain six.",
+      "optionIds": [
+        "R035:0",
+        "R035:1",
+        "R035:2",
+        "R035:3"
+      ],
+      "correctOptionId": "R035:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Three pairs of socks contain how many socks?",
+      "answerText": "6",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R036",
+      "level": "Classic",
+      "type": "Spatial",
+      "question": "Which shape can roll smoothly in every direction?",
+      "options": [
+        "A sphere",
+        "A cube",
+        "A pyramid",
+        "A flat square"
+      ],
+      "answer": 0,
+      "explanation": "A sphere has no edges and can roll in every direction.",
+      "optionIds": [
+        "R036:0",
+        "R036:1",
+        "R036:2",
+        "R036:3"
+      ],
+      "correctOptionId": "R036:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Which shape can roll smoothly in every direction?",
+      "answerText": "A sphere",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R037",
+      "level": "Classic",
+      "type": "Logic",
+      "question": "Which tool is made to open its matching lock?",
+      "options": [
+        "The correct key",
+        "A pillow",
+        "A plate",
+        "A candle"
+      ],
+      "answer": 0,
+      "explanation": "A matching key is designed to open that lock.",
+      "optionIds": [
+        "R037:0",
+        "R037:1",
+        "R037:2",
+        "R037:3"
+      ],
+      "correctOptionId": "R037:0",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Which tool is made to open its matching lock?",
+      "answerText": "The correct key",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R038",
+      "level": "Classic",
+      "type": "Pattern",
+      "question": "Which of these numbers is odd: 2, 4, 7, 8?",
+      "options": [
+        "2",
+        "4",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Seven is the only odd number.",
+      "optionIds": [
+        "R038:0",
+        "R038:1",
+        "R038:2",
+        "R038:3"
+      ],
+      "correctOptionId": "R038:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Which of these numbers is odd: 2, 4, 7, 8?",
+      "answerText": "7",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R039",
+      "level": "Classic",
+      "type": "Order",
+      "question": "Put these from smallest to largest: ant, cat, elephant. Which is second?",
+      "options": [
+        "Ant",
+        "Cat",
+        "Elephant",
+        "They are equal"
+      ],
+      "answer": 1,
+      "explanation": "The cat is larger than the ant and smaller than the elephant.",
+      "optionIds": [
+        "R039:0",
+        "R039:1",
+        "R039:2",
+        "R039:3"
+      ],
+      "correctOptionId": "R039:1",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "Put these from smallest to largest: ant, cat, elephant. Which is second?",
+      "answerText": "Cat",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R040",
+      "level": "Classic",
+      "type": "Quantity",
+      "question": "A basket has 5 apples. You remove 2, then return 1. How many remain?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Five minus two plus one leaves four apples in the basket.",
+      "optionIds": [
+        "R040:0",
+        "R040:1",
+        "R040:2",
+        "R040:3"
+      ],
+      "correctOptionId": "R040:2",
+      "contentVersion": "1.1.0",
+      "locale": "en-US",
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "packId": "everyday",
+      "topic": "everyday",
+      "prompt": "A basket has 5 apples. You remove 2, then return 1. How many remain?",
+      "answerText": "4",
+      "sourceRefs": [
+        "legacy-v1"
+      ]
+    },
+    {
+      "id": "R041",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A row reads red, blue, red, blue. Which color comes next?",
+      "prompt": "A row reads red, blue, red, blue. Which color comes next?",
+      "options": [
+        "Red",
+        "Green",
+        "Yellow",
+        "Blue"
+      ],
+      "answer": 0,
+      "answerText": "Red",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The two colors alternate.",
+      "optionIds": [
+        "R041:0",
+        "R041:1",
+        "R041:2",
+        "R041:3"
+      ],
+      "correctOptionId": "R041:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R042",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which word names a shape with exactly three sides?",
+      "prompt": "Which word names a shape with exactly three sides?",
+      "options": [
+        "Circle",
+        "Triangle",
+        "Square",
+        "Cube"
+      ],
+      "answer": 1,
+      "answerText": "Triangle",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "A triangle has three sides.",
+      "optionIds": [
+        "R042:0",
+        "R042:1",
+        "R042:2",
+        "R042:3"
+      ],
+      "correctOptionId": "R042:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R043",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A train has not moved. Which action would change its location?",
+      "prompt": "A train has not moved. Which action would change its location?",
+      "options": [
+        "Opening a window",
+        "Switching on a light",
+        "Moving along the track",
+        "Closing a door"
+      ],
+      "answer": 2,
+      "answerText": "Moving along the track",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Travel along the track changes the train's location.",
+      "optionIds": [
+        "R043:0",
+        "R043:1",
+        "R043:2",
+        "R043:3"
+      ],
+      "correctOptionId": "R043:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R044",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Sam puts a coin under a cup. No one moves either. Where is the coin?",
+      "prompt": "Sam puts a coin under a cup. No one moves either. Where is the coin?",
+      "options": [
+        "On the roof",
+        "In a pocket",
+        "Beside the door",
+        "Under the cup"
+      ],
+      "answer": 3,
+      "answerText": "Under the cup",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The coin remains where Sam put it.",
+      "optionIds": [
+        "R044:0",
+        "R044:1",
+        "R044:2",
+        "R044:3"
+      ],
+      "correctOptionId": "R044:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R045",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which item is designed to tell the time?",
+      "prompt": "Which item is designed to tell the time?",
+      "options": [
+        "A clock",
+        "A fork",
+        "A scarf",
+        "A basket"
+      ],
+      "answer": 0,
+      "answerText": "A clock",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "A clock displays the time.",
+      "optionIds": [
+        "R045:0",
+        "R045:1",
+        "R045:2",
+        "R045:3"
+      ],
+      "correctOptionId": "R045:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R046",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which of these is a pair?",
+      "prompt": "Which of these is a pair?",
+      "options": [
+        "One shoe",
+        "Two matching gloves",
+        "Three cups",
+        "Four chairs"
+      ],
+      "answer": 1,
+      "answerText": "Two matching gloves",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "A pair contains two associated items.",
+      "optionIds": [
+        "R046:0",
+        "R046:1",
+        "R046:2",
+        "R046:3"
+      ],
+      "correctOptionId": "R046:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R047",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "What comes next: Monday, Tuesday, Wednesday, __?",
+      "prompt": "What comes next: Monday, Tuesday, Wednesday, __?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Thursday",
+        "Saturday"
+      ],
+      "answer": 2,
+      "answerText": "Thursday",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Thursday follows Wednesday.",
+      "optionIds": [
+        "R047:0",
+        "R047:1",
+        "R047:2",
+        "R047:3"
+      ],
+      "correctOptionId": "R047:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R048",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A book is inside a closed bag. You open only the bag. What is inside?",
+      "prompt": "A book is inside a closed bag. You open only the bag. What is inside?",
+      "options": [
+        "Nothing",
+        "A shoe",
+        "A key",
+        "The book"
+      ],
+      "answer": 3,
+      "answerText": "The book",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Opening the bag does not remove the book.",
+      "optionIds": [
+        "R048:0",
+        "R048:1",
+        "R048:2",
+        "R048:3"
+      ],
+      "correctOptionId": "R048:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R049",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which has no corners?",
+      "prompt": "Which has no corners?",
+      "options": [
+        "A circle",
+        "A square",
+        "A triangle",
+        "A rectangle"
+      ],
+      "answer": 0,
+      "answerText": "A circle",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "A circle has a continuous curved boundary.",
+      "optionIds": [
+        "R049:0",
+        "R049:1",
+        "R049:2",
+        "R049:3"
+      ],
+      "correctOptionId": "R049:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R050",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which action makes a full bottle contain less water?",
+      "prompt": "Which action makes a full bottle contain less water?",
+      "options": [
+        "Adding water",
+        "Pouring some out",
+        "Closing its cap",
+        "Moving it to a shelf"
+      ],
+      "answer": 1,
+      "answerText": "Pouring some out",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Pouring water out reduces the amount inside.",
+      "optionIds": [
+        "R050:0",
+        "R050:1",
+        "R050:2",
+        "R050:3"
+      ],
+      "correctOptionId": "R050:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R051",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which object is normally used to cut paper?",
+      "prompt": "Which object is normally used to cut paper?",
+      "options": [
+        "A pillow",
+        "A cup",
+        "Scissors",
+        "A sock"
+      ],
+      "answer": 2,
+      "answerText": "Scissors",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Scissors have blades made for cutting.",
+      "optionIds": [
+        "R051:0",
+        "R051:1",
+        "R051:2",
+        "R051:3"
+      ],
+      "correctOptionId": "R051:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R052",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A red marble stays inside a transparent jar. Which color can you see?",
+      "prompt": "A red marble stays inside a transparent jar. Which color can you see?",
+      "options": [
+        "Blue",
+        "Yellow",
+        "Green",
+        "Red"
+      ],
+      "answer": 3,
+      "answerText": "Red",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The marble's stated color is red.",
+      "optionIds": [
+        "R052:0",
+        "R052:1",
+        "R052:2",
+        "R052:3"
+      ],
+      "correctOptionId": "R052:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R053",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "What comes next: 5, 10, 15, 20, __?",
+      "prompt": "What comes next: 5, 10, 15, 20, __?",
+      "options": [
+        "25",
+        "21",
+        "30",
+        "35"
+      ],
+      "answer": 0,
+      "answerText": "25",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Each step adds five.",
+      "optionIds": [
+        "R053:0",
+        "R053:1",
+        "R053:2",
+        "R053:3"
+      ],
+      "correctOptionId": "R053:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R054",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Face east and make one quarter-turn left. Which direction now?",
+      "prompt": "Face east and make one quarter-turn left. Which direction now?",
+      "options": [
+        "South",
+        "North",
+        "West",
+        "East"
+      ],
+      "answer": 1,
+      "answerText": "North",
+      "level": "Classic",
+      "type": "Everyday logic",
+      "explanation": "A quarter-turn left from east points north.",
+      "optionIds": [
+        "R054:0",
+        "R054:1",
+        "R054:2",
+        "R054:3"
+      ],
+      "correctOptionId": "R054:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R055",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which is the first month in a calendar year?",
+      "prompt": "Which is the first month in a calendar year?",
+      "options": [
+        "March",
+        "December",
+        "January",
+        "June"
+      ],
+      "answer": 2,
+      "answerText": "January",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "January begins the calendar year.",
+      "optionIds": [
+        "R055:0",
+        "R055:1",
+        "R055:2",
+        "R055:3"
+      ],
+      "correctOptionId": "R055:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R056",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which container is empty?",
+      "prompt": "Which container is empty?",
+      "options": [
+        "A cup with tea",
+        "A box with a toy",
+        "A jar with a coin",
+        "A bowl with nothing in it"
+      ],
+      "answer": 3,
+      "answerText": "A bowl with nothing in it",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The bowl is stated to contain nothing.",
+      "optionIds": [
+        "R056:0",
+        "R056:1",
+        "R056:2",
+        "R056:3"
+      ],
+      "correctOptionId": "R056:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R057",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "All the cards in this pile are green. What color is the top card?",
+      "prompt": "All the cards in this pile are green. What color is the top card?",
+      "options": [
+        "Green",
+        "Blue",
+        "Red",
+        "White"
+      ],
+      "answer": 0,
+      "answerText": "Green",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The top card belongs to the all-green pile.",
+      "optionIds": [
+        "R057:0",
+        "R057:1",
+        "R057:2",
+        "R057:3"
+      ],
+      "correctOptionId": "R057:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R058",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A door is locked. Which item is designed to unlock it?",
+      "prompt": "A door is locked. Which item is designed to unlock it?",
+      "options": [
+        "A spoon",
+        "Its matching key",
+        "A feather",
+        "A napkin"
+      ],
+      "answer": 1,
+      "answerText": "Its matching key",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The key must match the lock.",
+      "optionIds": [
+        "R058:0",
+        "R058:1",
+        "R058:2",
+        "R058:3"
+      ],
+      "correctOptionId": "R058:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R059",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which shape has four equal sides and four right angles?",
+      "prompt": "Which shape has four equal sides and four right angles?",
+      "options": [
+        "A circle",
+        "A triangle",
+        "A square",
+        "A cone"
+      ],
+      "answer": 2,
+      "answerText": "A square",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Those properties define a square.",
+      "optionIds": [
+        "R059:0",
+        "R059:1",
+        "R059:2",
+        "R059:3"
+      ],
+      "correctOptionId": "R059:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R060",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A queue is Ana, Bo, then Cy. Who is last?",
+      "prompt": "A queue is Ana, Bo, then Cy. Who is last?",
+      "options": [
+        "Ana",
+        "Bo",
+        "No one",
+        "Cy"
+      ],
+      "answer": 3,
+      "answerText": "Cy",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Cy is third and last in the stated queue.",
+      "optionIds": [
+        "R060:0",
+        "R060:1",
+        "R060:2",
+        "R060:3"
+      ],
+      "correctOptionId": "R060:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R061",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "What comes next: 1, 3, 5, 7, __?",
+      "prompt": "What comes next: 1, 3, 5, 7, __?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "11"
+      ],
+      "answer": 0,
+      "answerText": "9",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The pattern increases by two.",
+      "optionIds": [
+        "R061:0",
+        "R061:1",
+        "R061:2",
+        "R061:3"
+      ],
+      "correctOptionId": "R061:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R062",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A glass is half full. You add water without spilling. What happens?",
+      "prompt": "A glass is half full. You add water without spilling. What happens?",
+      "options": [
+        "It becomes less full",
+        "It becomes more full",
+        "It must become empty",
+        "Its capacity doubles"
+      ],
+      "answer": 1,
+      "answerText": "It becomes more full",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Adding water increases the amount inside.",
+      "optionIds": [
+        "R062:0",
+        "R062:1",
+        "R062:2",
+        "R062:3"
+      ],
+      "correctOptionId": "R062:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R063",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A box is above a shelf. The shelf is above the floor. What is lowest?",
+      "prompt": "A box is above a shelf. The shelf is above the floor. What is lowest?",
+      "options": [
+        "The box",
+        "The shelf",
+        "The floor",
+        "They are level"
+      ],
+      "answer": 2,
+      "answerText": "The floor",
+      "level": "Classic",
+      "type": "Everyday logic",
+      "explanation": "The stated order puts the floor lowest.",
+      "optionIds": [
+        "R063:0",
+        "R063:1",
+        "R063:2",
+        "R063:3"
+      ],
+      "correctOptionId": "R063:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R064",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which object keeps rain off your head when opened above you?",
+      "prompt": "Which object keeps rain off your head when opened above you?",
+      "options": [
+        "A fork",
+        "A pencil",
+        "A plate",
+        "An umbrella"
+      ],
+      "answer": 3,
+      "answerText": "An umbrella",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "An open umbrella provides a cover.",
+      "optionIds": [
+        "R064:0",
+        "R064:1",
+        "R064:2",
+        "R064:3"
+      ],
+      "correctOptionId": "R064:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R065",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Every cup in this set has a handle. This is one of those cups. What must it have?",
+      "prompt": "Every cup in this set has a handle. This is one of those cups. What must it have?",
+      "options": [
+        "A handle",
+        "A lid",
+        "A picture",
+        "A crack"
+      ],
+      "answer": 0,
+      "answerText": "A handle",
+      "level": "Classic",
+      "type": "Everyday logic",
+      "explanation": "The condition applies to every cup in the set.",
+      "optionIds": [
+        "R065:0",
+        "R065:1",
+        "R065:2",
+        "R065:3"
+      ],
+      "correctOptionId": "R065:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R066",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which comes immediately before Saturday?",
+      "prompt": "Which comes immediately before Saturday?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Thursday",
+        "Monday"
+      ],
+      "answer": 1,
+      "answerText": "Friday",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Friday is the preceding day.",
+      "optionIds": [
+        "R066:0",
+        "R066:1",
+        "R066:2",
+        "R066:3"
+      ],
+      "correctOptionId": "R066:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R067",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A rope is cut once across its middle. How many pieces result?",
+      "prompt": "A rope is cut once across its middle. How many pieces result?",
+      "options": [
+        "One",
+        "Four",
+        "Two",
+        "Three"
+      ],
+      "answer": 2,
+      "answerText": "Two",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "One complete cut separates it into two pieces.",
+      "optionIds": [
+        "R067:0",
+        "R067:1",
+        "R067:2",
+        "R067:3"
+      ],
+      "correctOptionId": "R067:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R068",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A shelf holds one red book and one blue book. You take the red book. Which remains?",
+      "prompt": "A shelf holds one red book and one blue book. You take the red book. Which remains?",
+      "options": [
+        "The red book",
+        "Two red books",
+        "No books",
+        "The blue book"
+      ],
+      "answer": 3,
+      "answerText": "The blue book",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Only the blue book remains.",
+      "optionIds": [
+        "R068:0",
+        "R068:1",
+        "R068:2",
+        "R068:3"
+      ],
+      "correctOptionId": "R068:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R069",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which is the middle letter in C, D, E?",
+      "prompt": "Which is the middle letter in C, D, E?",
+      "options": [
+        "D",
+        "C",
+        "E",
+        "F"
+      ],
+      "answer": 0,
+      "answerText": "D",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "D is between C and E in the stated sequence.",
+      "optionIds": [
+        "R069:0",
+        "R069:1",
+        "R069:2",
+        "R069:3"
+      ],
+      "correctOptionId": "R069:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R070",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A light is off. You switch it on once. What is its new state?",
+      "prompt": "A light is off. You switch it on once. What is its new state?",
+      "options": [
+        "Off",
+        "On",
+        "Both states",
+        "Broken"
+      ],
+      "answer": 1,
+      "answerText": "On",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The stated switch changes it from off to on.",
+      "optionIds": [
+        "R070:0",
+        "R070:1",
+        "R070:2",
+        "R070:3"
+      ],
+      "correctOptionId": "R070:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R071",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which item can absorb a small spill?",
+      "prompt": "Which item can absorb a small spill?",
+      "options": [
+        "A glass marble",
+        "A metal coin",
+        "A paper towel",
+        "A ceramic tile"
+      ],
+      "answer": 2,
+      "answerText": "A paper towel",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "A paper towel takes up liquid.",
+      "optionIds": [
+        "R071:0",
+        "R071:1",
+        "R071:2",
+        "R071:3"
+      ],
+      "correctOptionId": "R071:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R072",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A package says 'fragile'. What does that warn about?",
+      "prompt": "A package says 'fragile'. What does that warn about?",
+      "options": [
+        "It is always empty",
+        "It is very cold",
+        "It makes music",
+        "It may break easily"
+      ],
+      "answer": 3,
+      "answerText": "It may break easily",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Fragile means easily damaged or broken.",
+      "optionIds": [
+        "R072:0",
+        "R072:1",
+        "R072:2",
+        "R072:3"
+      ],
+      "correctOptionId": "R072:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R073",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "What comes next: 10, 20, 30, 40, __?",
+      "prompt": "What comes next: 10, 20, 30, 40, __?",
+      "options": [
+        "50",
+        "45",
+        "60",
+        "41"
+      ],
+      "answer": 0,
+      "answerText": "50",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The sequence increases by ten.",
+      "optionIds": [
+        "R073:0",
+        "R073:1",
+        "R073:2",
+        "R073:3"
+      ],
+      "correctOptionId": "R073:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R074",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "The order is small, medium, large. Which is between the other two?",
+      "prompt": "The order is small, medium, large. Which is between the other two?",
+      "options": [
+        "Small",
+        "Medium",
+        "Large",
+        "None"
+      ],
+      "answer": 1,
+      "answerText": "Medium",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Medium is the middle position.",
+      "optionIds": [
+        "R074:0",
+        "R074:1",
+        "R074:2",
+        "R074:3"
+      ],
+      "correctOptionId": "R074:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R075",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Nora starts a race before Omar. Omar starts before Pia. Who starts first?",
+      "prompt": "Nora starts a race before Omar. Omar starts before Pia. Who starts first?",
+      "options": [
+        "Pia",
+        "Omar",
+        "Nora",
+        "They all start together"
+      ],
+      "answer": 2,
+      "answerText": "Nora",
+      "level": "Classic",
+      "type": "Everyday logic",
+      "explanation": "The order is Nora, then Omar, then Pia.",
+      "optionIds": [
+        "R075:0",
+        "R075:1",
+        "R075:2",
+        "R075:3"
+      ],
+      "correctOptionId": "R075:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R076",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A box is sealed shut with an object inside. You only turn it around. Where is the object?",
+      "prompt": "A box is sealed shut with an object inside. You only turn it around. Where is the object?",
+      "options": [
+        "Outside the room",
+        "On the table",
+        "In another box",
+        "Still inside the box"
+      ],
+      "answer": 3,
+      "answerText": "Still inside the box",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Turning the sealed box does not remove its contents.",
+      "optionIds": [
+        "R076:0",
+        "R076:1",
+        "R076:2",
+        "R076:3"
+      ],
+      "correctOptionId": "R076:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R077",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which word does not name a color?",
+      "prompt": "Which word does not name a color?",
+      "options": [
+        "Circle",
+        "Blue",
+        "Red",
+        "Green"
+      ],
+      "answer": 0,
+      "answerText": "Circle",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Circle names a shape, not a color.",
+      "optionIds": [
+        "R077:0",
+        "R077:1",
+        "R077:2",
+        "R077:3"
+      ],
+      "correctOptionId": "R077:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R078",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "A sign points left. You follow it. Which way do you turn?",
+      "prompt": "A sign points left. You follow it. Which way do you turn?",
+      "options": [
+        "Right",
+        "Left",
+        "Backwards",
+        "Straight ahead"
+      ],
+      "answer": 1,
+      "answerText": "Left",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "The sign explicitly points left.",
+      "optionIds": [
+        "R078:0",
+        "R078:1",
+        "R078:2",
+        "R078:3"
+      ],
+      "correctOptionId": "R078:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R079",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "Which object has pages that you can turn?",
+      "prompt": "Which object has pages that you can turn?",
+      "options": [
+        "A stone",
+        "A cup",
+        "A book",
+        "A balloon"
+      ],
+      "answer": 2,
+      "answerText": "A book",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Books contain pages.",
+      "optionIds": [
+        "R079:0",
+        "R079:1",
+        "R079:2",
+        "R079:3"
+      ],
+      "correctOptionId": "R079:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R080",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "What comes next: Z, Y, X, __?",
+      "prompt": "What comes next: Z, Y, X, __?",
+      "options": [
+        "A",
+        "V",
+        "T",
+        "W"
+      ],
+      "answer": 3,
+      "answerText": "W",
+      "level": "Classic",
+      "type": "Everyday logic",
+      "explanation": "The letters move backwards through the alphabet.",
+      "optionIds": [
+        "R080:0",
+        "R080:1",
+        "R080:2",
+        "R080:3"
+      ],
+      "correctOptionId": "R080:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    },
+    {
+      "id": "R081",
+      "packId": "everyday",
+      "topic": "everyday",
+      "question": "All five chairs are empty. How many people are sitting on them?",
+      "prompt": "All five chairs are empty. How many people are sitting on them?",
+      "options": [
+        "Zero",
+        "One",
+        "Five",
+        "Ten"
+      ],
+      "answer": 0,
+      "answerText": "Zero",
+      "level": "Gentle",
+      "type": "Everyday logic",
+      "explanation": "Empty chairs have no one sitting on them.",
+      "optionIds": [
+        "R081:0",
+        "R081:1",
+        "R081:2",
+        "R081:3"
+      ],
+      "correctOptionId": "R081:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "original-v8-logic"
+      ]
+    }
+  ]
+}

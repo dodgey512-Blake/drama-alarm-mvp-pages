@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 1,
+  "id": "history",
+  "version": "8.0.0",
+  "locale": "en-US",
+  "sampleOnly": true,
+  "plannedQuestionCount": 180,
+  "contentNotice": "30 original demonstration questions; not the planned 180-question commercial collection. Independent human content review is pending.",
+  "sources": [
+    {
+      "id": "nasa-apollo",
+      "title": "NASA · Apollo 11 Mission Overview",
+      "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-taj",
+      "title": "UNESCO · Taj Mahal",
+      "url": "https://whc.unesco.org/en/list/252/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-wall",
+      "title": "UNESCO · Great Wall",
+      "url": "https://whc.unesco.org/en/list/438/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-machu",
+      "title": "UNESCO · Historic Sanctuary of Machu Picchu",
+      "url": "https://whc.unesco.org/en/list/274/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-acropolis",
+      "title": "UNESCO · Acropolis, Athens",
+      "url": "https://whc.unesco.org/en/list/404/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-angkor",
+      "title": "UNESCO · Angkor",
+      "url": "https://whc.unesco.org/en/list/668/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-borobudur",
+      "title": "UNESCO · Borobudur Temple Compounds",
+      "url": "https://whc.unesco.org/en/list/592/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-stonehenge",
+      "title": "UNESCO · Stonehenge, Avebury and Associated Sites",
+      "url": "https://whc.unesco.org/en/list/373/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-petra",
+      "title": "UNESCO · Petra",
+      "url": "https://whc.unesco.org/en/list/326/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-memphis",
+      "title": "UNESCO · Memphis and its Necropolis",
+      "url": "https://whc.unesco.org/en/list/86/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "archives-declaration",
+      "title": "US National Archives · Declaration of Independence",
+      "url": "https://www.archives.gov/founding-docs/declaration",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "archives-constitution",
+      "title": "US National Archives · Constitution of the United States (1787)",
+      "url": "https://www.archives.gov/milestone-documents/constitution",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Questions and explanations are original; no source imagery is included."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H001",
+      "packId": "history",
+      "topic": "history",
+      "question": "In which year did humans first land on the Moon?",
+      "prompt": "In which year did humans first land on the Moon?",
+      "options": [
+        "1959",
+        "1965",
+        "1969",
+        "1975"
+      ],
+      "answer": 2,
+      "answerText": "1969",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Apollo 11 landed in 1969.",
+      "optionIds": [
+        "H001:0",
+        "H001:1",
+        "H001:2",
+        "H001:3"
+      ],
+      "correctOptionId": "H001:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "nasa-apollo"
+      ]
+    },
+    {
+      "id": "H002",
+      "packId": "history",
+      "topic": "history",
+      "question": "Who first stepped onto the Moon during Apollo 11?",
+      "prompt": "Who first stepped onto the Moon during Apollo 11?",
+      "options": [
+        "Michael Collins",
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong"
+      ],
+      "answer": 3,
+      "answerText": "Neil Armstrong",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Armstrong stepped onto the surface first.",
+      "optionIds": [
+        "H002:0",
+        "H002:1",
+        "H002:2",
+        "H002:3"
+      ],
+      "correctOptionId": "H002:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "nasa-apollo"
+      ]
+    },
+    {
+      "id": "H003",
+      "packId": "history",
+      "topic": "history",
+      "question": "Who followed Neil Armstrong onto the Moon?",
+      "prompt": "Who followed Neil Armstrong onto the Moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Michael Collins",
+        "John Glenn",
+        "Alan Shepard"
+      ],
+      "answer": 0,
+      "answerText": "Buzz Aldrin",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Aldrin was the second person on the Moon.",
+      "optionIds": [
+        "H003:0",
+        "H003:1",
+        "H003:2",
+        "H003:3"
+      ],
+      "correctOptionId": "H003:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "nasa-apollo"
+      ]
+    },
+    {
+      "id": "H004",
+      "packId": "history",
+      "topic": "history",
+      "question": "What was Apollo 11's lunar module called?",
+      "prompt": "What was Apollo 11's lunar module called?",
+      "options": [
+        "Voyager",
+        "Eagle",
+        "Discovery",
+        "Viking"
+      ],
+      "answer": 1,
+      "answerText": "Eagle",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Eagle carried the landing crew.",
+      "optionIds": [
+        "H004:0",
+        "H004:1",
+        "H004:2",
+        "H004:3"
+      ],
+      "correctOptionId": "H004:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "nasa-apollo"
+      ]
+    },
+    {
+      "id": "H005",
+      "packId": "history",
+      "topic": "history",
+      "question": "What was Apollo 11's command module called?",
+      "prompt": "What was Apollo 11's command module called?",
+      "options": [
+        "Atlantis",
+        "Endeavour",
+        "Columbia",
+        "Gemini"
+      ],
+      "answer": 2,
+      "answerText": "Columbia",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "The command module was Columbia.",
+      "optionIds": [
+        "H005:0",
+        "H005:1",
+        "H005:2",
+        "H005:3"
+      ],
+      "correctOptionId": "H005:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "nasa-apollo"
+      ]
+    },
+    {
+      "id": "H006",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which rocket launched Apollo 11?",
+      "prompt": "Which rocket launched Apollo 11?",
+      "options": [
+        "Falcon 9",
+        "Ariane 5",
+        "Soyuz",
+        "Saturn V"
+      ],
+      "answer": 3,
+      "answerText": "Saturn V",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Apollo 11 launched on a Saturn V.",
+      "optionIds": [
+        "H006:0",
+        "H006:1",
+        "H006:2",
+        "H006:3"
+      ],
+      "correctOptionId": "H006:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "nasa-apollo"
+      ]
+    },
+    {
+      "id": "H007",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which emperor commissioned the Taj Mahal?",
+      "prompt": "Which emperor commissioned the Taj Mahal?",
+      "options": [
+        "Shah Jahan",
+        "Julius Caesar",
+        "Qin Shi Huang",
+        "Pericles"
+      ],
+      "answer": 0,
+      "answerText": "Shah Jahan",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Shah Jahan ordered its construction.",
+      "optionIds": [
+        "H007:0",
+        "H007:1",
+        "H007:2",
+        "H007:3"
+      ],
+      "correctOptionId": "H007:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "H008",
+      "packId": "history",
+      "topic": "history",
+      "question": "The Taj Mahal was built during which empire?",
+      "prompt": "The Taj Mahal was built during which empire?",
+      "options": [
+        "Roman",
+        "Mughal",
+        "Inca",
+        "Byzantine"
+      ],
+      "answer": 1,
+      "answerText": "Mughal",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Shah Jahan was a Mughal emperor.",
+      "optionIds": [
+        "H008:0",
+        "H008:1",
+        "H008:2",
+        "H008:3"
+      ],
+      "correctOptionId": "H008:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "H009",
+      "packId": "history",
+      "topic": "history",
+      "question": "The Taj Mahal's central tomb is famous for which material?",
+      "prompt": "The Taj Mahal's central tomb is famous for which material?",
+      "options": [
+        "Copper",
+        "Timber",
+        "White marble",
+        "Ice"
+      ],
+      "answer": 2,
+      "answerText": "White marble",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "White marble covers the central tomb.",
+      "optionIds": [
+        "H009:0",
+        "H009:1",
+        "H009:2",
+        "H009:3"
+      ],
+      "correctOptionId": "H009:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "H010",
+      "packId": "history",
+      "topic": "history",
+      "question": "The Taj Mahal commemorates which person?",
+      "prompt": "The Taj Mahal commemorates which person?",
+      "options": [
+        "Cleopatra",
+        "Joan of Arc",
+        "Queen Victoria",
+        "Mumtaz Mahal"
+      ],
+      "answer": 3,
+      "answerText": "Mumtaz Mahal",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "It was built in memory of Mumtaz Mahal.",
+      "optionIds": [
+        "H010:0",
+        "H010:1",
+        "H010:2",
+        "H010:3"
+      ],
+      "correctOptionId": "H010:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "H011",
+      "packId": "history",
+      "topic": "history",
+      "question": "Who joined earlier fortifications into a Great Wall defence system around 220 BCE?",
+      "prompt": "Who joined earlier fortifications into a Great Wall defence system around 220 BCE?",
+      "options": [
+        "Qin Shi Huang",
+        "Shah Jahan",
+        "Augustus",
+        "Napoleon"
+      ],
+      "answer": 0,
+      "answerText": "Qin Shi Huang",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Qin Shi Huang ordered that unification.",
+      "optionIds": [
+        "H011:0",
+        "H011:1",
+        "H011:2",
+        "H011:3"
+      ],
+      "correctOptionId": "H011:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-wall"
+      ]
+    },
+    {
+      "id": "H012",
+      "packId": "history",
+      "topic": "history",
+      "question": "What was the Great Wall primarily built for?",
+      "prompt": "What was the Great Wall primarily built for?",
+      "options": [
+        "Ocean navigation",
+        "Military defence",
+        "Water storage",
+        "Public theatre"
+      ],
+      "answer": 1,
+      "answerText": "Military defence",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Its main purpose was defence.",
+      "optionIds": [
+        "H012:0",
+        "H012:1",
+        "H012:2",
+        "H012:3"
+      ],
+      "correctOptionId": "H012:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-wall"
+      ]
+    },
+    {
+      "id": "H013",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which civilization built Machu Picchu?",
+      "prompt": "Which civilization built Machu Picchu?",
+      "options": [
+        "Roman",
+        "Minoan",
+        "Inca",
+        "Mughal"
+      ],
+      "answer": 2,
+      "answerText": "Inca",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Machu Picchu is an Inca site.",
+      "optionIds": [
+        "H013:0",
+        "H013:1",
+        "H013:2",
+        "H013:3"
+      ],
+      "correctOptionId": "H013:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-machu"
+      ]
+    },
+    {
+      "id": "H014",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which building feature can be seen at Machu Picchu?",
+      "prompt": "Which building feature can be seen at Machu Picchu?",
+      "options": [
+        "Steel skyscrapers",
+        "Glass pyramids",
+        "Ice palaces",
+        "Stone terraces"
+      ],
+      "answer": 3,
+      "answerText": "Stone terraces",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Stone walls and terraces remain there.",
+      "optionIds": [
+        "H014:0",
+        "H014:1",
+        "H014:2",
+        "H014:3"
+      ],
+      "correctOptionId": "H014:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-machu"
+      ]
+    },
+    {
+      "id": "H015",
+      "packId": "history",
+      "topic": "history",
+      "question": "The Acropolis of Athens is associated with which ancient civilization?",
+      "prompt": "The Acropolis of Athens is associated with which ancient civilization?",
+      "options": [
+        "Greek",
+        "Inca",
+        "Khmer",
+        "Mughal"
+      ],
+      "answer": 0,
+      "answerText": "Greek",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "It is a major ancient Greek site.",
+      "optionIds": [
+        "H015:0",
+        "H015:1",
+        "H015:2",
+        "H015:3"
+      ],
+      "correctOptionId": "H015:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-acropolis"
+      ]
+    },
+    {
+      "id": "H016",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which statesman helped guide the rebuilding of the Athenian Acropolis?",
+      "prompt": "Which statesman helped guide the rebuilding of the Athenian Acropolis?",
+      "options": [
+        "Julius Caesar",
+        "Pericles",
+        "Shah Jahan",
+        "Hannibal"
+      ],
+      "answer": 1,
+      "answerText": "Pericles",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Pericles promoted the building programme.",
+      "optionIds": [
+        "H016:0",
+        "H016:1",
+        "H016:2",
+        "H016:3"
+      ],
+      "correctOptionId": "H016:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-acropolis"
+      ]
+    },
+    {
+      "id": "H017",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which temple stands on the Athenian Acropolis?",
+      "prompt": "Which temple stands on the Athenian Acropolis?",
+      "options": [
+        "Taj Mahal",
+        "Borobudur",
+        "Parthenon",
+        "Angkor Wat"
+      ],
+      "answer": 2,
+      "answerText": "Parthenon",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "The Parthenon stands on the Acropolis.",
+      "optionIds": [
+        "H017:0",
+        "H017:1",
+        "H017:2",
+        "H017:3"
+      ],
+      "correctOptionId": "H017:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-acropolis"
+      ]
+    },
+    {
+      "id": "H018",
+      "packId": "history",
+      "topic": "history",
+      "question": "Angkor preserves former capitals of which empire?",
+      "prompt": "Angkor preserves former capitals of which empire?",
+      "options": [
+        "Inca",
+        "Roman",
+        "Mughal",
+        "Khmer"
+      ],
+      "answer": 3,
+      "answerText": "Khmer",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Angkor preserves Khmer capitals.",
+      "optionIds": [
+        "H018:0",
+        "H018:1",
+        "H018:2",
+        "H018:3"
+      ],
+      "correctOptionId": "H018:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-angkor"
+      ]
+    },
+    {
+      "id": "H019",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which temple is part of the Angkor site?",
+      "prompt": "Which temple is part of the Angkor site?",
+      "options": [
+        "Angkor Wat",
+        "Parthenon",
+        "Pantheon",
+        "Temple of Heaven"
+      ],
+      "answer": 0,
+      "answerText": "Angkor Wat",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Angkor Wat belongs to the Angkor complex.",
+      "optionIds": [
+        "H019:0",
+        "H019:1",
+        "H019:2",
+        "H019:3"
+      ],
+      "correctOptionId": "H019:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-angkor"
+      ]
+    },
+    {
+      "id": "H020",
+      "packId": "history",
+      "topic": "history",
+      "question": "Angkor's capitals flourished mainly between which centuries?",
+      "prompt": "Angkor's capitals flourished mainly between which centuries?",
+      "options": [
+        "1st–3rd",
+        "9th–15th",
+        "18th–20th",
+        "21st–22nd"
+      ],
+      "answer": 1,
+      "answerText": "9th–15th",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "UNESCO dates them to the 9th–15th centuries.",
+      "optionIds": [
+        "H020:0",
+        "H020:1",
+        "H020:2",
+        "H020:3"
+      ],
+      "correctOptionId": "H020:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-angkor"
+      ]
+    },
+    {
+      "id": "H021",
+      "packId": "history",
+      "topic": "history",
+      "question": "Borobudur was built as a temple of which religion?",
+      "prompt": "Borobudur was built as a temple of which religion?",
+      "options": [
+        "Christianity",
+        "Judaism",
+        "Buddhism",
+        "Islam"
+      ],
+      "answer": 2,
+      "answerText": "Buddhism",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Borobudur is a Buddhist temple.",
+      "optionIds": [
+        "H021:0",
+        "H021:1",
+        "H021:2",
+        "H021:3"
+      ],
+      "correctOptionId": "H021:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-borobudur"
+      ]
+    },
+    {
+      "id": "H022",
+      "packId": "history",
+      "topic": "history",
+      "question": "Borobudur mainly dates from which centuries?",
+      "prompt": "Borobudur mainly dates from which centuries?",
+      "options": [
+        "1st–2nd",
+        "14th–15th",
+        "19th–20th",
+        "8th–9th"
+      ],
+      "answer": 3,
+      "answerText": "8th–9th",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Its main construction dates to the 8th–9th centuries.",
+      "optionIds": [
+        "H022:0",
+        "H022:1",
+        "H022:2",
+        "H022:3"
+      ],
+      "correctOptionId": "H022:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-borobudur"
+      ]
+    },
+    {
+      "id": "H023",
+      "packId": "history",
+      "topic": "history",
+      "question": "Stonehenge is a monument from which broad period?",
+      "prompt": "Stonehenge is a monument from which broad period?",
+      "options": [
+        "Prehistory",
+        "The Industrial Revolution",
+        "The Space Age",
+        "The digital era"
+      ],
+      "answer": 0,
+      "answerText": "Prehistory",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Stonehenge is prehistoric.",
+      "optionIds": [
+        "H023:0",
+        "H023:1",
+        "H023:2",
+        "H023:3"
+      ],
+      "correctOptionId": "H023:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-stonehenge"
+      ]
+    },
+    {
+      "id": "H024",
+      "packId": "history",
+      "topic": "history",
+      "question": "Stonehenge is best known for arrangements of what?",
+      "prompt": "Stonehenge is best known for arrangements of what?",
+      "options": [
+        "Steel bridges",
+        "Standing stones",
+        "Glass towers",
+        "Wooden ships"
+      ],
+      "answer": 1,
+      "answerText": "Standing stones",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "It contains a famous stone circle.",
+      "optionIds": [
+        "H024:0",
+        "H024:1",
+        "H024:2",
+        "H024:3"
+      ],
+      "correctOptionId": "H024:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-stonehenge"
+      ]
+    },
+    {
+      "id": "H025",
+      "packId": "history",
+      "topic": "history",
+      "question": "Petra is strongly associated with which ancient people?",
+      "prompt": "Petra is strongly associated with which ancient people?",
+      "options": [
+        "Incas",
+        "Vikings",
+        "Nabataeans",
+        "Aztecs"
+      ],
+      "answer": 2,
+      "answerText": "Nabataeans",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "Petra was a Nabataean city.",
+      "optionIds": [
+        "H025:0",
+        "H025:1",
+        "H025:2",
+        "H025:3"
+      ],
+      "correctOptionId": "H025:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-petra"
+      ]
+    },
+    {
+      "id": "H026",
+      "packId": "history",
+      "topic": "history",
+      "question": "Petra was an important stopping place for what?",
+      "prompt": "Petra was an important stopping place for what?",
+      "options": [
+        "Polar expeditions",
+        "Steam trains",
+        "Ocean liners",
+        "Trading caravans"
+      ],
+      "answer": 3,
+      "answerText": "Trading caravans",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Petra was a caravan-trade crossroads.",
+      "optionIds": [
+        "H026:0",
+        "H026:1",
+        "H026:2",
+        "H026:3"
+      ],
+      "correctOptionId": "H026:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-petra"
+      ]
+    },
+    {
+      "id": "H027",
+      "packId": "history",
+      "topic": "history",
+      "question": "The pyramids at Giza were built by which civilization?",
+      "prompt": "The pyramids at Giza were built by which civilization?",
+      "options": [
+        "Ancient Egyptians",
+        "Incas",
+        "Vikings",
+        "Mughals"
+      ],
+      "answer": 0,
+      "answerText": "Ancient Egyptians",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "They are monuments of ancient Egypt.",
+      "optionIds": [
+        "H027:0",
+        "H027:1",
+        "H027:2",
+        "H027:3"
+      ],
+      "correctOptionId": "H027:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-memphis"
+      ]
+    },
+    {
+      "id": "H028",
+      "packId": "history",
+      "topic": "history",
+      "question": "Which city was the capital of Egypt's Old Kingdom?",
+      "prompt": "Which city was the capital of Egypt's Old Kingdom?",
+      "options": [
+        "Athens",
+        "Memphis",
+        "Agra",
+        "Petra"
+      ],
+      "answer": 1,
+      "answerText": "Memphis",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "Memphis served as the Old Kingdom capital.",
+      "optionIds": [
+        "H028:0",
+        "H028:1",
+        "H028:2",
+        "H028:3"
+      ],
+      "correctOptionId": "H028:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-memphis"
+      ]
+    },
+    {
+      "id": "H029",
+      "packId": "history",
+      "topic": "history",
+      "question": "In which year was the US Declaration of Independence adopted?",
+      "prompt": "In which year was the US Declaration of Independence adopted?",
+      "options": [
+        "1689",
+        "1787",
+        "1776",
+        "1812"
+      ],
+      "answer": 2,
+      "answerText": "1776",
+      "level": "Gentle",
+      "type": "World history",
+      "explanation": "It was adopted in July 1776.",
+      "optionIds": [
+        "H029:0",
+        "H029:1",
+        "H029:2",
+        "H029:3"
+      ],
+      "correctOptionId": "H029:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "archives-declaration"
+      ]
+    },
+    {
+      "id": "H030",
+      "packId": "history",
+      "topic": "history",
+      "question": "In which year was the US Constitution signed?",
+      "prompt": "In which year was the US Constitution signed?",
+      "options": [
+        "1492",
+        "1776",
+        "1918",
+        "1787"
+      ],
+      "answer": 3,
+      "answerText": "1787",
+      "level": "Classic",
+      "type": "World history",
+      "explanation": "The Constitution was signed in 1787.",
+      "optionIds": [
+        "H030:0",
+        "H030:1",
+        "H030:2",
+        "H030:3"
+      ],
+      "correctOptionId": "H030:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "archives-constitution"
+      ]
+    }
+  ]
+}
