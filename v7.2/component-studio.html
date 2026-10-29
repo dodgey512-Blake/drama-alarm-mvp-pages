@@ -1,0 +1,1465 @@
+<!doctype html>
+<html lang="en" data-theme="daybreak"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-mascPdQsSLLUM5G742437oRMKZxnMvi8Q2GWWp5JEco=' 'sha256-F1Fb2t7miYcyF1cQPaSZHraQMpejrLRezBDd4aR8tnw='; style-src 'unsafe-inline'; img-src data:; font-src data:; media-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Drama Alarm 7.2 · Component Studio</title><style>/* Existing v5.css theme tokens. */
+:root, :root[data-theme="daybreak"] {
+  --cream: #f5f8f6; --paper: #ffffff; --plum: #22352e; --plum-2: #173e33; --plum-3: #112e27;
+  --muted: #687b72; --rose: #287d60; --rose-soft: #e0f3e9; --lilac: #8973bd; --lilac-soft: #f0ecf8;
+  --gold: #d19b45; --error: #bc485d; --line: #e6ece8; --canvas: #eaf0ed; --wash: #d8f2e5;
+  --wash-secondary: #edf1f8; --ink-soft: #e3f0e9; --accent-on: #fff; --card-radius: 28px;
+  --shadow: 0 12px 40px #24392c08; --shadow-soft: 0 5px 24px #24392c05; --shadow-raised: 0 14px 36px #24392c10;
+  --nav-surface: #fffffff0; --type-caption: 13px; --type-micro: 12px;
+  --ease: cubic-bezier(.22,.8,.25,1); --motion-fast: 170ms; --motion-base: 300ms; --motion-page: 380ms;
+  --font-display: "Avenir Next", "Helvetica Neue", sans-serif;
+}
+:root[data-theme="velvet"] {
+  --cream: #fbf3ec; --paper: #fffdfa; --plum: #452b3d; --plum-2: #3a2138; --plum-3: #291a2a;
+  --muted: #806975; --rose: #bd496b; --rose-soft: #f8e0e8; --lilac: #9275bf; --lilac-soft: #f0e8f8;
+  --gold: #c18c38; --error: #b83c54; --line: #eee2e5; --canvas: #eee5e1; --wash: #f5dee8;
+  --wash-secondary: #ece3f6; --ink-soft: #f6e2eb; --accent-on: #fff;
+  --shadow: 0 12px 40px #452b3d08; --shadow-soft: 0 5px 24px #452b3d05; --shadow-raised: 0 14px 36px #452b3d10;
+}
+/* Existing v6.css theme tokens. */
+:root, :root[data-theme="daybreak"] {
+  --muted:#4f665c; --rose:#216b51; --lilac:#66508f; --gold:#8d601c;
+  --line:#cbd8d0; --error:#a52c46; --type-caption:14px; --type-micro:14px;
+  --status-height:calc(52px + env(safe-area-inset-top,0px));
+  --navigation-height:calc(100px + env(safe-area-inset-bottom,0px));
+}
+:root[data-theme="velvet"] {
+  --muted:#68515d; --rose:#a73558; --lilac:#6c4e94; --gold:#805714;
+  --line:#ddcbd3; --error:#a22942;
+}
+/* Existing v7.css theme tokens. */
+:root,:root[data-theme="daybreak"] {
+  --glass-surface:rgba(255,255,255,.76);--glass-raised:rgba(255,255,255,.86);
+  --glass-tint:rgba(223,243,233,.78);--glass-border:rgba(255,255,255,.88);
+  --glass-line:rgba(52,95,76,.2);--glass-shadow:0 12px 34px rgba(32,65,49,.07);
+  --chrome-surface:rgba(239,248,243,.84);--chrome-accent:#20684f;--chrome-on-accent:#fff;
+  --chrome-padding:20px;--chrome-blur:22px;--dock-gap:12px;
+}
+:root[data-theme="velvet"] {
+  --glass-surface:rgba(255,250,246,.78);--glass-raised:rgba(255,251,249,.88);
+  --glass-tint:rgba(246,226,235,.8);--glass-border:rgba(255,255,255,.86);
+  --glass-line:rgba(109,56,81,.19);--glass-shadow:0 12px 34px rgba(91,48,69,.07);
+  --chrome-surface:rgba(250,238,238,.86);--chrome-accent:#a13255;
+}
+
+:root {color-scheme:light;font-family:var(--font-display);color:var(--plum);font-size:16px;line-height:1.5;--studio-grid:color-mix(in srgb,var(--rose) 6%,transparent);}
+* {box-sizing:border-box;}
+html {background:var(--canvas);scroll-padding-top:210px;}
+body {margin:0;min-width:0;background:linear-gradient(var(--studio-grid) 1px,transparent 1px),linear-gradient(90deg,var(--studio-grid) 1px,transparent 1px),var(--canvas);background-size:24px 24px;}
+button,input {font:inherit;}
+button {min-width:48px;min-height:48px;cursor:pointer;touch-action:manipulation;white-space:normal;overflow-wrap:break-word;}
+button:active:not(:disabled) {filter:brightness(.94);}
+button:focus-visible,input:focus-visible,a:focus-visible {outline:3px solid var(--rose);outline-offset:3px;}
+button:disabled {cursor:not-allowed;opacity:.55;}
+button .v5-icon {width:24px;height:24px;flex:none;}
+a {color:var(--rose);text-underline-offset:4px;}
+h1,h2,h3,p {overflow-wrap:break-word;}
+.studio-header {position:sticky;top:0;z-index:10;padding:24px max(20px,4vw);background:color-mix(in srgb,var(--canvas) 94%,transparent);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--glass-line);}
+.kicker,figcaption {font-size:.875rem;font-weight:750;letter-spacing:.09em;color:var(--rose);}
+.studio-header h1 {font-size:clamp(1.875rem,4vw,3rem);line-height:1.13;letter-spacing:-.035em;margin:6px 0 10px;}
+.studio-header p {font-size:1rem;max-width:75ch;margin:0;color:var(--muted);}
+.studio-tools {display:flex;align-items:center;gap:12px 20px;flex-wrap:wrap;margin-top:18px;}
+.studio-tools fieldset {border:0;padding:0;margin:0;min-width:0;}
+.studio-tools legend,.control-caption {font-size:.875rem;font-weight:600;margin-bottom:6px;color:var(--muted);}
+.segments,.button-row {display:flex;flex-wrap:wrap;gap:8px;}
+.segments button,.minor-button {padding:10px 13px;border:1px solid var(--glass-line);border-radius:15px;background:var(--glass-raised);color:var(--plum);font-weight:600;line-height:1.35;}
+.segments button[aria-pressed="true"],.minor-button[aria-pressed="true"] {background:var(--rose-soft);border:2px solid var(--rose);color:var(--rose);padding:9px 12px;}
+#component-sheet {padding:30px max(20px,4vw) 60px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:30px;align-items:start;}
+figure {margin:0;min-width:0;display:grid;gap:12px;scroll-margin-top:220px;}
+figcaption {color:var(--muted);}
+.specimen {min-width:0;padding:24px;background:var(--glass-surface);border:1px solid var(--glass-border);border-radius:28px;box-shadow:var(--glass-shadow),inset 0 1px 0 #ffffffa6;backdrop-filter:blur(var(--chrome-blur)) saturate(1.2);-webkit-backdrop-filter:blur(var(--chrome-blur)) saturate(1.2);}
+.specimen h2 {font-size:1.375rem;line-height:1.25;margin:0 0 16px;letter-spacing:-.025em;}
+.sample-note {font-size:.875rem;color:var(--muted);line-height:1.6;margin:14px 0 0;}
+.specimen-link {font-size:.875rem;min-height:32px;display:inline-flex;align-items:center;justify-self:start;}
+.toolbar-sample {display:grid;grid-template-columns:48px minmax(0,1fr) 48px;gap:12px;align-items:center;margin-bottom:20px;}
+.toolbar-sample strong {font-size:1.125rem;line-height:1.3;text-align:center;}
+.toolbar-button {min-width:48px;min-height:48px;padding:11px 14px;border:1px solid var(--glass-border);border-radius:18px;background:var(--glass-raised);color:var(--plum);box-shadow:0 4px 16px #23362c0d,inset 0 1px 0 #ffffffcc;display:inline-flex;justify-content:center;align-items:center;gap:6px;font-size:.9375rem;font-weight:650;line-height:1.3;}
+.icon-back {width:48px;height:48px;padding:0;border-radius:17px;}
+.toolbar-button--accent,.primary {background:var(--chrome-accent);color:var(--chrome-on-accent);border-color:transparent;}
+.editor-sample {display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+.primary,.secondary {display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;line-height:1.4;padding:13px 20px;border:1px solid var(--glass-line);border-radius:20px;font-size:1rem;font-weight:650;}
+.secondary {background:var(--glass-raised);color:var(--plum);}
+.type-display {font-size:2.5rem;line-height:1.1;letter-spacing:-.04em;margin:0 0 14px;font-weight:600;font-variant-numeric:tabular-nums;}
+.type-body {font-size:1rem;line-height:1.6;margin:0 0 12px;}
+.swatches {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:20px 0;}
+.swatch i {display:block;width:100%;height:52px;border:1px solid var(--glass-line);border-radius:16px;}
+.swatch span {display:block;margin-top:6px;font-size:.875rem;line-height:1.4;}
+.swatch--paper {background:var(--paper);}.swatch--accent {background:var(--rose);}.swatch--tint {background:var(--rose-soft);}
+.input-label {display:block;font-size:1rem;font-weight:600;margin:0 0 8px;}
+.sample-input {display:block;width:100%;min-width:0;min-height:52px;border:1px solid var(--glass-line);border-radius:16px;padding:12px 14px;background:var(--paper);color:var(--plum);font-size:1rem;}
+.sample-input[aria-invalid="true"] {border:2px solid var(--error);}
+.field-error {font-size:.875rem;background:#fff0f3;color:var(--error);border:1px solid var(--error);padding:12px 14px;border-radius:14px;margin:10px 0;}
+[hidden] {display:none!important;}
+.switch-row {display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 0;}
+.switch-row+.switch-row {border-top:1px solid var(--glass-line);}
+.switch-row strong,.switch-row small {display:block;}.switch-row small {font-size:.875rem;color:var(--muted);line-height:1.5;margin-top:4px;}
+.toggle {position:relative;flex:0 0 54px;width:54px;min-width:54px;min-height:48px;height:48px;padding:0;border:0;background:transparent;border-radius:15px;}
+.toggle::before {content:"";position:absolute;left:3px;top:10px;width:48px;height:28px;border-radius:20px;background:#a8b9b0;}
+.toggle::after {content:"";position:absolute;left:6px;top:13px;width:22px;height:22px;border-radius:50%;background:white;box-shadow:0 1px 3px #22352e20;}
+.toggle[aria-checked="true"]::before {background:var(--rose);}.toggle[aria-checked="true"]::after {transform:translateX(20px);}
+.state-stack {display:grid;gap:12px;}
+.sample-card {padding:18px;border:1px solid var(--glass-border);border-radius:23px;background:var(--glass-raised);}
+.sample-card strong {display:flex;gap:8px;align-items:center;font-size:1rem;}.sample-card .v5-icon {width:22px;height:22px;color:var(--rose);}
+.sample-card p {margin:8px 0 0;color:var(--muted);font-size:.875rem;line-height:1.6;}
+.sample-card--selected {border:2px solid var(--rose);background:var(--glass-tint);}
+.sample-card--error {border-color:var(--error);}.sample-card--error strong {color:var(--error);}
+.wide {grid-column:1/-1;}
+.nav-spec-grid {display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,1fr);gap:24px;align-items:start;}
+#tab-sample {min-width:0;padding:30px 12px;background:radial-gradient(ellipse at 22% 22%,var(--wash),transparent 70%),var(--cream);border:1px solid var(--glass-line);border-radius:30px;}
+.bottom-nav.studio-nav {position:relative;left:auto;right:auto;top:auto;bottom:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:5px;gap:4px;margin:0 auto;width:100%;max-width:520px;min-height:78px;height:auto;border:1px solid var(--glass-line);border-radius:38px;background:var(--nav-surface);box-shadow:var(--glass-shadow);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);}
+.studio-nav>button {min-width:48px;min-height:66px;height:auto;border:0;border-radius:31px;padding:7px 5px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;background:transparent;color:var(--muted);font-size:.875rem;font-weight:600;line-height:1.35;}
+.studio-nav>button.active {background:var(--rose-soft);color:var(--rose);}.studio-nav>button.active .v5-icon {stroke-width:2;}
+.studio-nav>button .v5-icon {width:24px;height:24px;}
+.nav-notes h3 {font-size:1rem;margin:0 0 8px;}.nav-notes p {font-size:.875rem;color:var(--muted);line-height:1.6;margin:0 0 14px;}
+.phase-controls {display:grid;gap:10px;margin-top:18px;}
+.phase-controls label {font-size:.875rem;font-weight:600;}.phase-controls input[type="range"] {width:100%;min-width:0;height:48px;margin:0;accent-color:var(--rose);}
+.runtime-status {margin-top:14px;font-size:.875rem;line-height:1.6;color:var(--muted);font-variant-numeric:tabular-nums;overflow-wrap:anywhere;}
+.studio-footer {padding:0 max(20px,4vw) 40px;font-size:.875rem;color:var(--muted);line-height:1.7;}
+.page-feedback {position:fixed;z-index:12;bottom:18px;left:50%;transform:translateX(-50%);width:min(480px,calc(100% - 32px));padding:14px 18px;border:1px solid var(--glass-line);border-radius:18px;background:var(--paper);color:var(--plum);box-shadow:var(--glass-shadow);font-size:1rem;pointer-events:none;}
+@media(max-width:720px) {.studio-header{position:relative;padding:22px 20px;}html{scroll-padding-top:16px;}#component-sheet{padding:24px 20px 40px;gap:24px;}.nav-spec-grid{grid-template-columns:minmax(0,1fr);}.specimen{padding:20px;}figure{scroll-margin-top:16px;}}
+@media(prefers-reduced-motion:reduce) {*{animation:none!important;transition:none!important;scroll-behavior:auto!important;}}
+@media(prefers-reduced-transparency:reduce) {.studio-header,.specimen,.toolbar-button,.studio-nav{background:var(--paper);backdrop-filter:none;-webkit-backdrop-filter:none;}}
+@media(forced-colors:active) {.specimen,.sample-card,.studio-header,.studio-nav,.toolbar-button,.primary,.secondary,.minor-button,.segments button{background:Canvas;color:CanvasText;border:1px solid CanvasText;box-shadow:none;}button:focus-visible,input:focus-visible{outline-color:Highlight;}}
+
+/* 7.1 V3 navigation only: icon and label share the successful WebGL composition.
+   Real DOM names, focus and hit targets remain. Failure/preferences restore DOM.
+   Layout, safe areas and every non-navigation component still belong to v7.css. */
+.bottom-nav[data-liquid-nav] {
+  --glass-floor:rgba(226,229,227,.94);
+  --glass-edge:rgba(255,255,255,.82);
+  --glass-shadow:rgba(38,84,62,.13);
+  isolation:isolate;
+  overflow:visible;
+  touch-action:pan-y pinch-zoom;
+}
+/* A wrapped large-text label must expand the dock's existing auto grid row,
+   rather than overflowing a fixed 78px track. The ordinary single-line dock
+   remains 78px; no font shrinking, clipping, or absolute-positioned labels. */
+.bottom-nav[data-liquid-nav],
+.page-frame > .bottom-nav[data-liquid-nav] {
+  height:auto;
+  min-height:78px;
+  grid-auto-rows:auto;
+  align-items:stretch;
+}
+/* Real layout clearance for the elevated V3 lens and its soft upper shadow.
+   Reserve the gap in the dock row; do not hide the lens with the bar's mask. */
+.page-frame > .bottom-nav[data-liquid-nav] {
+  margin-top:18px;
+}
+[data-theme="velvet"] .bottom-nav[data-liquid-nav] {
+  --glass-floor:rgba(233,228,230,.95);
+  --glass-edge:rgba(255,253,249,.87);
+  --glass-shadow:rgba(98,46,76,.13);
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) {
+  position:relative;
+  z-index:3;
+  touch-action:pan-y pinch-zoom;
+  -webkit-user-select:none;
+  user-select:none;
+  -webkit-touch-callout:none;
+  -webkit-tap-highlight-color:transparent;
+  animation:none;
+  transition:none;
+  min-height:66px;
+  height:auto;
+  align-self:stretch;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  padding:7px;
+}
+.bottom-nav[data-liquid-nav].liquid-enhanced > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]).active,
+.bottom-nav[data-liquid-nav].liquid-enhanced > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]):active {
+  background:transparent;
+  transform:none;
+  filter:none;
+}
+.bottom-nav[data-liquid-nav].liquid-enhanced[data-liquid-mode="webgl"] {
+  background:transparent;
+  border-color:transparent;
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="webgl"][data-liquid-content="ready"] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > :is(svg,span) {
+  opacity:0;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="webgl"] > .liquid-glass-indicator {
+  visibility:hidden;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > svg,
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > span {
+  position:relative;
+  z-index:1;
+  pointer-events:none;
+  flex:0 0 auto;
+  -webkit-user-drag:none;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > span {
+  min-width:0;
+  max-width:100%;
+  white-space:normal;
+  line-height:1.3;
+  text-align:center;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]):focus-visible {
+  outline:3px solid var(--rose);
+  outline-offset:1px;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]).glass-preview {
+  color:var(--plum);
+}
+.liquid-glass-indicator {
+  position:absolute;
+  z-index:0;
+  top:0;
+  left:0;
+  width:var(--glass-width,0px);
+  height:var(--glass-height,0px);
+  border-radius:var(--glass-radius,25px);
+  transform:translate3d(var(--glass-x,0px),var(--glass-y,0px),0);
+  background:var(--glass-floor);
+  border:1px solid var(--glass-edge);
+  box-shadow:inset 0 1px 2px rgba(255,255,255,.74),inset 0 -2px 4px var(--glass-shadow),0 3px 10px var(--glass-shadow);
+  pointer-events:none;
+  will-change:transform;
+}
+.liquid-glass-canvas {
+  position:absolute;
+  z-index:2;
+  top:-28px;
+  left:-24px;
+  width:calc(100% + 48px);
+  height:calc(100% + 56px);
+  max-width:none;
+  display:block;
+  pointer-events:none;
+  border-radius:16px;
+  /* The active lens may protrude beyond the base bar, never beyond this small
+     navigation-owned viewport. Do not mask it with the base capsule again. */
+  clip-path:inset(0px round 16px);
+}
+.bottom-nav[data-liquid-nav]:not([data-liquid-mode="webgl"]) .liquid-glass-canvas {
+  display:none;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="fallback"] .liquid-glass-indicator { background:var(--glass-floor); }
+.bottom-nav[data-liquid-nav][data-liquid-mode="reduced-transparency"],
+.bottom-nav[data-liquid-nav][data-liquid-mode="high-contrast"] {
+  background:var(--paper);
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="reduced-transparency"] .liquid-glass-indicator,
+.bottom-nav[data-liquid-nav][data-liquid-mode="high-contrast"] .liquid-glass-indicator {
+  background:var(--rose-soft);
+  border:2px solid var(--rose);
+  box-shadow:none;
+}
+@media (prefers-reduced-motion:reduce) {
+  .bottom-nav[data-liquid-nav] *,
+  .bottom-nav[data-liquid-nav] *::before,
+  .bottom-nav[data-liquid-nav] *::after {
+    animation:none!important;
+    transition:none!important;
+  }
+  .bottom-nav[data-liquid-nav] .liquid-glass-canvas { display:none; }
+  .liquid-glass-indicator { will-change:auto; }
+}
+@media (forced-colors:active) {
+  .bottom-nav[data-liquid-nav] .liquid-glass-indicator {
+    background:Canvas;
+    border:2px solid Highlight;
+    box-shadow:none;
+    forced-color-adjust:none;
+  }
+  .bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]).active { color:Highlight; }
+  .bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]):focus-visible { outline-color:Highlight; }
+}
+</style></head><body>
+<header class="studio-header"><div class="kicker">DRAMA ALARM / 7.2 / COMPONENT REFERENCE</div><h1>One system. Two morning stages.</h1><p>A public specification specimen, not your alarm data. Only the three bottom tabs use animated optical glass; every other surface and control uses static material and ordinary pressed feedback.</p>
+<div class="studio-tools"><fieldset><legend>Official free themes</legend><div class="segments"><button type="button" data-studio-theme="daybreak" aria-pressed="true">Daybreak</button><button type="button" data-studio-theme="velvet" aria-pressed="false">Velvet Stage</button></div></fieldset><fieldset><legend>Web text-size preview · not native Dynamic Type</legend><div class="segments"><button type="button" data-font-scale="1" aria-pressed="true">100%</button><button type="button" data-font-scale="1.25" aria-pressed="false">125%</button><button type="button" data-font-scale="1.5" aria-pressed="false">150%</button><button type="button" data-font-scale="2" aria-pressed="false">200%</button></div></fieldset></div></header>
+<main id="component-sheet" aria-label="Drama Alarm component specimens">
+<figure id="chrome-spec"><figcaption>01 / PAGE CHROME</figcaption><section class="specimen"><h2>Clear wayfinding.</h2><div class="toolbar-sample"><button class="toolbar-button icon-back" type="button" data-studio-action="back" aria-label="Back button example"><svg class="v5-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14.5 6-6 6 6 6"/></svg></button><strong>Alarm details</strong><span aria-hidden="true"></span></div><div class="editor-sample"><button class="toolbar-button" type="button" data-studio-action="cancel">Cancel</button><button class="toolbar-button toolbar-button--accent" type="button" data-studio-action="save">Save</button></div><p class="sample-note">Back, Cancel and Save keep a minimum 48 × 48 CSS-pixel hit area. These are Web specimen measurements, not iOS points or Android dp.</p></section><a class="specimen-link" href="#chrome-spec">Open component section</a></figure>
+<figure id="type-spec"><figcaption>02 / TYPE & COLOR</figcaption><section class="specimen"><h2>Readable when half-awake.</h2><p class="type-display">6:30 <small>AM</small></p><p class="type-body">Main copy starts at 16 CSS pixels. A clear next action matters more than ornamental detail.</p><p class="sample-note">Supporting copy and bottom-tab labels start at 14 CSS pixels. Selected tabs retain a text label, icon and surface — not color alone.</p><div class="swatches"><div class="swatch"><i class="swatch--paper" aria-hidden="true"></i><span>Paper</span></div><div class="swatch"><i class="swatch--accent" aria-hidden="true"></i><span>Accent</span></div><div class="swatch"><i class="swatch--tint" aria-hidden="true"></i><span>Soft tint</span></div></div></section><a class="specimen-link" href="#type-spec">Open component section</a></figure>
+<figure id="input-spec"><figcaption>03 / INPUT & ERROR</figcaption><section class="specimen"><h2>Explain, then recover.</h2><label class="input-label" for="sample-name">Example alarm name</label><input class="sample-input" id="sample-name" type="text" maxlength="32" value="Morning Show" autocomplete="off" aria-invalid="false" aria-describedby="name-help sample-error"><p class="sample-note" id="name-help">Editable specification example · 32 characters maximum · nothing is stored.</p><p class="field-error" id="sample-error" role="alert" hidden>Add a name for this example, or use Cancel to restore it.</p><div class="button-row"><button type="button" class="minor-button" data-studio-action="error">Show error</button><button type="button" class="minor-button" data-studio-action="clear-error">Clear error</button></div></section><a class="specimen-link" href="#input-spec">Open component section</a></figure>
+<figure id="switch-spec"><figcaption>04 / SWITCH STATES</figcaption><section class="specimen"><h2>Visible state. Real controls.</h2><div class="switch-row"><span><strong>On example</strong><small>A native button exposes its switch state.</small></span><button class="toggle" role="switch" aria-checked="true" aria-label="On example switch" type="button"></button></div><div class="switch-row"><span><strong>Off example</strong><small>Click or press Space to change this specimen.</small></span><button class="toggle" role="switch" aria-checked="false" aria-label="Off example switch" type="button"></button></div><div class="switch-row"><span><strong>Disabled example</strong><small>Disabled behavior is explicit, not a silent no-op.</small></span><button class="toggle" role="switch" aria-checked="false" aria-label="Disabled example switch" type="button" disabled></button></div></section><a class="specimen-link" href="#switch-spec">Open component section</a></figure>
+<figure id="surface-spec"><figcaption>05 / SURFACE STATES</figcaption><section class="specimen"><h2>Quiet material, honest states.</h2><div class="state-stack"><article class="sample-card"><strong><svg class="v5-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 16h14l-2-3V9a5 5 0 0 0-10 0v4Zm4 4h6M10 3V2h4v1"/></svg>Default specimen</strong><p>Static translucent surface. No lens animation is applied to cards.</p></article><article class="sample-card sample-card--selected"><strong><svg class="v5-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg>Selected specimen</strong><p>A border and check accompany the tinted surface.</p></article><article class="sample-card sample-card--error"><strong>Example needs attention</strong><p>Specific supporting text describes how to recover.</p></article></div></section><a class="specimen-link" href="#surface-spec">Open component section</a></figure>
+<figure id="action-spec"><figcaption>06 / ACTION STATES</figcaption><section class="specimen"><h2>One clear primary action.</h2><div class="button-row"><button type="button" class="primary" data-studio-action="save">Save example</button><button type="button" class="secondary" data-studio-action="cancel">Cancel</button><button type="button" class="secondary" disabled>Disabled</button></div><p class="sample-note">These controls use ordinary press feedback only. They never receive the bottom-tab refraction, moving highlights, dispersion or optical tail.</p></section><a class="specimen-link" href="#action-spec">Open component section</a></figure>
+<figure id="navigation-spec" class="wide"><figcaption>07 / BOTTOM TABS</figcaption><section class="specimen"><h2>Your next scene, under your finger.</h2><div class="nav-spec-grid"><div><div id="tab-sample"><nav class="bottom-nav studio-nav" data-liquid-nav data-active-index="0" aria-label="Primary navigation"><button type="button" data-action="go-home" class="active" aria-current="page"><svg class="v5-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 10 8.5-7 8.5 7v10a1 1 0 0 1-1 1H15v-7H9v7H4.5a1 1 0 0 1-1-1Z"/></svg><span>Home</span></button><button type="button" data-action="open-run"><svg class="v5-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V5m0 15h16M7.5 15l4-5 3.5 3 5-7"/><path d="M16 6h4v4"/></svg><span>Your Run</span></button><button type="button" data-action="open-settings"><svg class="v5-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9.3 3-.6 2.1-1.8 1L4.8 6l-2 3.5L4.4 11v2L2.8 14.5l2 3.5 2.1-.1 1.8 1 .6 2.1h5.4l.6-2.1 1.8-1 2.1.1 2-3.5-1.6-1.5v-2l1.6-1.5-2-3.5-2.1.1-1.8-1L14.7 3Z"/><circle cx="12" cy="12" r="3"/></svg><span>Settings</span></button></nav></div><p class="sample-note" id="tab-selection" role="status" aria-live="polite">Specification example: Home selected. No product page or alarm is created.</p><div class="phase-controls"><label for="phase-slider">Inspect a frozen material reference</label><input id="phase-slider" type="range" min="0" max="1.413333" step="0.001" value="0.35"><div class="button-row"><button type="button" class="minor-button" data-studio-action="replay">Resume live interaction</button><button type="button" class="minor-button" data-studio-action="fallback" aria-pressed="false">Static fallback</button></div><p class="sample-note" id="phase-state">Live pointer feedback. Click or press-and-drag a bottom tab.</p></div></div><div class="nav-notes"><h3>Tap, or press and drag.</h3><p>Tapping selects immediately. A horizontal movement of 8 CSS pixels can preview another tab without waiting; a stationary press of 180ms only changes the held material. Release commits once. Vertical intent, Escape, cancellation or moving more than 28 CSS pixels beyond the dock cancels the preview.</p><h3>Curved material, readable labels.</h3><p>The shared V3-inspired Web module composites the tab symbols and labels into one content texture. The lens boundary controls local selected color; curved-edge sampling refracts that content while the center remains legible. Active material may extend beyond the dock; ordinary controls elsewhere stay static.</p><h3>Accessible and progressive.</h3><p>Use Tab to focus a button and Enter or Space to select it; Escape cancels a drag. Reduced Motion disables the animated effect. Reduced Transparency, higher contrast preferences, unsupported clipping and unavailable WebGL keep an operable static selection.</p><p>This is a browser approximation, not an Apple API or arbitrary live-page capture. It samples its own generated scene and tab-content textures. No reference recording, private image, original audio, texture atlas or external resource is included.</p><p id="renderer-status" class="runtime-status" aria-live="polite"></p></div></div></section><a class="specimen-link" href="#navigation-spec">Open component section</a></figure>
+</main><footer class="studio-footer"><p>Static UI capture reference: <a href="../v7.1/designs/">7.1 historical design canvas</a>. The 88 static captures and 12 motion-reference images were not recaptured for 7.2; use this live studio and the product demo to inspect the current rendering fixes.</p>Drama Alarm 7.2 · public component reference · all values and states above are clearly marked specimens, not user results.<br>Use <code>?theme=daybreak</code> or <code>?theme=velvet</code>; <code>?phase=0.35&amp;tab=1</code> selects a synthetic frozen material reference, not measured interaction timing. <a href="./">Open the product demo</a>.</footer><div class="page-feedback" id="page-feedback" role="status" aria-live="polite" hidden></div>
+<script data-source="liquid-glass.js">/* Drama Alarm 7.2 — stable touch capture and V3 navigation composition.
+   No video frames, optical atlas, photographs, audio or native Apple APIs are used.
+   Two locally drawn canvases supply the theme neighborhood and actual navigation
+   icon/label content. This is not an arbitrary DOM screenshot. Real DOM buttons
+   remain semantic, focusable, and visible whenever rendering is unavailable. */
+(function (global) {
+  "use strict";
+
+  const DURATION = 1.413333;
+  const DRAG_THRESHOLD = 8;
+  const HOLD_MS = 180;
+  const PAD_X = 24;
+  const PAD_Y = 28;
+  const ENVELOPE = [
+    [0, 0, 1, 0, 0], [.033, .38, 1, .02, 0],
+    [.083, .88, 1, .08, .03], [.150, 1, .85, .24, .12],
+    [.217, 1, .33, .68, .24], [.317, 1, .05, 1, .40],
+    [.485, 1, 0, 1, .60], [.652, .93, 0, 1, .74],
+    [.850, .75, 0, 1, .86], [1, .53, 0, 1, .94],
+    [1.15, .30, 0, 1, 1], [1.25, .12, 0, 1, 1],
+    [1.35, .015, 0, 1, 1], [DURATION, 0, 0, 1, 1]
+  ];
+  const finite = (value, fallback = 0) => Number.isFinite(value) ? value : fallback;
+  const clamp = (value, low, high) => Math.max(low, Math.min(high, finite(value, low)));
+  const smooth = value => { const x = clamp(value, 0, 1); return x * x * (3 - 2 * x); };
+  function sampleEnvelope(seconds) {
+    if (!Number.isFinite(seconds) || seconds < 0 || seconds >= DURATION) {
+      return { energy: 0, sphere: 0, morph: 1, echo: 1 };
+    }
+    let index = 0;
+    while (index < ENVELOPE.length - 2 && seconds > ENVELOPE[index + 1][0]) index++;
+    const a = ENVELOPE[index], b = ENVELOPE[index + 1];
+    const mix = smooth((seconds - a[0]) / (b[0] - a[0]));
+    const values = a.slice(1).map((value, i) => value + (b[i + 1] - value) * mix);
+    return { energy: values[0], sphere: values[1], morph: values[2], echo: values[3] };
+  }
+  function nearestIndex(x, centers) {
+    if (!centers.length) return -1;
+    let result = 0, distance = Infinity;
+    centers.forEach((center, index) => {
+      const next = Math.abs(finite(x) - center);
+      if (next < distance) { result = index; distance = next; }
+    });
+    return result;
+  }
+  function gestureIntent(dx, dy, elapsed = 0) {
+    const x = Math.abs(finite(dx)), y = Math.abs(finite(dy));
+    if (y > 10 && y > x * 1.15) return "vertical";
+    if (x >= DRAG_THRESHOLD && x > y * 1.2) return "dragging";
+    return elapsed >= HOLD_MS ? "holding" : "pressed";
+  }
+  function springStep(position, velocity, target, deltaSeconds) {
+    const dt = clamp(deltaSeconds, 0, 1 / 30);
+    const nextVelocity = (finite(velocity) + (finite(target) - finite(position)) * 360 * dt) * Math.exp(-28 * dt);
+    return { position: finite(position) + nextVelocity * dt, velocity: nextVelocity };
+  }
+  function shapeGeometry(halfWidth, halfHeight, morph) {
+    const amount = clamp(morph, 0, 1), seed = Math.max(8, halfHeight * .40);
+    const effectiveHalfWidth = seed + (halfWidth - seed) * amount;
+    const effectiveHalfHeight = seed + (halfHeight - seed) * amount;
+    const rawCornerRadius = effectiveHalfHeight + (Math.min(halfHeight * .78, 25) - effectiveHalfHeight) * amount;
+    return { effectiveHalfWidth, effectiveHalfHeight, rawCornerRadius, effectiveCornerRadius: Math.min(rawCornerRadius, effectiveHalfWidth, effectiveHalfHeight) };
+  }
+  function captureLossCancels({ samePointer, fromOwner, ownerStillCaptures }) {
+    return Boolean(samePointer && fromOwner && !ownerStillCaptures);
+  }
+  function geometryRect(rect = {}) {
+    const w = Math.max(0, finite(rect.w)), h = Math.max(0, finite(rect.h));
+    return { x: finite(rect.x), y: finite(rect.y), w, h, r: clamp(finite(rect.r, h / 2), 0, Math.min(w, h) / 2) };
+  }
+  const math = Object.freeze({ DURATION, DRAG_THRESHOLD, HOLD_MS, clamp, smooth, sampleEnvelope, nearestIndex, gestureIntent, springStep, shapeGeometry, geometry: geometryRect, captureLossCancels });
+  global.DramaGlassMath = math;
+  if (typeof module !== "undefined" && module.exports) module.exports = math;
+  if (!global.document || global.DramaLiquidGlass) return;
+
+  const document = global.document;
+  // Adapted from the self-owned UI UX Pro Max V3 glass.js (2026-10-29).
+  // Only renderer source is reused; no demo photographs, recordings or atlases.
+  function createV3Renderer(output, scene, content) {
+/*
+ * Scene-backed Liquid Glass renderer. Filled symbols and labels share one
+ * optical texture, spatial selection mask and curved-edge sampling field.
+ * Geometry uses viewport CSS pixels; time is in seconds. WebGL 1 / GLSL ES 1.00.
+ */
+
+const VERTEX_SHADER = `
+attribute vec2 aPosition;
+void main() { gl_Position = vec4(aPosition, 0.0, 1.0); }
+`;
+
+const FRAGMENT_SHADER = `
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+
+uniform sampler2D uScene;
+uniform sampler2D uIcons;
+uniform float uHasIcons;
+uniform float uIconRefraction;
+uniform float uActivity;
+uniform vec3 uSelectedInk;
+uniform vec2 uSize;
+uniform vec2 uPixels;
+uniform vec4 uBar;
+uniform vec4 uLens;
+uniform vec2 uRadii;
+uniform vec2 uPointer;
+uniform vec2 uVelocity;
+uniform float uMotion;
+uniform float uReducedTransparency;
+uniform float uStrength;
+uniform float uAA;
+uniform float uOptics;
+uniform float uLightPhase;
+
+float roundedBox(vec2 p, vec4 rect, float radius) {
+  vec2 halfSize = rect.zw * 0.5;
+  vec2 q = abs(p - rect.xy - halfSize) - halfSize + radius;
+  return length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - radius;
+}
+
+// Shape is driven by the parent gesture spring. There is no idle oscillation.
+float lensDistance(vec2 p) {
+  return roundedBox(p, uLens, uRadii.y);
+}
+
+vec2 surfaceNormal(vec2 p, vec4 rect, float radius) {
+  const float e = 0.5;
+  vec2 n = vec2(
+    roundedBox(p + vec2(e, 0.0), rect, radius) -
+      roundedBox(p - vec2(e, 0.0), rect, radius),
+    roundedBox(p + vec2(0.0, e), rect, radius) -
+      roundedBox(p - vec2(0.0, e), rect, radius));
+  return n / max(length(n), 0.0001);
+}
+
+vec3 scene(vec2 p) {
+  return texture2D(uScene, clamp(p / uSize, vec2(0.001), vec2(0.999))).rgb;
+}
+
+vec4 iconAt(vec2 p) {
+  // One premultiplied texture contains both filled glyphs AND their labels.
+  return texture2D(uIcons, clamp(p / uSize, vec2(0.001), vec2(0.999)));
+}
+
+float luminance(vec3 color) {
+  return dot(color, vec3(0.2126, 0.7152, 0.0722));
+}
+
+vec2 lensSamplePoint(vec2 p, float d, vec2 normal, float power) {
+  vec2 center = uLens.xy + uLens.zw * 0.5;
+  vec2 local = p - center;
+  float interior = 1.0 - smoothstep(-2.0, 0.0, d);
+  // A steep curved shoulder bends only the portion crossing the rim. This
+  // nonlinear inverse map is deliberately separate from center enlargement.
+  float rim = pow(clamp(1.0 + d / 22.0, 0.0, 1.0), 1.55);
+  vec2 magnify = -local * 0.072 * interior;
+  vec2 shoulder = -normal * 17.0 * rim;
+  // Curvature fans the label and symbol contours near the rounded ends.
+  // It is tied to surface position, never a time-based wobble.
+  vec2 tangent = vec2(-normal.y, normal.x);
+  float sideways = local.y / max(uLens.w * 0.5, 1.0);
+  vec2 fan = tangent * sideways * abs(normal.x) * rim * 4.2;
+  return p + (magnify + shoulder + fan) * power;
+}
+
+vec3 refractedScene(vec2 p, vec2 normal, float edge, float power) {
+  vec2 dispersion = normal * edge * 0.6 * power;
+  vec3 sampleColor = scene(p);
+  sampleColor.r = scene(p + dispersion).r;
+  sampleColor.b = scene(p - dispersion).b;
+  return sampleColor;
+}
+
+vec3 barColor(vec2 p, float d, vec2 normal, float ambient) {
+  float edge = pow(1.0 - smoothstep(0.0, 10.0, max(-d, 0.0)), 1.45);
+  float power = uStrength * (1.0 - uReducedTransparency) * uOptics;
+  vec3 color = refractedScene(p - normal * edge * 12.0 * power,
+    normal, edge, power);
+  vec3 neutral = mix(vec3(0.16, 0.19, 0.23), vec3(0.98),
+    smoothstep(0.18, 0.75, ambient));
+  color = mix(color, neutral, mix(0.11, 0.97, uReducedTransparency));
+  float rim = exp(-abs(d + 0.45) * 2.0);
+  float bottom = max(normal.y, 0.0);
+  color += vec3(1.0) * rim * (0.13 + max(-normal.y, 0.0) * 0.17);
+  color -= vec3(0.035) * edge * bottom;
+  return clamp(color, 0.0, 1.0);
+}
+
+vec3 selectionColor(vec2 p, float d, vec2 normal, float ambient) {
+  float active = clamp(uActivity, 0.0, 1.0);
+  float clear = 1.0 - uReducedTransparency;
+  float power = active * uStrength * clear * uOptics;
+  float edge = pow(clamp(1.0 + d / 18.0, 0.0, 1.0), 1.25);
+  vec2 samplePoint = lensSamplePoint(p, d, normal, power * 0.82);
+  vec3 color = refractedScene(samplePoint, normal, edge, power);
+  float light = smoothstep(0.22, 0.72, ambient);
+  vec3 resting = mix(vec3(0.23, 0.26, 0.30), vec3(0.885, 0.89, 0.90), light);
+  vec3 litTint = mix(vec3(0.20, 0.24, 0.29), vec3(1.0), light);
+  // Rest: a quiet grey selection. Touch: a clearer, elevated optical lens.
+  vec3 restColor = mix(color, resting, 0.80);
+  vec3 activeColor = mix(color, litTint, 0.09);
+  color = mix(restColor, activeColor, active);
+  color = mix(color, mix(resting, litTint, active * 0.5),
+    uReducedTransparency * 0.97);
+
+  vec2 local = p - uLens.xy - uLens.zw * 0.5;
+  float rim = exp(-abs(d + 0.45) * 2.0);
+  float innerRim = exp(-abs(d + 1.8) * 1.1);
+  vec2 lightDirection = normalize(vec2(sin(uLightPhase) * 0.65, -1.0));
+  float upper = max(dot(normal, lightDirection), 0.0);
+  float lower = max(-dot(normal, lightDirection), 0.0);
+  // Reflections belong to the glass surface, not baked into the glyphs.
+  color += vec3(1.0) * rim * active * (0.19 + upper * 0.32);
+  color += vec3(0.85, 0.93, 1.0) * innerRim * lower * active * 0.12;
+  color -= vec3(0.065, 0.070, 0.075) * edge * active * (0.35 + upper * 0.7);
+  float topBevel = exp(-pow((local.y + uLens.w * 0.5 - 7.0) / 4.5, 2.0));
+  color -= vec3(0.045) * topBevel * active * clear;
+  // Narrow opposing edge hues follow actual surface curvature.
+  float chromaRim = exp(-abs(d + 1.2) * 1.2) * abs(normal.x) * active * clear;
+  color += vec3(-0.018, 0.022, 0.035) * chromaRim * uStrength;
+  return clamp(color, 0.0, 1.0);
+}
+
+void main() {
+  vec2 p = vec2(gl_FragCoord.x / uPixels.x,
+    1.0 - gl_FragCoord.y / uPixels.y) * uSize;
+  float dBar = roundedBox(p, uBar, uRadii.x);
+  float dLens = lensDistance(p);
+  float hasBar = step(0.5, uBar.z);
+  float hasLens = step(0.5, uLens.z);
+  float barMask = (1.0 - smoothstep(-uAA, uAA, dBar)) * hasBar;
+  float lensMask = (1.0 - smoothstep(-uAA, uAA, dLens)) * hasLens;
+  float activity = clamp(uActivity, 0.0, 1.0);
+  float shadowDistance = roundedBox(p - vec2(0.0, 3.0), uLens, uRadii.y);
+  float shadow = exp(-max(shadowDistance, 0.0) / 4.0) *
+    (1.0 - lensMask) * hasLens * activity * 0.14;
+
+  // The active lens is an independent surface and may protrude beyond the bar.
+  // Avoid clipping it to the base capsule as V2 did.
+  if (barMask + lensMask + shadow < 0.001) {
+    gl_FragColor = vec4(0.0); return;
+  }
+  vec2 center = uBar.xy + uBar.zw * 0.5;
+  float ambient = luminance((scene(center) +
+    scene(center + vec2(uBar.z * 0.29, 0.0)) +
+    scene(center - vec2(uBar.z * 0.29, 0.0))) / 3.0);
+  vec3 premul = vec3(0.10, 0.13, 0.17) * shadow;
+  float alpha = shadow;
+  if (barMask > 0.001) {
+    vec3 color = barColor(p, dBar, surfaceNormal(p, uBar, uRadii.x), ambient);
+    float a = barMask * 0.985;
+    premul = color * a + premul * (1.0 - a);
+    alpha = a + alpha * (1.0 - a);
+  }
+  vec2 nLens = surfaceNormal(p, uLens, uRadii.y);
+  if (lensMask > 0.001) {
+    vec3 color = selectionColor(p, dLens, nLens, ambient);
+    float a = lensMask * 0.99;
+    premul = color * a + premul * (1.0 - a);
+    alpha = a + alpha * (1.0 - a);
+  }
+
+  if (uHasIcons > 0.5) {
+    vec4 original = iconAt(p);
+    float opticalPower = activity * uStrength * uIconRefraction *
+      (1.0 - uReducedTransparency) * mix(0.25, 1.0, uMotion) * uOptics;
+    vec2 samplePoint = lensSamplePoint(p, dLens, nLens, opticalPower);
+    float rim = pow(clamp(1.0 + dLens / 10.0, 0.0, 1.0), 1.65);
+    vec2 spectralOffset = nLens * rim * 1.05 * opticalPower;
+    float a = iconAt(samplePoint).a;
+    vec3 coverage = vec3(iconAt(samplePoint + spectralOffset).a,
+      a, iconAt(samplePoint - spectralOffset).a);
+    // The selected ink is revealed spatially by the passing glass. A single
+    // glyph may therefore be blue inside and retain its original ink outside.
+    vec3 glyphCoverage = mix(vec3(original.a), coverage, lensMask);
+    vec3 glyphPremul = mix(original.rgb, uSelectedInk * coverage, lensMask);
+    premul = glyphPremul + premul * (vec3(1.0) - glyphCoverage);
+    float glyphAlpha = max(glyphCoverage.r, max(glyphCoverage.g, glyphCoverage.b));
+    alpha = glyphAlpha + alpha * (1.0 - glyphAlpha);
+  }
+  gl_FragColor = vec4(clamp(premul, 0.0, 1.0), clamp(alpha, 0.0, 1.0));
+}
+`;
+
+const finite = (value, fallback) => Number.isFinite(value) ? value : fallback;
+const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+
+function parseInk(value, fallback) {
+  if (typeof value !== 'string') return fallback;
+  const match = value.match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+  if (!match) return fallback;
+  let hex = match[1];
+  if (hex.length === 3) hex = hex.split('').map((c) => c + c).join('');
+  return [0, 2, 4].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255);
+}
+
+function geometry(rect) {
+  const w = Math.max(0, finite(rect?.w, 0));
+  const h = Math.max(0, finite(rect?.h, 0));
+  return {
+    x: finite(rect?.x, 0), y: finite(rect?.y, 0), w, h,
+    r: clamp(finite(rect?.r, h * 0.5), 0, Math.min(w, h) * 0.5),
+  };
+}
+
+class LiquidGlassRenderer {
+  constructor(outputCanvas, sourceCanvas, iconCanvas = null) {
+    this.canvas = outputCanvas;
+    this.sourceCanvas = sourceCanvas;
+    this.iconCanvas = iconCanvas;
+    this.success = false;
+    this.fallback = true;
+    this.error = null;
+    this.width = 1;
+    this.height = 1;
+    this.dpr = 1;
+    this._destroyed = false;
+    this._lost = false;
+    this._previousCenter = null;
+    this._lastFrame = 0;
+    this._velocity = { x: 0, y: 0 };
+    this._onLost = (event) => {
+      event.preventDefault();
+      this._lost = true;
+      this._fail(new Error('WebGL context lost'));
+    };
+    this._onRestored = () => {
+      if (this._destroyed) return;
+      this._lost = false;
+      this._init();
+      this.resize(this.width, this.height, this.dpr);
+    };
+
+    try {
+      if (!outputCanvas?.getContext || !sourceCanvas || outputCanvas === sourceCanvas) {
+        throw new Error('LiquidGlassRenderer requires separate output and source canvases');
+      }
+      outputCanvas.addEventListener('webglcontextlost', this._onLost, false);
+      outputCanvas.addEventListener('webglcontextrestored', this._onRestored, false);
+      this._init();
+      const dpr = typeof window === 'undefined' ? 1 : window.devicePixelRatio || 1;
+      this.resize(outputCanvas.clientWidth || sourceCanvas.clientWidth || sourceCanvas.width / dpr,
+        outputCanvas.clientHeight || sourceCanvas.clientHeight || sourceCanvas.height / dpr, dpr);
+    } catch (error) {
+      this._fail(error);
+    }
+  }
+
+  _fail(error) {
+    this.success = false;
+    this.fallback = true;
+    this.error = error instanceof Error ? error : new Error(String(error));
+  }
+
+  _compile(type, source) {
+    const gl = this.gl;
+    const shader = gl.createShader(type);
+    if (!shader) throw new Error('Could not allocate a WebGL shader');
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+      const message = gl.getShaderInfoLog(shader) || 'Shader compilation failed';
+      gl.deleteShader(shader);
+      throw new Error(message);
+    }
+    return shader;
+  }
+
+  _init() {
+    try {
+      const attributes = {
+        alpha: true, premultipliedAlpha: true, antialias: false,
+        depth: false, stencil: false, preserveDrawingBuffer: false,
+        powerPreference: 'low-power',
+      };
+      const gl = this.canvas.getContext('webgl', attributes) ||
+        this.canvas.getContext('experimental-webgl', attributes);
+      if (!gl) throw new Error('WebGL is unavailable');
+      this.gl = gl;
+      const vertex = this._compile(gl.VERTEX_SHADER, VERTEX_SHADER);
+      const fragment = this._compile(gl.FRAGMENT_SHADER, FRAGMENT_SHADER);
+      const program = gl.createProgram();
+      if (!program) throw new Error('Could not allocate a WebGL program');
+      gl.attachShader(program, vertex);
+      gl.attachShader(program, fragment);
+      gl.linkProgram(program);
+      gl.deleteShader(vertex);
+      gl.deleteShader(fragment);
+      if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+        const message = gl.getProgramInfoLog(program) || 'Shader linking failed';
+        gl.deleteProgram(program);
+        throw new Error(message);
+      }
+      this.program = program;
+      this.buffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, this.buffer);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+      this.position = gl.getAttribLocation(program, 'aPosition');
+      this.texture = gl.createTexture();
+      if (!this.buffer || !this.texture) throw new Error('Could not allocate WebGL resources');
+      gl.bindTexture(gl.TEXTURE_2D, this.texture);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      this.iconTexture = gl.createTexture();
+      if (!this.iconTexture) throw new Error('Could not allocate the icon texture');
+      gl.activeTexture(gl.TEXTURE1);
+      gl.bindTexture(gl.TEXTURE_2D, this.iconTexture);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA,
+        gl.UNSIGNED_BYTE, new Uint8Array([0, 0, 0, 0]));
+      gl.activeTexture(gl.TEXTURE0);
+      this.uniforms = {};
+      for (const name of ['uScene', 'uSize', 'uPixels', 'uBar', 'uLens', 'uRadii',
+        'uPointer', 'uVelocity', 'uMotion', 'uReducedTransparency', 'uStrength', 'uAA',
+        'uIcons', 'uHasIcons', 'uIconRefraction', 'uActivity', 'uSelectedInk', 'uOptics', 'uLightPhase']) {
+        this.uniforms[name] = gl.getUniformLocation(program, name);
+      }
+      gl.disable(gl.DEPTH_TEST);
+      gl.disable(gl.BLEND);
+      gl.clearColor(0, 0, 0, 0);
+      this.success = true;
+      this.fallback = false;
+      this.error = null;
+    } catch (error) {
+      this._fail(error);
+    }
+  }
+
+  /** Supply a transparent same-viewport icon canvas, or null to detach it. */
+  setIconCanvas(canvas) {
+    if (canvas === this.canvas || canvas === this.sourceCanvas) {
+      throw new Error('The icon texture must use its own transparent canvas');
+    }
+    this.iconCanvas = canvas || null;
+    return this;
+  }
+
+  resize(width, height, dpr = typeof window === 'undefined' ? 1 : window.devicePixelRatio || 1) {
+    if (this._destroyed || !this.canvas) return false;
+    this.width = Math.max(1, finite(width, 1));
+    this.height = Math.max(1, finite(height, 1));
+    this.dpr = clamp(finite(dpr, 1), 1, 2);
+    const pixelWidth = Math.max(1, Math.round(this.width * this.dpr));
+    const pixelHeight = Math.max(1, Math.round(this.height * this.dpr));
+    if (this.canvas.width !== pixelWidth) this.canvas.width = pixelWidth;
+    if (this.canvas.height !== pixelHeight) this.canvas.height = pixelHeight;
+    if (this.canvas.style) {
+      this.canvas.style.width = `${this.width}px`;
+      this.canvas.style.height = `${this.height}px`;
+    }
+    if (this.gl && !this._lost) this.gl.viewport(0, 0, pixelWidth, pixelHeight);
+    return this.success;
+  }
+
+  /** Returns false if the parent should show its CSS fallback. */
+  render({ bar, lens, pointer, time, reducedMotion = false,
+    reducedTransparency = false, strength = 1, iconRefraction = 1, press = 0,
+    activity = press, ink = '#202124', selectedInk = '#007aff', optics = 1, lightPhase = 0 } = {}) {
+    if (this._destroyed || !this.success || this._lost) return false;
+    const gl = this.gl;
+    try {
+      if (gl.isContextLost()) {
+        this._lost = true;
+        this._fail(new Error('WebGL context lost'));
+        return false;
+      }
+      if (!this.sourceCanvas.width || !this.sourceCanvas.height) return false;
+      const b = geometry(bar);
+      const l = geometry(lens);
+      const now = (typeof performance === 'undefined' ? Date.now() : performance.now()) / 1000;
+      const delta = clamp(now - this._lastFrame, 1 / 240, 0.1);
+      const center = { x: l.x + l.w * 0.5, y: l.y + l.h * 0.5 };
+      const targetX = this._previousCenter ?
+        clamp((center.x - this._previousCenter.x) / delta / 1300, -1, 1) : 0;
+      const targetY = this._previousCenter ?
+        clamp((center.y - this._previousCenter.y) / delta / 1300, -1, 1) : 0;
+      const smoothing = 1 - Math.exp(-delta * 18);
+      this._velocity.x += (targetX - this._velocity.x) * smoothing;
+      this._velocity.y += (targetY - this._velocity.y) * smoothing;
+      this._previousCenter = center;
+      this._lastFrame = now;
+
+      gl.viewport(0, 0, this.canvas.width, this.canvas.height);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.useProgram(this.program);
+      gl.bindBuffer(gl.ARRAY_BUFFER, this.buffer);
+      gl.enableVertexAttribArray(this.position);
+      gl.vertexAttribPointer(this.position, 2, gl.FLOAT, false, 0, 0);
+      gl.activeTexture(gl.TEXTURE0);
+      gl.bindTexture(gl.TEXTURE_2D, this.texture);
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
+      gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, false);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, this.sourceCanvas);
+      const hasIcons = !!(this.iconCanvas?.width && this.iconCanvas?.height);
+      gl.activeTexture(gl.TEXTURE1);
+      gl.bindTexture(gl.TEXTURE_2D, this.iconTexture);
+      if (hasIcons) {
+        gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, true);
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, this.iconCanvas);
+        gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, false);
+      }
+
+      const u = this.uniforms;
+      gl.uniform1i(u.uScene, 0);
+      gl.uniform1i(u.uIcons, 1);
+      gl.uniform1f(u.uHasIcons, hasIcons ? 1 : 0);
+      gl.uniform1f(u.uIconRefraction, clamp(finite(iconRefraction, 1), 0, 2));
+      gl.uniform1f(u.uActivity, clamp(finite(activity, 0), 0, 1));
+      gl.uniform1f(u.uOptics, optics ? 1 : 0);
+      gl.uniform1f(u.uLightPhase, finite(lightPhase, 0));
+      const selectedColor = parseInk(selectedInk, [0, 122 / 255, 1]);
+      gl.uniform3f(u.uSelectedInk, ...selectedColor);
+      gl.uniform2f(u.uSize, this.width, this.height);
+      gl.uniform2f(u.uPixels, this.canvas.width, this.canvas.height);
+      gl.uniform4f(u.uBar, b.x, b.y, b.w, b.h);
+      gl.uniform4f(u.uLens, l.x, l.y, l.w, l.h);
+      gl.uniform2f(u.uRadii, b.r, l.r);
+      gl.uniform2f(u.uPointer, finite(pointer?.x, -10000), finite(pointer?.y, -10000));
+      gl.uniform2f(u.uVelocity, this._velocity.x, this._velocity.y);
+      gl.uniform1f(u.uMotion, reducedMotion ? 0 : 1);
+      gl.uniform1f(u.uReducedTransparency, reducedTransparency ? 1 : 0);
+      gl.uniform1f(u.uStrength, clamp(finite(strength, 1), 0, 2));
+      gl.uniform1f(u.uAA, Math.max(0.55, 0.95 / this.dpr));
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
+      return true;
+    } catch (error) {
+      // Includes a tainted source canvas: keep the DOM fallback usable.
+      this._fail(error);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      return false;
+    }
+  }
+
+  destroy() {
+    if (this._destroyed) return;
+    this._destroyed = true;
+    this.canvas?.removeEventListener('webglcontextlost', this._onLost, false);
+    this.canvas?.removeEventListener('webglcontextrestored', this._onRestored, false);
+    if (this.gl && !this._lost) {
+      this.gl.deleteTexture(this.texture);
+      this.gl.deleteTexture(this.iconTexture);
+      this.gl.deleteBuffer(this.buffer);
+      this.gl.deleteProgram(this.program);
+      this.gl.clear(this.gl.COLOR_BUFFER_BIT);
+    }
+    this.success = false;
+    this.fallback = true;
+    this._previousCenter = null;
+    this.iconCanvas = null;
+  }
+}
+
+    return new LiquidGlassRenderer(output, scene, content);
+  }
+
+  const selectors = "nav.bottom-nav[data-liquid-nav]";
+  const allowedActions = Object.freeze(["go-home", "open-run", "open-settings"]);
+  const buttonSelector = selectors + " > button:is(" + allowedActions.map(action => '[data-action="' + action + '"]').join(",") + ")";
+  const canvas = document.createElement("canvas");
+  const sceneCanvas = document.createElement("canvas");
+  const contentCanvas = document.createElement("canvas");
+  const sceneContext = sceneCanvas.getContext("2d");
+  const contentContext = contentCanvas.getContext("2d");
+  canvas.className = "liquid-glass-canvas";
+  canvas.setAttribute("aria-hidden", "true"); canvas.setAttribute("role", "presentation");
+  const indicator = document.createElement("span");
+  indicator.className = "liquid-glass-indicator"; indicator.setAttribute("aria-hidden", "true");
+  let renderer = createV3Renderer(canvas, sceneCanvas, contentCanvas);
+  let nav = null, buttons = [], geometry = null, resizeObserver = null;
+  let raf = 0, previousFrame = 0, currentX = null, targetX = 0, velocity = 0;
+  let pulseStart = -Infinity, pulseSerial = 0, gesture = null, previewIndex = -1;
+  let suppression = null, internalClick = false, destroyed = false;
+  let lastFrame = null, lastCancelReason = null, lastOutcome = "idle";
+  let activeIndex = 0, commitCount = 0, cancelCount = 0, previewCount = 0, lastCommittedIndex = null;
+  let lastCommitAt = -Infinity, mode = "fallback", activity = 0, activityVelocity = 0, tapUntil = 0;
+  let glyphs = [], contentReady = false, contentFallbackReason = null;
+  let rasterSignature = "", rasterActiveIndex = -1, lastPointerType = null;
+  let ignoredCaptureLosses = 0, captureAcquiredCount = 0, captureLostCount = 0;
+  const renderStats = { mounts: 0, measurements: 0, contentRasters: 0, drawFrames: 0 };
+  const defaultTest = () => ({ freeze: false, elapsed: .35, optics: true, lightOffset: 0, forceFallback: false, activity: null, lensX: null, iconRefraction: 1, scene: "theme" });
+  const test = defaultTest();
+  const reducedMotion = global.matchMedia("(prefers-reduced-motion: reduce)");
+  const reducedTransparency = global.matchMedia("(prefers-reduced-transparency: reduce)");
+  const moreContrast = global.matchMedia("(prefers-contrast: more)");
+  const forcedColors = global.matchMedia("(forced-colors: active)");
+  const clippingSupported = Boolean(global.CSS?.supports?.("clip-path", "inset(0px round 16px)"));
+  const listeners = [];
+  function listen(target, type, callback, options) {
+    target.addEventListener(type, callback, options); listeners.push([target, type, callback, options]);
+  }
+  const now = () => global.performance.now();
+  function preferredMode() {
+    if (forcedColors.matches || moreContrast.matches) return "high-contrast";
+    if (reducedTransparency.matches) return "reduced-transparency";
+    if (reducedMotion.matches) return "reduced-motion";
+    return renderer?.success && contentReady && clippingSupported && !test.forceFallback ? "webgl" : "fallback";
+  }
+  function setMode(next) {
+    mode = next;
+    if (nav) {
+      nav.dataset.liquidMode = mode;
+      // DOM content is hidden ONLY after a successful frame of its replacement.
+      if (mode !== "webgl") delete nav.dataset.liquidContent;
+    }
+  }
+  function palette() {
+    const style = global.getComputedStyle(document.documentElement);
+    const velvet = document.documentElement.dataset.theme === "velvet";
+    return {
+      cream: style.getPropertyValue("--cream").trim() || (velvet ? "#fbf3ec" : "#f5f8f6"),
+      ink: style.getPropertyValue("--plum").trim() || (velvet ? "#452b3d" : "#22352e"),
+      selectedInk: style.getPropertyValue("--rose").trim() || (velvet ? "#a73558" : "#216b51")
+    };
+  }
+  function indexFromDOM() {
+    const selected = buttons.findIndex(button => button.getAttribute("aria-current") === "page" || button.classList.contains("active"));
+    return selected >= 0 ? selected : Math.trunc(clamp(Number(nav?.dataset.activeIndex), 0, buttons.length - 1));
+  }
+  function stop() { if (raf) global.cancelAnimationFrame(raf); raf = 0; previousFrame = 0; }
+  function requestFrame() {
+    if (destroyed || raf || !nav?.isConnected || document.hidden) return;
+    raf = global.requestAnimationFrame(draw);
+  }
+  const normalizeRect = geometryRect;
+  function placeIndicator(cell, x) {
+    const halfWidth = Math.max(24, cell.width / 2 - 2.5), halfHeight = Math.max(24, (geometry.bar.h - 10) / 2);
+    indicator.style.setProperty("--glass-x", (x - halfWidth) + "px");
+    indicator.style.setProperty("--glass-y", (cell.y - halfHeight) + "px");
+    indicator.style.setProperty("--glass-width", (halfWidth * 2) + "px");
+    indicator.style.setProperty("--glass-height", (halfHeight * 2) + "px");
+    indicator.style.setProperty("--glass-radius", halfHeight + "px");
+    return { halfWidth, halfHeight };
+  }
+  function resizeSource(source, context) {
+    const width = Math.round(geometry.width * geometry.dpr), height = Math.round(geometry.height * geometry.dpr);
+    if (source.width !== width) source.width = width;
+    if (source.height !== height) source.height = height;
+    context.setTransform(geometry.dpr, 0, 0, geometry.dpr, 0, 0);
+    context.clearRect(0, 0, geometry.width, geometry.height);
+  }
+  function drawScene() {
+    if (!sceneContext) return false;
+    resizeSource(sceneCanvas, sceneContext);
+    // Reconstruct ONLY our known theme-colored navigation neighborhood. This is
+    // not an HTML screenshot, nor a claim to refract arbitrary page imagery.
+    const ctx = sceneContext, colors = palette();
+    ctx.fillStyle = colors.cream; ctx.fillRect(0, 0, geometry.width, geometry.height);
+    if (test.scene === "calibration") {
+      ctx.fillStyle = "#fafafa"; ctx.fillRect(0, 0, geometry.width, geometry.height);
+      ctx.strokeStyle = "#8a969e"; ctx.lineWidth = 1;
+      for (let x = 0; x < geometry.width; x += 14) {
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, geometry.height); ctx.stroke();
+      }
+      ctx.fillStyle = "#b7d1d9"; ctx.fillRect(geometry.width * .35, 0, 9, geometry.height);
+    }
+    return true;
+  }
+  function localRect(rect) {
+    return { x: rect.left - geometry.rect.left - geometry.borderLeft + PAD_X,
+      y: rect.top - geometry.rect.top - geometry.borderTop + PAD_Y, w: rect.width, h: rect.height };
+  }
+  function drawSymbol(svg, ink) {
+    const ctx = contentContext, rect = localRect(svg.getBoundingClientRect());
+    const viewBox = svg.viewBox?.baseVal;
+    if (!viewBox?.width || !rect.w || !rect.h) throw new Error("Missing navigation icon geometry");
+    ctx.save(); ctx.translate(rect.x, rect.y); ctx.scale(rect.w / viewBox.width, rect.h / viewBox.height); ctx.translate(-viewBox.x, -viewBox.y);
+    ctx.fillStyle = ink; ctx.strokeStyle = ink; ctx.lineCap = "round"; ctx.lineJoin = "round";
+    // Reuse the actual product's coherent SVG family, not the unrelated demo
+    // glyphs. Never blindly fill an open run-chart or gear outline.
+    for (const element of svg.querySelectorAll("path,circle,rect,line,polyline,polygon")) {
+      const computed = global.getComputedStyle(element);
+      ctx.lineWidth = parseFloat(computed.strokeWidth) || 1.8;
+      let path;
+      if (element.tagName.toLowerCase() === "path") path = new Path2D(element.getAttribute("d") || "");
+      else {
+        path = new Path2D(); const get = name => parseFloat(element.getAttribute(name)) || 0;
+        switch (element.tagName.toLowerCase()) {
+          case "circle": path.arc(get("cx"), get("cy"), get("r"), 0, Math.PI * 2); break;
+          case "rect": path.rect(get("x"), get("y"), get("width"), get("height")); break;
+          case "line": path.moveTo(get("x1"), get("y1")); path.lineTo(get("x2"), get("y2")); break;
+          default: {
+            const points = (element.getAttribute("points") || "").trim().split(/[\s,]+/).map(Number);
+            for (let i = 0; i < points.length - 1; i += 2) i ? path.lineTo(points[i], points[i + 1]) : path.moveTo(points[i], points[i + 1]);
+            if (element.tagName.toLowerCase() === "polygon") path.closePath();
+          }
+        }
+      }
+      if (computed.fill !== "none") ctx.fill(path, element.getAttribute("fill-rule") || "nonzero");
+      if (computed.stroke !== "none") ctx.stroke(path);
+    }
+    ctx.restore(); return rect;
+  }
+  function drawLabel(span, ink) {
+    const ctx = contentContext, style = global.getComputedStyle(span), fontSize = parseFloat(style.fontSize);
+    ctx.font = style.fontStyle + " " + style.fontWeight + " " + fontSize + "px " + style.fontFamily;
+    ctx.fillStyle = ink; ctx.textAlign = "left"; ctx.textBaseline = "alphabetic";
+    const lines = [], walker = document.createTreeWalker(span, global.NodeFilter.SHOW_TEXT);
+    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      let offset = 0;
+      for (const character of node.textContent) {
+        const range = document.createRange(); range.setStart(node, offset); offset += character.length; range.setEnd(node, offset);
+        const rect = range.getBoundingClientRect();
+        if (!rect.width || !rect.height) continue;
+        let line = lines.find(value => Math.abs(value.top - rect.top) < 1.5);
+        if (!line) { line = { text: "", left: rect.left, top: rect.top, height: rect.height, right: rect.right }; lines.push(line); }
+        line.text += character; line.right = Math.max(line.right, rect.right);
+      }
+    }
+    const metrics = ctx.measureText("Mg"), ascent = metrics.fontBoundingBoxAscent || fontSize * .8, descent = metrics.fontBoundingBoxDescent || fontSize * .2;
+    return lines.map(line => {
+      const bounds = localRect({ left: line.left, top: line.top, width: line.right - line.left, height: line.height });
+      const baseline = bounds.y + (bounds.h - ascent - descent) / 2 + ascent;
+      ctx.fillText(line.text, bounds.x, baseline);
+      return { text: line.text, bounds, baseline, fontSize, lineHeight: parseFloat(style.lineHeight) || fontSize * 1.35 };
+    });
+  }
+  function drawContent() {
+    renderStats.contentRasters++;
+    contentReady = false; contentFallbackReason = null; glyphs = [];
+    if (!contentContext || !sceneContext || !global.Path2D) { contentFallbackReason = "canvas-content-unavailable"; return; }
+    try {
+      resizeSource(contentCanvas, contentContext);
+      contentContext.globalCompositeOperation = "source-over";
+      contentContext.globalAlpha = 1;
+      const ink = palette().ink;
+      for (const [index, button] of buttons.entries()) {
+        const svg = button.querySelector("svg"), label = button.querySelector("span");
+        if (!svg || !label) throw new Error("Missing icon or label");
+        const iconBounds = drawSymbol(svg, ink), labelLines = drawLabel(label, ink);
+        glyphs.push({ index, label: label.textContent.trim(), iconBounds, labelBounds: localRect(label.getBoundingClientRect()), labelLines });
+        if (labelLines.length !== 1) contentFallbackReason = "wrapped-label-accessibility-dom";
+        const bounds = [iconBounds, ...labelLines.map(line => line.bounds)];
+        if (bounds.some(rect => rect.x < 0 || rect.y < 0 || rect.x + rect.w > geometry.width || rect.y + rect.h > geometry.height)) contentFallbackReason = "content-outside-local-optical-bounds";
+      }
+      contentReady = !contentFallbackReason && glyphs.length === 3 && drawScene();
+      rasterActiveIndex = activeIndex;
+    } catch (_) { contentFallbackReason = "content-rasterization-failed"; }
+  }
+  function measure(options = {}) {
+    if (!nav?.isConnected || !buttons.length) { geometry = null; return; }
+    renderStats.measurements++;
+    const box = nav.getBoundingClientRect(); if (!box.width || !box.height) return;
+    const style = global.getComputedStyle(nav);
+    const borderLeft = parseFloat(style.borderLeftWidth) || 0, borderTop = parseFloat(style.borderTopWidth) || 0;
+    const width = box.width - borderLeft - (parseFloat(style.borderRightWidth) || 0);
+    const height = box.height - borderTop - (parseFloat(style.borderBottomWidth) || 0);
+    const cells = buttons.map(button => {
+      const r = button.getBoundingClientRect();
+      return { x: r.left - box.left - borderLeft + r.width / 2, y: r.top - box.top - borderTop + r.height / 2, width: r.width, height: r.height };
+    });
+    geometry = { rect: box, borderLeft, borderTop, width: width + PAD_X * 2, height: height + PAD_Y * 2, cells,
+      centers: cells.map(cell => cell.x), dpr: clamp(global.devicePixelRatio || 1, 1, 2),
+      bar: normalizeRect({ x: PAD_X, y: PAD_Y, w: width, h: height, r: parseFloat(style.borderRadius) || height / 2 }) };
+    renderer.resize(geometry.width, geometry.height, geometry.dpr);
+    canvas.style.width = geometry.width + "px"; canvas.style.height = geometry.height + "px";
+    const signature = [geometry.width, geometry.height, geometry.dpr, activeIndex, palette().ink, test.scene,
+      ...cells.flatMap(cell => [cell.x, cell.y, cell.width, cell.height]),
+      ...buttons.map(button => {
+        const label = button.querySelector("span"), font = label && global.getComputedStyle(label);
+        return [label?.textContent, font?.fontSize, font?.fontWeight, font?.fontFamily, font?.lineHeight, button.querySelector("svg")?.innerHTML].join("|");
+      })].join(";");
+    if (signature !== rasterSignature || options.forceContent === true) {
+      drawContent(); rasterSignature = signature;
+    }
+    if (!gesture) targetX = cells[activeIndex]?.x || cells[0].x;
+    if (test.freeze && Number.isFinite(test.lensX)) targetX = clamp(test.lensX, geometry.centers[0], geometry.centers[2]);
+    setMode(preferredMode());
+    const snap = mode !== "webgl" || test.freeze || !gesture && now() > tapUntil && activity < .002;
+    if (currentX === null || Math.abs(currentX - targetX) > box.width || snap) { currentX = targetX; velocity = 0; }
+    placeIndicator(cells[activeIndex] || cells[0], currentX);
+    // First static frame is synchronous; do not leave a previous route's pill.
+    if (snap || options.synchronous === true) { stop(); draw(now()); } else requestFrame();
+  }
+  function updatePreview(index) {
+    if (index === previewIndex) return;
+    previewIndex = index; previewCount++;
+    buttons.forEach((button, i) => button.classList.toggle("glass-preview", gesture?.phase === "dragging" && i === index));
+    if (nav) nav.dataset.liquidPreview = String(index);
+  }
+  function pulse() { pulseStart = now(); pulseSerial++; requestFrame(); }
+  function clearInspection() { test.freeze = false; test.activity = null; test.lensX = null; }
+  function settleToSelected(snap = false) {
+    tapUntil = 0; clearInspection();
+    targetX = geometry?.cells[activeIndex]?.x || targetX;
+    if (snap) { currentX = targetX; velocity = 0; activity = 0; activityVelocity = 0; }
+  }
+  function draw(timestamp) {
+    raf = 0;
+    if (!nav?.isConnected || !geometry || document.hidden) { previousFrame = 0; return; }
+    renderStats.drawFrames++;
+    setMode(preferredMode());
+    if (gesture && gesture.phase !== "dragging" && timestamp - gesture.started >= HOLD_MS) gesture.phase = "holding";
+    const delta = previousFrame ? clamp((timestamp - previousFrame) / 1000, 0, .032) : 1 / 60;
+    previousFrame = timestamp;
+    const targetActivity = gesture || timestamp < tapUntil ? 1 : 0;
+    if (test.freeze) {
+      currentX = Number.isFinite(test.lensX) ? clamp(test.lensX, geometry.centers[0], geometry.centers[2]) : targetX;
+      velocity = 0; activity = test.activity === null ? sampleEnvelope(test.elapsed).energy : test.activity; activityVelocity = 0;
+    } else if (mode !== "webgl") { currentX = targetX; velocity = 0; activity = 0; activityVelocity = 0; }
+    else {
+      velocity += (targetX - currentX) * 650 * delta; velocity *= Math.exp(-29 * delta); currentX += velocity * delta;
+      activityVelocity += (targetActivity - activity) * 520 * delta; activityVelocity *= Math.exp(-29 * delta); activity += activityVelocity * delta;
+      activity = clamp(activity, 0, 1);
+    }
+    if (Math.abs(currentX - targetX) < .025 && Math.abs(velocity) < .08) { currentX = targetX; velocity = 0; }
+    if (Math.abs(activity - targetActivity) < .001 && Math.abs(activityVelocity) < .01 && !test.freeze) { activity = targetActivity; activityVelocity = 0; }
+    const cell = geometry.cells[gesture?.phase === "dragging" ? previewIndex : activeIndex] || geometry.cells[0];
+    const resting = placeIndicator(cell, currentX), active = mode === "webgl" ? activity : 0;
+    const stretch = Math.min(9, Math.abs(velocity) * .012) * active;
+    const lensWidth = resting.halfWidth * 2 + active * Math.min(35, cell.width * .34) + stretch;
+    const lensHeight = resting.halfHeight * 2 + active * 25 - stretch * .15;
+    const lens = normalizeRect({ x: currentX + PAD_X - lensWidth / 2, y: cell.y + PAD_Y - lensHeight / 2, w: lensWidth, h: lensHeight, r: lensHeight / 2 });
+    const colors = palette();
+    lastFrame = { lens, bar: geometry.bar, activity: active, x: currentX + PAD_X, y: cell.y + PAD_Y,
+      halfWidth: lens.w / 2, halfHeight: lens.h / 2, energy: active, sphere: 0, morph: 1, echo: 0,
+      time: test.freeze ? test.elapsed : Math.max(0, timestamp - pulseStart) / 1000, lightOffset: test.lightOffset,
+      iconRefraction: test.iconRefraction, pointer: gesture ? { x: gesture.x - geometry.rect.left + PAD_X, y: gesture.y - geometry.rect.top + PAD_Y } : null };
+    if (mode === "webgl") {
+      const rendered = renderer.render({ bar: geometry.bar, lens, pointer: lastFrame.pointer, time: timestamp / 1000,
+        activity: active, strength: .75, selectedInk: colors.selectedInk, iconRefraction: test.iconRefraction,
+        optics: test.optics, lightPhase: active * .5 + (currentX - targetX) * .015 + test.lightOffset });
+      if (rendered) nav.dataset.liquidContent = "ready";
+      else setMode("fallback");
+    }
+    const moving = Math.abs(currentX - targetX) > .025 || Math.abs(velocity) > .08 || Math.abs(activity - targetActivity) > .001 || Math.abs(activityVelocity) > .01;
+    if (!test.freeze && mode === "webgl" && (moving || timestamp < tapUntil)) requestFrame(); else previousFrame = 0;
+  }
+  function releaseCapture(record) {
+    try {
+      const owner = record?.captureElement;
+      if (owner?.hasPointerCapture(record.pointerId)) owner.releasePointerCapture(record.pointerId);
+    } catch (_) { /* Detached route is safe. */ }
+  }
+  function suppressCompatibilityClick(record) {
+    suppression = { pointerId: record.pointerId, pointerType: record.pointerType, x: record.x, y: record.y, until: now() + 700 };
+  }
+  function clearGesture() {
+    const record = gesture; gesture = null; releaseCapture(record);
+    if (nav) delete nav.dataset.liquidDragging;
+    buttons.forEach(button => button.classList.remove("glass-preview"));
+    previewIndex = -1; if (nav) delete nav.dataset.liquidPreview;
+    return record;
+  }
+  function cancelGesture(reason) {
+    if (!gesture) return;
+    const record = clearGesture(); suppressCompatibilityClick(record);
+    cancelCount++; lastCancelReason = reason; lastOutcome = "cancelled";
+    settleToSelected();
+    requestFrame();
+  }
+  function reconcile(force = false) {
+    if (destroyed) return;
+    const next = document.querySelector(selectors);
+    if (next === nav) {
+      if (nav) {
+        activeIndex = indexFromDOM();
+        if (force === true || rasterActiveIndex !== activeIndex) measure({ synchronous: true, forceContent: force === true });
+      }
+      return;
+    }
+    if (gesture) cancelGesture("route-replaced");
+    resizeObserver?.disconnect(); nav = next; buttons = [];
+    if (!nav) { canvas.remove(); indicator.remove(); geometry = null; activity = 0; activityVelocity = 0; tapUntil = 0; stop(); return; }
+    buttons = [...nav.querySelectorAll(":scope > button")].filter(button => allowedActions.includes(button.dataset.action));
+    if (buttons.length !== 3) { nav = null; geometry = null; stop(); return; }
+    activeIndex = indexFromDOM(); nav.classList.add("liquid-enhanced");
+    renderStats.mounts++; rasterSignature = "";
+    nav.prepend(indicator); nav.insertBefore(canvas, indicator.nextSibling);
+    if (global.ResizeObserver) { resizeObserver = new global.ResizeObserver(measure); resizeObserver.observe(nav); }
+    // A newly attached canvas and its DOM replacement must become visible in
+    // the same task, never one frame of old pixels plus duplicate new labels.
+    measure({ synchronous: true, forceContent: true });
+  }
+  function onPointerDown(event) {
+    if (event.isPrimary === false || (event.pointerType === "mouse" && event.button !== 0)) return;
+    const button = event.target.closest?.(buttonSelector);
+    if (!button || button.disabled) return;
+    if (gesture) cancelGesture("new-pointer");
+    clearInspection(); tapUntil = 0;
+    suppression = null; reconcile();
+    const index = buttons.indexOf(button); if (index < 0 || !geometry) return;
+    lastPointerType = event.pointerType || "unknown";
+    gesture = { pointerId: event.pointerId, pointerType: lastPointerType, captureElement: button, nav, index, started: now(), startX: event.clientX, startY: event.clientY, x: event.clientX, y: event.clientY, phase: "pressed" };
+    try { button.setPointerCapture(event.pointerId); } catch (_) { /* Document listeners remain available if capture is unsupported. */ }
+    targetX = geometry.cells[index].x; updatePreview(index); lastOutcome = "pressed"; pulse();
+    // Touch already implicitly captures the pressed button. Keep that SAME
+    // owner throughout the gesture; moving capture to nav would emit a lost
+    // event from the old button and formerly cancelled every real touch drag.
+    // Capturing the button also preserves the ordinary tap's native click.
+  }
+  function onPointerMove(event) {
+    if (!gesture || event.pointerId !== gesture.pointerId || !geometry) return;
+    gesture.x = event.clientX; gesture.y = event.clientY;
+    const dx = event.clientX - gesture.startX, dy = event.clientY - gesture.startY;
+    const intent = gestureIntent(dx, dy, now() - gesture.started);
+    const rect = geometry.rect;
+    if (intent === "vertical") { cancelGesture("vertical-intent"); return; }
+    if (event.clientY < rect.top - 28 || event.clientY > rect.bottom + 28 || event.clientX < rect.left - 28 || event.clientX > rect.right + 28) { cancelGesture("outside-dock"); return; }
+    if (intent === "dragging" || gesture.phase === "dragging") {
+      if (gesture.phase !== "dragging") {
+        gesture.phase = "dragging"; nav.dataset.liquidDragging = "true";
+        try { gesture.captureElement.setPointerCapture(event.pointerId); } catch (_) { /* Document listeners still observe cancellation. */ }
+      }
+      targetX = clamp(event.clientX - rect.left - geometry.borderLeft, geometry.centers[0], geometry.centers[geometry.centers.length - 1]);
+      updatePreview(nearestIndex(targetX, geometry.centers)); requestFrame();
+    } else gesture.phase = intent;
+  }
+  function onPointerUp(event) {
+    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    gesture.x = event.clientX; gesture.y = event.clientY;
+    const rect = geometry?.rect;
+    if (rect && (event.clientY < rect.top - 28 || event.clientY > rect.bottom + 28 || event.clientX < rect.left - 28 || event.clientX > rect.right + 28)) {
+      cancelGesture("outside-dock"); return;
+    }
+    if (gesture.phase === "dragging") {
+      const index = previewIndex, button = buttons[index], record = clearGesture();
+      suppressCompatibilityClick(record);
+      if (button?.isConnected && !button.disabled) {
+        internalClick = true;
+        try { button.click(); } finally { internalClick = false; }
+      } else { targetX = geometry?.cells[activeIndex]?.x || targetX; requestFrame(); }
+    } else {
+      clearGesture(); tapUntil = now() + 170; requestFrame();
+      const serial = pulseSerial, releasedAt = now();
+      global.setTimeout(() => {
+        if (serial === pulseSerial && lastCommitAt < releasedAt && !gesture) { settleToSelected(); requestFrame(); }
+      }, 100);
+    }
+  }
+  function onClick(event) {
+    const pointerClick = event.detail > 0 || event.pointerType === "touch" || event.pointerType === "pen" || event.sourceCapabilities?.firesTouchEvents;
+    const sameReleasedPointer = suppression && Number.isFinite(event.pointerId) && event.pointerId > 0 && event.pointerId === suppression.pointerId;
+    const atRelease = suppression && Math.abs(event.clientX - suppression.x) < 18 && Math.abs(event.clientY - suppression.y) < 18;
+    if (suppression && event.isTrusted && pointerClick && now() <= suppression.until && (sameReleasedPointer || atRelease)) {
+      suppression = null; event.preventDefault(); event.stopImmediatePropagation(); return;
+    }
+    const button = event.target.closest?.(buttonSelector);
+    if (!button || button.disabled) return;
+    if (button.closest(selectors) !== nav) reconcile();
+    const index = buttons.indexOf(button); if (index < 0) return;
+    if (gesture) clearGesture();
+    clearInspection(); tapUntil = !internalClick && pointerClick ? now() + 170 : 0;
+    lastCommittedIndex = index; commitCount++; lastCommitAt = now();
+    lastOutcome = internalClick ? "drag-committed" : pointerClick ? "tap-committed" : "keyboard-or-programmatic-committed";
+    targetX = geometry?.cells[index]?.x || targetX; activeIndex = index; pulse();
+    // The existing delegated click listener performs the route change immediately.
+  }
+  function preferenceChanged() { if (gesture) cancelGesture("preference-changed"); settleToSelected(true); stop(); measure(); }
+  function onLostPointerCapture(event) {
+    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    const owner = gesture.captureElement;
+    let ownerStillCaptures = false;
+    try { ownerStillCaptures = owner.hasPointerCapture(event.pointerId); } catch (_) { /* An actual detached owner cannot retain capture. */ }
+    if (captureLossCancels({ samePointer: true, fromOwner: event.target === owner, ownerStillCaptures })) {
+      captureLostCount++; cancelGesture("lostpointercapture");
+    } else ignoredCaptureLosses++;
+  }
+
+  listen(document, "pointerdown", onPointerDown, true);
+  listen(document, "pointermove", onPointerMove, true);
+  listen(document, "pointerup", onPointerUp, true);
+  listen(document, "pointercancel", event => { if (gesture?.pointerId === event.pointerId) cancelGesture("pointercancel"); }, true);
+  listen(document, "gotpointercapture", event => { if (gesture?.pointerId === event.pointerId && event.target === gesture.captureElement) captureAcquiredCount++; }, true);
+  listen(document, "lostpointercapture", onLostPointerCapture, true);
+  listen(document, "click", onClick, true);
+  listen(document, "contextmenu", event => { if (gesture && now() - gesture.started >= HOLD_MS) event.preventDefault(); }, true);
+  listen(document, "keydown", event => { if (event.key === "Escape" && gesture) { cancelGesture("escape"); event.preventDefault(); } }, true);
+  listen(global, "blur", () => { cancelGesture("window-blur"); settleToSelected(true); stop(); measure(); });
+  listen(global, "resize", measure);
+  listen(document, "visibilitychange", () => { if (document.hidden) { cancelGesture("document-hidden"); settleToSelected(true); stop(); } else { settleToSelected(true); reconcile(); } });
+  listen(document, "drama-screen-rendered", reconcile);
+  listen(canvas, "webglcontextlost", event => { event.preventDefault(); cancelGesture("context-lost"); settleToSelected(true); setMode("fallback"); stop(); requestFrame(); });
+  listen(canvas, "webglcontextrestored", () => { settleToSelected(true); measure(); });
+  [reducedMotion, reducedTransparency, moreContrast, forcedColors].forEach(media => {
+    if (media.addEventListener) listen(media, "change", preferenceChanged);
+    else { media.addListener(preferenceChanged); listeners.push([media, "legacy-media", preferenceChanged]); }
+  });
+  const observer = new global.MutationObserver(records => {
+    const affectsNavigation = records.some(record => {
+      const nodes = [...record.addedNodes, ...record.removedNodes].filter(node => node !== canvas && node !== indicator);
+      if (!nodes.length) return false;
+      if (nav?.contains(record.target)) return true;
+      return nodes.some(node => node === nav || node.nodeType === 1 && (node.matches?.(selectors) || node.querySelector?.(selectors)));
+    });
+    // Clock/status/body text changes must not rasterize an unchanged dock.
+    if (affectsNavigation) reconcile(true);
+  });
+  observer.observe(document.getElementById("phone") || document.body, { childList: true, subtree: true });
+  const themeObserver = new global.MutationObserver(measure);
+  themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  global.DramaLiquidGlass = Object.freeze({
+    mount: () => reconcile(true), refresh: () => reconcile(true),
+    diagnostics() {
+      const colors = nav ? palette() : { ink: null, selectedInk: null };
+      const screenRect = rect => geometry ? {
+        x: geometry.rect.left + geometry.borderLeft + rect.x - PAD_X,
+        y: geometry.rect.top + geometry.borderTop + rect.y - PAD_Y,
+        width: rect.w, height: rect.h,
+        right: geometry.rect.left + geometry.borderLeft + rect.x - PAD_X + rect.w,
+        bottom: geometry.rect.top + geometry.borderTop + rect.y - PAD_Y + rect.h
+      } : null;
+      return {
+        version: "7.2.0", reference: "ui-ux-pro-max/liquid-glass-tab-v3", mode, running: Boolean(raf),
+        gestureState: gesture ? (gesture.phase === "pressed" && now() - gesture.started >= HOLD_MS ? "holding" : gesture.phase) : "idle",
+        activeIndex: nav ? activeIndex : null, selectedTab: nav ? activeIndex : null,
+        previewIndex: previewIndex < 0 ? null : previewIndex, previewTab: previewIndex < 0 ? activeIndex : previewIndex,
+        currentX, targetX, activity: lastFrame?.activity || 0,
+        captureOwnerAction: gesture?.captureElement?.dataset.action || null,
+        pointerCapture: { strategy: "stable-origin-button", lastPointerType, captureAcquiredCount, captureLostCount, ignoredCaptureLosses },
+        renderStats: { ...renderStats },
+        lastCommittedIndex, commitCount, cancelCount, previewCount, lastCancelReason, lastOutcome,
+        ink: colors.ink, selectedInk: colors.selectedInk,
+        contentRefraction: mode === "webgl" && contentReady && test.iconRefraction > 0 && test.optics,
+        contentFallbackReason, scene: test.scene === "calibration" ? "generated-calibration-grid" : "theme-local-surface-reconstruction",
+        scope: { selector: buttonSelector, allowedActions: [...allowedActions], targetCount: buttons.length,
+          canvasBoundedToDock: true, dockDefinition: "navigation plus local optical padding only",
+          opticalPadding: { x: PAD_X, y: PAD_Y }, allowsLensProtrusionBeyondBar: true,
+          interactiveEffectsOutsideDock: false, clippingSupported,
+          attachedCanvasCount: document.querySelectorAll(selectors + " > .liquid-glass-canvas").length },
+        textureInfo: { sceneAndContentSeparate: true, iconAndLabelShareTexture: true,
+          sceneWidth: sceneCanvas.width, sceneHeight: sceneCanvas.height, contentWidth: contentCanvas.width, contentHeight: contentCanvas.height,
+          contentReady, domVisualsHidden: nav?.dataset.liquidContent === "ready", premultipliedContentAlpha: true, externalImages: 0 },
+        glyphs: glyphs.map(glyph => ({ ...glyph, iconScreenBounds: screenRect(glyph.iconBounds),
+          labelScreenBounds: screenRect(glyph.labelBounds),
+          labelLines: glyph.labelLines.map(line => ({ ...line, screenBounds: screenRect(line.bounds) })) })),
+        bar: lastFrame ? { ...lastFrame.bar, screenRect: screenRect(lastFrame.bar) } : null,
+        lens: lastFrame ? { ...lastFrame.lens, screenRect: screenRect(lastFrame.lens) } : null,
+        localOpticalBounds: geometry ? screenRect({ x: 0, y: 0, w: geometry.width, h: geometry.height }) : null,
+        renderer: { shader: "v3-scene-content-nonlinear-refraction", hasExternalTextures: false,
+          backdrop: "controlled-theme-neighborhood-not-arbitrary-dom-screenshot", opticsEnabled: test.optics,
+          iconRefraction: test.iconRefraction, success: Boolean(renderer?.success), contextLost: Boolean(renderer?._lost),
+          error: renderer?.error ? "renderer-unavailable" : null,
+          canvasWidth: canvas.width, canvasHeight: canvas.height, dprCap: 2,
+          geometry: lastFrame ? { centerX: lastFrame.x, centerY: lastFrame.y, halfWidth: lastFrame.halfWidth, halfHeight: lastFrame.halfHeight,
+            cornerRadius: lastFrame.lens.r, effectiveHalfWidth: lastFrame.halfWidth, effectiveHalfHeight: lastFrame.halfHeight,
+            effectiveCornerRadius: lastFrame.lens.r, rawCornerRadius: lastFrame.lens.r } : null,
+          parameters: lastFrame ? { energy: lastFrame.energy, sphere: 0, morph: 1, echo: 0, activity: lastFrame.activity,
+            time: lastFrame.time, lightOffset: test.lightOffset, iconRefraction: test.iconRefraction } : null },
+        test: { frozen: test.freeze, forcedFallback: test.forceFallback, activity: test.activity, lensX: test.lensX }
+      };
+    },
+    // Material-only inspection controls; never reads or changes alarm state.
+    // elapsed keeps deterministic legacy fixtures. V3 uses activity, not the old
+    // 1.413-second circle animation, for real pointer feedback.
+    configureForTest(options = {}) {
+      if (options.reset) Object.assign(test, defaultTest());
+      else {
+        if (typeof options.freeze === "boolean") test.freeze = options.freeze;
+        if (Number.isFinite(options.elapsed)) test.elapsed = clamp(options.elapsed, 0, DURATION);
+        if (typeof options.optics === "boolean") test.optics = options.optics;
+        if (Number.isFinite(options.lightOffset)) test.lightOffset = options.lightOffset;
+        if (typeof options.forceFallback === "boolean") test.forceFallback = options.forceFallback;
+        if (Number.isFinite(options.activity)) test.activity = clamp(options.activity, 0, 1);
+        if (options.activity === null) test.activity = null;
+        if (Number.isFinite(options.lensX)) test.lensX = options.lensX;
+        if (options.lensX === null) test.lensX = null;
+        if (Number.isFinite(options.iconRefraction)) test.iconRefraction = clamp(options.iconRefraction, 0, 1);
+        if (options.scene === "theme" || options.scene === "calibration") test.scene = options.scene;
+      }
+      if (options.reset) settleToSelected(true);
+      stop(); if (geometry) { drawScene(); measure(); } else requestFrame();
+      return this.diagnostics();
+    },
+    destroy() {
+      destroyed = true; clearGesture(); stop(); observer.disconnect(); themeObserver.disconnect(); resizeObserver?.disconnect();
+      listeners.forEach(([target, type, callback, options]) => type === "legacy-media" ? target.removeListener(callback) : target.removeEventListener(type, callback, options));
+      renderer?.destroy(); canvas.remove(); indicator.remove();
+      if (nav) { nav.classList.remove("liquid-enhanced"); delete nav.dataset.liquidMode; delete nav.dataset.liquidContent; }
+    }
+  });
+  if (document.fonts) {
+    document.fonts.ready.then(() => { if (!destroyed) measure(); });
+    if (document.fonts.addEventListener) listen(document.fonts, "loadingdone", measure);
+  }
+  if (document.readyState === "loading") listen(document, "DOMContentLoaded", reconcile, { once: true });
+  else reconcile();
+})(typeof window !== "undefined" ? window : globalThis);
+</script><script data-source="component-studio">(function studioRuntime() {
+  "use strict";
+  const params = new URLSearchParams(location.search);
+  const names = ["Home", "Your Run", "Settings"];
+  const actions = ["go-home", "open-run", "open-settings"];
+  const nav = document.querySelector("nav[data-liquid-nav]");
+  let feedbackTimer;
+  function feedback(message) {
+    const output = document.getElementById("page-feedback");
+    output.textContent = message; output.hidden = false;
+    clearTimeout(feedbackTimer); feedbackTimer = setTimeout(() => { output.hidden = true; }, 3500);
+  }
+  function updateStatus() {
+    const state = window.DramaLiquidGlass.diagnostics();
+    document.getElementById("renderer-status").textContent = `Renderer: ${state.mode} · scope: three bottom tabs only · external textures: none.`;
+  }
+  function setTheme(theme) {
+    const next = theme === "velvet" ? "velvet" : "daybreak";
+    document.documentElement.dataset.theme = next;
+    document.querySelectorAll("[data-studio-theme]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.studioTheme === next)));
+    window.DramaLiquidGlass.refresh(); updateStatus(); return next;
+  }
+  function selectTab(index) {
+    const next = Math.max(0, Math.min(2, Math.trunc(Number(index) || 0)));
+    nav.dataset.activeIndex = String(next);
+    nav.querySelectorAll(":scope > button").forEach((button, i) => {
+      button.classList.toggle("active", i === next);
+      if (i === next) button.setAttribute("aria-current", "page"); else button.removeAttribute("aria-current");
+    });
+    document.getElementById("tab-selection").textContent = `Specification example: ${names[next]} selected. No product page or alarm is created.`;
+    document.dispatchEvent(new CustomEvent("drama-screen-rendered", { detail: { screen: "component-studio" } }));
+    updateStatus(); return next;
+  }
+  function setError(show) {
+    document.getElementById("sample-name").setAttribute("aria-invalid", String(show));
+    document.getElementById("sample-error").hidden = !show;
+  }
+  document.addEventListener("click", event => {
+    const button = event.target.closest("button"); if (!button || button.disabled) return;
+    if (button.dataset.studioTheme) { setTheme(button.dataset.studioTheme); return; }
+    if (button.dataset.fontScale) {
+      document.documentElement.style.fontSize = `${16 * Number(button.dataset.fontScale)}px`;
+      document.querySelectorAll("[data-font-scale]").forEach(item => item.setAttribute("aria-pressed", String(item === button)));
+      window.DramaLiquidGlass.refresh(); return;
+    }
+    const navIndex = actions.indexOf(button.dataset.action);
+    if (navIndex >= 0 && button.parentElement === nav) { selectTab(navIndex); return; }
+    if (button.getAttribute("role") === "switch") {
+      button.setAttribute("aria-checked", String(button.getAttribute("aria-checked") !== "true"));
+      feedback("Switch example updated. This does not change the alarm demo."); return;
+    }
+    switch (button.dataset.studioAction) {
+      case "back": feedback("Back control example. You are still in the component reference."); break;
+      case "cancel": document.getElementById("sample-name").value = "Morning Show"; setError(false); feedback("Example reset. No product settings were changed."); break;
+      case "save": {
+        const empty = !document.getElementById("sample-name").value.trim(); setError(empty);
+        feedback(empty ? "Add an example name before using Save." : "Save button example pressed. No alarm was created or saved."); break;
+      }
+      case "error": document.getElementById("sample-name").value = ""; setError(true); break;
+      case "clear-error": setError(false); break;
+      case "replay": window.DramaLiquidGlass.configureForTest({ reset: true }); nav.querySelector('[aria-current="page"]').click(); document.getElementById("phase-state").textContent = "Live pointer feedback. Click or press-and-drag a bottom tab."; break;
+      case "fallback": {
+        const next = button.getAttribute("aria-pressed") !== "true";
+        button.setAttribute("aria-pressed", String(next)); window.DramaLiquidGlass.configureForTest({ forceFallback: next }); updateStatus(); break;
+      }
+    }
+  });
+  document.getElementById("sample-name").addEventListener("input", () => setError(false));
+  document.getElementById("phase-slider").addEventListener("input", event => {
+    const elapsed = Number(event.target.value);
+    window.DramaLiquidGlass.configureForTest({ freeze: true, elapsed });
+    document.getElementById("phase-state").textContent = `Frozen material reference (sample parameter ${elapsed.toFixed(3)}). This is synthetic inspection, not a timed pointer replay.`;
+    updateStatus();
+  });
+  setTheme(params.get("theme")); selectTab(params.get("tab"));
+  const phase = params.has("phase") ? Number(params.get("phase")) : params.get("test") === "1" ? .35 : null;
+  if (phase !== null && Number.isFinite(phase)) {
+    const elapsed = Math.max(0, Math.min(1.413333, phase));
+    document.getElementById("phase-slider").value = String(elapsed);
+    window.DramaLiquidGlass.configureForTest({ freeze: true, elapsed });
+    document.getElementById("phase-state").textContent = `Frozen material reference (sample parameter ${elapsed.toFixed(3)}). This is synthetic inspection, not a timed pointer replay.`;
+  }
+  window.DramaComponentStudio = Object.freeze({ setTheme, selectTab, snapshot: () => ({ theme: document.documentElement.dataset.theme, selectedTab: Number(nav.dataset.activeIndex), glass: window.DramaLiquidGlass.diagnostics(), specimenOnly: true }) });
+  updateStatus();
+})();</script></body></html>
