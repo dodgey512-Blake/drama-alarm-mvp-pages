@@ -1,0 +1,388 @@
+{
+  "name": "疯狂闹钟下一版视觉提案",
+  "revision": "visual-review-01",
+  "baseline": "7.2",
+  "date": "2026-10-29",
+  "status": "awaiting-visual-approval",
+  "productDemoChanged": false,
+  "board": {
+    "file": "board.svg",
+    "width": 3000,
+    "height": 9210
+  },
+  "screenCount": 18,
+  "themeCount": 2,
+  "svgScreenCount": 36,
+  "screens": [
+    {
+      "id": "01-daybreak",
+      "number": "01",
+      "title": "主题与欢迎",
+      "label": "WELCOME & THEMES",
+      "theme": "daybreak",
+      "file": "screens/01-daybreak.svg",
+      "note": "两套主题免费；角色同一身份、不同换装。",
+      "section": "section-onboarding"
+    },
+    {
+      "id": "01-velvet",
+      "number": "01",
+      "title": "主题与欢迎",
+      "label": "WELCOME & THEMES",
+      "theme": "velvet",
+      "file": "screens/01-velvet.svg",
+      "note": "两套主题免费；角色同一身份、不同换装。",
+      "section": "section-onboarding"
+    },
+    {
+      "id": "02-daybreak",
+      "number": "02",
+      "title": "首次选择难度",
+      "label": "FIRST WAKE-UP",
+      "theme": "daybreak",
+      "file": "screens/02-daybreak.svg",
+      "note": "1／2／3 题明确展示，教学可选，不增加首次创建负担。",
+      "section": "section-onboarding"
+    },
+    {
+      "id": "02-velvet",
+      "number": "02",
+      "title": "首次选择难度",
+      "label": "FIRST WAKE-UP",
+      "theme": "velvet",
+      "file": "screens/02-velvet.svg",
+      "note": "1／2／3 题明确展示，教学可选，不增加首次创建负担。",
+      "section": "section-onboarding"
+    },
+    {
+      "id": "03-daybreak",
+      "number": "03",
+      "title": "首次闹钟确认",
+      "label": "FIRST ALARM",
+      "theme": "daybreak",
+      "file": "screens/03-daybreak.svg",
+      "note": "保存前展示准确题量；未保存不显示“已就绪”。",
+      "section": "section-onboarding"
+    },
+    {
+      "id": "03-velvet",
+      "number": "03",
+      "title": "首次闹钟确认",
+      "label": "FIRST ALARM",
+      "theme": "velvet",
+      "file": "screens/03-velvet.svg",
+      "note": "保存前展示准确题量；未保存不显示“已就绪”。",
+      "section": "section-onboarding"
+    },
+    {
+      "id": "04-daybreak",
+      "number": "04",
+      "title": "闹钟挑战设置",
+      "label": "CHALLENGE SETUP",
+      "theme": "daybreak",
+      "file": "screens/04-daybreak.svg",
+      "note": "难度与内容分开；选题包只替换末题，不额外加题。",
+      "section": "section-library"
+    },
+    {
+      "id": "04-velvet",
+      "number": "04",
+      "title": "闹钟挑战设置",
+      "label": "CHALLENGE SETUP",
+      "theme": "velvet",
+      "file": "screens/04-velvet.svg",
+      "note": "难度与内容分开；选题包只替换末题，不额外加题。",
+      "section": "section-library"
+    },
+    {
+      "id": "05-daybreak",
+      "number": "05",
+      "title": "题库与付费入口",
+      "label": "QUESTION LIBRARY",
+      "theme": "daybreak",
+      "file": "screens/05-daybreak.svg",
+      "note": "免费基础＋地理／历史预览；数量均为首发规划。",
+      "section": "section-library"
+    },
+    {
+      "id": "05-velvet",
+      "number": "05",
+      "title": "题库与付费入口",
+      "label": "QUESTION LIBRARY",
+      "theme": "velvet",
+      "file": "screens/05-velvet.svg",
+      "note": "免费基础＋地理／历史预览；数量均为首发规划。",
+      "section": "section-library"
+    },
+    {
+      "id": "06-daybreak",
+      "number": "06",
+      "title": "地理题包详情",
+      "label": "GEOGRAPHY PACK",
+      "theme": "daybreak",
+      "file": "screens/06-daybreak.svg",
+      "note": "一次购买方向；先试样题，不编造价格或购买成功。",
+      "section": "section-library"
+    },
+    {
+      "id": "06-velvet",
+      "number": "06",
+      "title": "地理题包详情",
+      "label": "GEOGRAPHY PACK",
+      "theme": "velvet",
+      "file": "screens/06-velvet.svg",
+      "note": "一次购买方向；先试样题，不编造价格或购买成功。",
+      "section": "section-library"
+    },
+    {
+      "id": "07-daybreak",
+      "number": "07",
+      "title": "历史题包样题",
+      "label": "HISTORY SAMPLE",
+      "theme": "daybreak",
+      "file": "screens/07-daybreak.svg",
+      "note": "演练标识清楚；不计成绩，不安排复查。",
+      "section": "section-library"
+    },
+    {
+      "id": "07-velvet",
+      "number": "07",
+      "title": "历史题包样题",
+      "label": "HISTORY SAMPLE",
+      "theme": "velvet",
+      "file": "screens/07-velvet.svg",
+      "note": "演练标识清楚；不计成绩，不安排复查。",
+      "section": "section-library"
+    },
+    {
+      "id": "08-daybreak",
+      "number": "08",
+      "title": "离线准备与异常",
+      "label": "OFFLINE READINESS",
+      "theme": "daybreak",
+      "file": "screens/08-daybreak.svg",
+      "note": "下载与权益分开；无网／坏包不影响免费挑战。",
+      "section": "section-library"
+    },
+    {
+      "id": "08-velvet",
+      "number": "08",
+      "title": "离线准备与异常",
+      "label": "OFFLINE READINESS",
+      "theme": "velvet",
+      "file": "screens/08-velvet.svg",
+      "note": "下载与权益分开；无网／坏包不影响免费挑战。",
+      "section": "section-library"
+    },
+    {
+      "id": "09-daybreak",
+      "number": "09",
+      "title": "应用题包的预览",
+      "label": "FINAL QUESTION",
+      "theme": "daybreak",
+      "file": "screens/09-daybreak.svg",
+      "note": "各档末题可替换；展示真实组成与题数。",
+      "section": "section-library"
+    },
+    {
+      "id": "09-velvet",
+      "number": "09",
+      "title": "应用题包的预览",
+      "label": "FINAL QUESTION",
+      "theme": "velvet",
+      "file": "screens/09-velvet.svg",
+      "note": "各档末题可替换；展示真实组成与题数。",
+      "section": "section-library"
+    },
+    {
+      "id": "10-daybreak",
+      "number": "10",
+      "title": "响铃与开场",
+      "label": "SHOWTIME",
+      "theme": "daybreak",
+      "file": "screens/10-daybreak.svg",
+      "note": "大时间为主，角色只报幕；安全入口始终可见。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "10-velvet",
+      "number": "10",
+      "title": "响铃与开场",
+      "label": "SHOWTIME",
+      "theme": "velvet",
+      "file": "screens/10-velvet.svg",
+      "note": "大时间为主，角色只报幕；安全入口始终可见。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "11-daybreak",
+      "number": "11",
+      "title": "算术题与进度",
+      "label": "ARITHMETIC",
+      "theme": "daybreak",
+      "file": "screens/11-daybreak.svg",
+      "note": "已完成进度清楚，键盘稳定，不随角色移动。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "11-velvet",
+      "number": "11",
+      "title": "算术题与进度",
+      "label": "ARITHMETIC",
+      "theme": "velvet",
+      "file": "screens/11-velvet.svg",
+      "note": "已完成进度清楚，键盘稳定，不随角色移动。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "12-daybreak",
+      "number": "12",
+      "title": "答错与重试",
+      "label": "ANSWER RETRY",
+      "theme": "daybreak",
+      "file": "screens/12-daybreak.svg",
+      "note": "答错不能解锁；不清空已完成进度，不追加题数。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "12-velvet",
+      "number": "12",
+      "title": "答错与重试",
+      "label": "ANSWER RETRY",
+      "theme": "velvet",
+      "file": "screens/12-velvet.svg",
+      "note": "答错不能解锁；不清空已完成进度，不追加题数。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "13-daybreak",
+      "number": "13",
+      "title": "知识题与四选一",
+      "label": "KNOWLEDGE FINALE",
+      "theme": "daybreak",
+      "file": "screens/13-daybreak.svg",
+      "note": "客观稳定答案；不会的知识可换基础题，但仍需答对。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "13-velvet",
+      "number": "13",
+      "title": "知识题与四选一",
+      "label": "KNOWLEDGE FINALE",
+      "theme": "velvet",
+      "file": "screens/13-velvet.svg",
+      "note": "客观稳定答案；不会的知识可换基础题，但仍需答对。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "14-daybreak",
+      "number": "14",
+      "title": "安全降难与替换",
+      "label": "EASIER REMAINING",
+      "theme": "daybreak",
+      "file": "screens/14-daybreak.svg",
+      "note": "本稿为主动替换；连续三错自动降难另有明确提示。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "14-velvet",
+      "number": "14",
+      "title": "安全降难与替换",
+      "label": "EASIER REMAINING",
+      "theme": "velvet",
+      "file": "screens/14-velvet.svg",
+      "note": "本稿为主动替换；连续三错自动降难另有明确提示。",
+      "section": "section-challenge"
+    },
+    {
+      "id": "15-daybreak",
+      "number": "15",
+      "title": "完成与起床复查",
+      "label": "BRAVO & CHECK",
+      "theme": "daybreak",
+      "file": "screens/15-daybreak.svg",
+      "note": "挑战完成不等于已起床；复查从完成时开始计时。",
+      "section": "section-finish"
+    },
+    {
+      "id": "15-velvet",
+      "number": "15",
+      "title": "完成与起床复查",
+      "label": "BRAVO & CHECK",
+      "theme": "velvet",
+      "file": "screens/15-velvet.svg",
+      "note": "挑战完成不等于已起床；复查从完成时开始计时。",
+      "section": "section-finish"
+    },
+    {
+      "id": "16-daybreak",
+      "number": "16",
+      "title": "首页大字倒计时",
+      "label": "HOME COUNTDOWN",
+      "theme": "daybreak",
+      "file": "screens/16-daybreak.svg",
+      "note": "保留 7.2 底部导航；大数字与低幅光晕不争夺注意。",
+      "section": "section-daily"
+    },
+    {
+      "id": "16-velvet",
+      "number": "16",
+      "title": "首页大字倒计时",
+      "label": "HOME COUNTDOWN",
+      "theme": "velvet",
+      "file": "screens/16-velvet.svg",
+      "note": "保留 7.2 底部导航；大数字与低幅光晕不争夺注意。",
+      "section": "section-daily"
+    },
+    {
+      "id": "17-daybreak",
+      "number": "17",
+      "title": "Your Run 空状态",
+      "label": "YOUR RUN",
+      "theme": "daybreak",
+      "file": "screens/17-daybreak.svg",
+      "note": "不虚构起床率／健康数据；记录挑战与自我确认。",
+      "section": "section-daily"
+    },
+    {
+      "id": "17-velvet",
+      "number": "17",
+      "title": "Your Run 空状态",
+      "label": "YOUR RUN",
+      "theme": "velvet",
+      "file": "screens/17-velvet.svg",
+      "note": "不虚构起床率／健康数据；记录挑战与自我确认。",
+      "section": "section-daily"
+    },
+    {
+      "id": "18-daybreak",
+      "number": "18",
+      "title": "设置与长期入口",
+      "label": "SETTINGS",
+      "theme": "daybreak",
+      "file": "screens/18-daybreak.svg",
+      "note": "新建默认值、题库、角色、免费主题与减少动态效果。",
+      "section": "section-daily"
+    },
+    {
+      "id": "18-velvet",
+      "number": "18",
+      "title": "设置与长期入口",
+      "label": "SETTINGS",
+      "theme": "velvet",
+      "file": "screens/18-velvet.svg",
+      "note": "新建默认值、题库、角色、免费主题与减少动态效果。",
+      "section": "section-daily"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NOAA · Largest ocean",
+      "url": "https://oceanservice.noaa.gov/facts/biggestocean.html"
+    },
+    {
+      "title": "NASA · Apollo 11",
+      "url": "https://www.nasa.gov/mission/apollo-11/"
+    }
+  ]
+}
