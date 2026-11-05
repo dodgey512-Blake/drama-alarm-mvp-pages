@@ -2863,16 +2863,16 @@ html,body{margin:0!important;padding:0!important;width:390px!important;height:84
       <circle cx="123" cy="187" r="2" fill="#ae937d"></circle>
       <path d="M103 55c4-11 10-15 14-19m-4 19c6-8 13-9 18-8" fill="none" stroke="#d5bea8" stroke-width="4.5" stroke-linecap="round"></path>
     </symbol>
-  </defs><g class="drama-mascot__body"><use href="#drama-lunar-choice-mascot-lamp"></use></g></svg></span></div><h2 class="riddle-question">The Galápagos Islands are in which ocean?</h2><p class="screen-copy riddle-copy">Choose one answer. A wrong answer never unlocks.</p><div class="riddle-options">
+  </defs><g class="drama-mascot__body"><use href="#drama-lunar-choice-mascot-lamp"></use></g></svg></span></div><h2 class="riddle-question">Which ocean is second largest by surface area?</h2><p class="screen-copy riddle-copy">Choose one answer. A wrong answer never unlocks.</p><div class="riddle-options">
       <button class="riddle-option" type="button" data-action="riddle-answer" data-index="0">
-        <span>A</span>Indian
+        <span>A</span>Southern
       </button>
       <button class="riddle-option" type="button" data-action="riddle-answer" data-index="1">
-        <span>B</span>Pacific
+        <span>B</span>Atlantic
       </button>
       <button class="riddle-option" type="button" data-action="riddle-answer" data-index="2">
         <span>C</span>Arctic
       </button>
       <button class="riddle-option" type="button" data-action="riddle-answer" data-index="3">
-        <span>D</span>Atlantic
+        <span>D</span>Indian
       </button></div><button class="text-button" type="button" data-action="switch-basic-question">Switch to basic arithmetic</button></div></section></div></div></body></html></foreignObject></svg>
