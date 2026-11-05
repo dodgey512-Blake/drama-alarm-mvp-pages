@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-14GO7JGLf2mhrIXXu5SyNGb7cSVcscTiyXiA6GRr4gk=' 'sha256-ydESzjD25DGXtusuRZoWqz7UxP4wQd9WJtUFv9JWxIU=' 'sha256-J2XJdRmQP2dcCaQLTgovV7CWuqmuW0Nf+fnSPejqEuk=' 'sha256-SvEOyo4STOle2ZlrGSnOPRPcnILcFSd5+fSPF3g4U44=' 'sha256-DcvMYwYKR8QT3geKX8PyjjCnvN7xA4QaSYmNvF9a5lo=' 'sha256-CzbnPc4DHQmBlvmM/S0c4A+4HWb8OFM/ibbxBIES868=' 'sha256-F/2NBOAVkbgrMKRTcCMLNKRGxf6BwOnJQTssTCpIpHk=' 'sha256-bTRB+HhafwuIDrZ7O+sdrET91Jy/dC/A7CXEKxXEb1A=' 'sha256-mascPdQsSLLUM5G742437oRMKZxnMvi8Q2GWWp5JEco=' 'sha256-VLz2ff1YUfVEB1TBWbTtOFeLaTqArYWuALAf3n7rHy4=' 'sha256-p4y6Gv4Kgb7aah6VCrkmT5w0s/dAE36+0Um3x6PdGCE='; style-src 'unsafe-inline'; img-src 'self' data: blob:; font-src data:; media-src data: blob:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-14GO7JGLf2mhrIXXu5SyNGb7cSVcscTiyXiA6GRr4gk=' 'sha256-q21mk6lH0qDeDdzyaeKYbeSlcAh5qIqdsxxOovE7t/A=' 'sha256-J2XJdRmQP2dcCaQLTgovV7CWuqmuW0Nf+fnSPejqEuk=' 'sha256-SvEOyo4STOle2ZlrGSnOPRPcnILcFSd5+fSPF3g4U44=' 'sha256-DcvMYwYKR8QT3geKX8PyjjCnvN7xA4QaSYmNvF9a5lo=' 'sha256-CzbnPc4DHQmBlvmM/S0c4A+4HWb8OFM/ibbxBIES868=' 'sha256-F/2NBOAVkbgrMKRTcCMLNKRGxf6BwOnJQTssTCpIpHk=' 'sha256-bTRB+HhafwuIDrZ7O+sdrET91Jy/dC/A7CXEKxXEb1A=' 'sha256-mascPdQsSLLUM5G742437oRMKZxnMvi8Q2GWWp5JEco=' 'sha256-VLz2ff1YUfVEB1TBWbTtOFeLaTqArYWuALAf3n7rHy4=' 'sha256-p4y6Gv4Kgb7aah6VCrkmT5w0s/dAE36+0Um3x6PdGCE='; style-src 'unsafe-inline'; img-src 'self' data: blob:; font-src data:; media-src data: blob:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#E7F5EF">
   <meta name="description" content="疯狂闹钟9.0：简体中文与英文、三档唤醒挑战、离线题库、幕布精灵与两套免费主题。">
@@ -3766,6 +3766,7 @@ body,button,input {font-family:var(--font-display);}
     if((match=key.match(/^Use (.+)$/)))return '使用'+translate(match[1],record);
     if((match=key.match(/^Keep (.+)$/)))return '保留'+translate(match[1],record);
     if((match=key.match(/^Preview (.+)$/)))return '试听'+translate(match[1],record);
+    if((match=key.match(/^Stop (.+)$/)))return '停止试听'+translate(match[1],record);
     if((match=key.match(/^Continue with (.+)$/)))return '继续使用'+translate(match[1],record);
     if((match=key.match(/^Next for this alarm: (.+)$/)))return '本闹钟下一次响铃：'+translate(match[1],record);
     if((match=key.match(/^Configured time: (.+)$/)))return '设定时间：'+translate(match[1],record);

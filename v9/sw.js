@@ -1,5 +1,5 @@
 // Build replaces this cache label with a content hash. Only version-local public assets.
-const CACHE='drama-alarm-v9-shell-78ef7d8ec0d5cd53';
+const CACHE='drama-alarm-v9-shell-a82f482bd1860aec';
 const SHELL=['./','./index.html','./content/catalog.json','./content/everyday-8.0.0.json','./content/geography-8.0.0.json','./content/history-8.0.0.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('drama-alarm-v9-shell-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
