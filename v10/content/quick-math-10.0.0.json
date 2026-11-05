@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "quick-math",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "original-arithmetic",
+      "title": "Original Drama Alarm arithmetic and explicitly defined logic",
+      "url": null,
+      "verification": "Deterministic arithmetic; independently human-reviewed status remains pending."
+    }
+  ],
+  "questions": [
+    {
+      "id": "QM001",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "What is 18 + 7?",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "27"
+      ],
+      "optionIds": [
+        "QM001:0",
+        "QM001:1",
+        "QM001:2",
+        "QM001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "QM001:0",
+      "answerText": "25",
+      "explanation": "18 + 2 + 5 = 25.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM002",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "arithmetic",
+      "question": "What is 31 − 9?",
+      "options": [
+        "23",
+        "22",
+        "20",
+        "21"
+      ],
+      "optionIds": [
+        "QM002:0",
+        "QM002:1",
+        "QM002:2",
+        "QM002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "QM002:1",
+      "answerText": "22",
+      "explanation": "31 − 10 + 1 = 22.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM003",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "arithmetic",
+      "question": "What is 6 × 4?",
+      "options": [
+        "28",
+        "30",
+        "24",
+        "20"
+      ],
+      "optionIds": [
+        "QM003:0",
+        "QM003:1",
+        "QM003:2",
+        "QM003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "QM003:2",
+      "answerText": "24",
+      "explanation": "Four groups of six make 24.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM004",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "What is 36 ÷ 6?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "6"
+      ],
+      "optionIds": [
+        "QM004:0",
+        "QM004:1",
+        "QM004:2",
+        "QM004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "QM004:3",
+      "answerText": "6",
+      "explanation": "6 × 6 = 36, so 36 ÷ 6 = 6.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM005",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "arithmetic",
+      "question": "What is 14 + 16?",
+      "options": [
+        "30",
+        "28",
+        "32",
+        "34"
+      ],
+      "optionIds": [
+        "QM005:0",
+        "QM005:1",
+        "QM005:2",
+        "QM005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "QM005:0",
+      "answerText": "30",
+      "explanation": "14 + 6 + 10 = 30.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM006",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "arithmetic",
+      "question": "What is 50 − 17?",
+      "options": [
+        "37",
+        "33",
+        "31",
+        "32"
+      ],
+      "optionIds": [
+        "QM006:0",
+        "QM006:1",
+        "QM006:2",
+        "QM006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "QM006:1",
+      "answerText": "33",
+      "explanation": "50 − 10 − 7 = 33.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM007",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "What is 7 × 3?",
+      "options": [
+        "24",
+        "28",
+        "21",
+        "18"
+      ],
+      "optionIds": [
+        "QM007:0",
+        "QM007:1",
+        "QM007:2",
+        "QM007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "QM007:2",
+      "answerText": "21",
+      "explanation": "7 + 7 + 7 = 21.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM008",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "arithmetic",
+      "question": "What is 48 ÷ 8?",
+      "options": [
+        "4",
+        "7",
+        "8",
+        "6"
+      ],
+      "optionIds": [
+        "QM008:0",
+        "QM008:1",
+        "QM008:2",
+        "QM008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "QM008:3",
+      "answerText": "6",
+      "explanation": "Six groups of eight make 48.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM009",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "arithmetic",
+      "question": "What is 12 + 9 − 5?",
+      "options": [
+        "16",
+        "14",
+        "17",
+        "18"
+      ],
+      "optionIds": [
+        "QM009:0",
+        "QM009:1",
+        "QM009:2",
+        "QM009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "QM009:0",
+      "answerText": "16",
+      "explanation": "12 + 9 = 21; 21 − 5 = 16.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "QM010",
+      "packId": "quick-math",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "What is (15 − 3) ÷ 4?",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "4"
+      ],
+      "optionIds": [
+        "QM010:0",
+        "QM010:1",
+        "QM010:2",
+        "QM010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "QM010:1",
+      "answerText": "3",
+      "explanation": "Calculate the brackets first: 12 ÷ 4 = 3.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}

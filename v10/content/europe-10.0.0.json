@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "europe",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "unesco",
+      "title": "UNESCO World Heritage List and standard geographical facts",
+      "url": "https://whc.unesco.org/en/list/",
+      "verification": "Heritage country associations checked; capital facts require editorial sign-off."
+    }
+  ],
+  "questions": [
+    {
+      "id": "EU001",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Which city is the capital of Portugal?",
+      "options": [
+        "Lisbon",
+        "Madrid",
+        "Rome",
+        "Oslo"
+      ],
+      "optionIds": [
+        "EU001:0",
+        "EU001:1",
+        "EU001:2",
+        "EU001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "EU001:0",
+      "answerText": "Lisbon",
+      "explanation": "Lisbon is the capital of Portugal.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU002",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "Which city is the capital of Norway?",
+      "options": [
+        "Copenhagen",
+        "Oslo",
+        "Stockholm",
+        "Helsinki"
+      ],
+      "optionIds": [
+        "EU002:0",
+        "EU002:1",
+        "EU002:2",
+        "EU002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "EU002:1",
+      "answerText": "Oslo",
+      "explanation": "Oslo is the capital of Norway.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU003",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "Athens is the capital of which country?",
+      "options": [
+        "Croatia",
+        "Romania",
+        "Greece",
+        "Italy"
+      ],
+      "optionIds": [
+        "EU003:0",
+        "EU003:1",
+        "EU003:2",
+        "EU003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "EU003:2",
+      "answerText": "Greece",
+      "explanation": "Athens is the capital of Greece.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU004",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Warsaw is the capital of which country?",
+      "options": [
+        "Austria",
+        "Belgium",
+        "Denmark",
+        "Poland"
+      ],
+      "optionIds": [
+        "EU004:0",
+        "EU004:1",
+        "EU004:2",
+        "EU004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "EU004:3",
+      "answerText": "Poland",
+      "explanation": "Warsaw is the capital of Poland.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU005",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "Which city is the capital of Sweden?",
+      "options": [
+        "Stockholm",
+        "Oslo",
+        "Bern",
+        "Dublin"
+      ],
+      "optionIds": [
+        "EU005:0",
+        "EU005:1",
+        "EU005:2",
+        "EU005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "EU005:0",
+      "answerText": "Stockholm",
+      "explanation": "Stockholm is the capital of Sweden.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU006",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "The historic centre of Prague is in which country?",
+      "options": [
+        "Germany",
+        "Czechia",
+        "Hungary",
+        "France"
+      ],
+      "optionIds": [
+        "EU006:0",
+        "EU006:1",
+        "EU006:2",
+        "EU006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "EU006:1",
+      "answerText": "Czechia",
+      "explanation": "Prague is in Czechia.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU007",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Venice and its lagoon are in which country?",
+      "options": [
+        "Greece",
+        "Portugal",
+        "Italy",
+        "Spain"
+      ],
+      "optionIds": [
+        "EU007:0",
+        "EU007:1",
+        "EU007:2",
+        "EU007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "EU007:2",
+      "answerText": "Italy",
+      "explanation": "Venice and its lagoon are in Italy.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU008",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "The historic centre of Vienna is in which country?",
+      "options": [
+        "Switzerland",
+        "Poland",
+        "Belgium",
+        "Austria"
+      ],
+      "optionIds": [
+        "EU008:0",
+        "EU008:1",
+        "EU008:2",
+        "EU008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "EU008:3",
+      "answerText": "Austria",
+      "explanation": "Vienna is the capital of Austria.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU009",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "The Palace and Park of Versailles are near which French city?",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Nice",
+        "Bordeaux"
+      ],
+      "optionIds": [
+        "EU009:0",
+        "EU009:1",
+        "EU009:2",
+        "EU009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "EU009:0",
+      "answerText": "Paris",
+      "explanation": "Versailles lies near Paris.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "EU010",
+      "packId": "europe",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Which country contains the historic city of Toledo?",
+      "options": [
+        "Ireland",
+        "Spain",
+        "Italy",
+        "Germany"
+      ],
+      "optionIds": [
+        "EU010:0",
+        "EU010:1",
+        "EU010:2",
+        "EU010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "EU010:1",
+      "answerText": "Spain",
+      "explanation": "The historic city of Toledo is in Spain.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}

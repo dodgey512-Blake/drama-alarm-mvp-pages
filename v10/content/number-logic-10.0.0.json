@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "number-logic",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "original-arithmetic",
+      "title": "Original Drama Alarm arithmetic and explicitly defined logic",
+      "url": null,
+      "verification": "Deterministic arithmetic; independently human-reviewed status remains pending."
+    }
+  ],
+  "questions": [
+    {
+      "id": "NL001",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "Add 3 each time: 2, 5, 8, what comes next?",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "13"
+      ],
+      "optionIds": [
+        "NL001:0",
+        "NL001:1",
+        "NL001:2",
+        "NL001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "NL001:0",
+      "answerText": "11",
+      "explanation": "The stated rule gives 8 + 3 = 11.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL002",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "arithmetic",
+      "question": "Double each time: 3, 6, 12, what comes next?",
+      "options": [
+        "36",
+        "24",
+        "18",
+        "21"
+      ],
+      "optionIds": [
+        "NL002:0",
+        "NL002:1",
+        "NL002:2",
+        "NL002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "NL002:1",
+      "answerText": "24",
+      "explanation": "Doubling 12 gives 24.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL003",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "arithmetic",
+      "question": "Subtract 4 each time: 20, 16, 12, what comes next?",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "6"
+      ],
+      "optionIds": [
+        "NL003:0",
+        "NL003:1",
+        "NL003:2",
+        "NL003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "NL003:2",
+      "answerText": "8",
+      "explanation": "12 − 4 = 8.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL004",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "Three boxes hold four pencils each. How many pencils in total?",
+      "options": [
+        "7",
+        "10",
+        "16",
+        "12"
+      ],
+      "optionIds": [
+        "NL004:0",
+        "NL004:1",
+        "NL004:2",
+        "NL004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "NL004:3",
+      "answerText": "12",
+      "explanation": "3 × 4 = 12 pencils.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL005",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "arithmetic",
+      "question": "A show starts at 9:00 and lasts 25 minutes. When does it finish?",
+      "options": [
+        "9:25",
+        "9:15",
+        "9:30",
+        "9:45"
+      ],
+      "optionIds": [
+        "NL005:0",
+        "NL005:1",
+        "NL005:2",
+        "NL005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "NL005:0",
+      "answerText": "9:25",
+      "explanation": "25 minutes after 9:00 is 9:25.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL006",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "arithmetic",
+      "question": "Which of these numbers is even?",
+      "options": [
+        "27",
+        "18",
+        "15",
+        "21"
+      ],
+      "optionIds": [
+        "NL006:0",
+        "NL006:1",
+        "NL006:2",
+        "NL006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "NL006:1",
+      "answerText": "18",
+      "explanation": "18 is divisible by 2 without a remainder.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL007",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "Two coins worth 5 cents each and one worth 10 cents total how much?",
+      "options": [
+        "25 cents",
+        "30 cents",
+        "20 cents",
+        "15 cents"
+      ],
+      "optionIds": [
+        "NL007:0",
+        "NL007:1",
+        "NL007:2",
+        "NL007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "NL007:2",
+      "answerText": "20 cents",
+      "explanation": "5 + 5 + 10 = 20 cents.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL008",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "arithmetic",
+      "question": "You have 8 apples and give away half. How many remain?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "4"
+      ],
+      "optionIds": [
+        "NL008:0",
+        "NL008:1",
+        "NL008:2",
+        "NL008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "NL008:3",
+      "answerText": "4",
+      "explanation": "Half of 8 is 4, so 4 remain.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL009",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "arithmetic",
+      "question": "Five people each need two tickets. How many tickets are needed?",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "12"
+      ],
+      "optionIds": [
+        "NL009:0",
+        "NL009:1",
+        "NL009:2",
+        "NL009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "NL009:0",
+      "answerText": "10",
+      "explanation": "5 × 2 = 10 tickets.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "NL010",
+      "packId": "number-logic",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "arithmetic",
+      "question": "A square has four equal sides of 3 cm. What is its perimeter?",
+      "options": [
+        "15 cm",
+        "12 cm",
+        "6 cm",
+        "9 cm"
+      ],
+      "optionIds": [
+        "NL010:0",
+        "NL010:1",
+        "NL010:2",
+        "NL010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "NL010:1",
+      "answerText": "12 cm",
+      "explanation": "Add all four sides: 3 × 4 = 12 cm.",
+      "sourceRefs": [
+        "original-arithmetic"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}

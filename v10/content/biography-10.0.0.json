@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "id": "biography",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "biography-facts",
+      "title": "Standard biographical facts; primary references for editorial checking",
+      "url": "https://www.nasa.gov/mission/apollo-11/",
+      "relatedUrls": [
+        "https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/",
+        "https://www.nobel.mpg.de/en/albert-einstein"
+      ],
+      "verification": "Armstrong and Einstein spot-checked; remaining biographies require primary-source editorial review."
+    }
+  ],
+  "questions": [
+    {
+      "id": "BI001",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "Marie Curie is best known for research in which field?",
+      "options": [
+        "Radioactivity",
+        "Ocean navigation",
+        "Architecture",
+        "Botany"
+      ],
+      "optionIds": [
+        "BI001:0",
+        "BI001:1",
+        "BI001:2",
+        "BI001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "BI001:0",
+      "answerText": "Radioactivity",
+      "explanation": "Curie pioneered research on radioactivity.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI002",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "history",
+      "question": "Albert Einstein is most closely associated with which scientific field?",
+      "options": [
+        "Archaeology",
+        "Physics",
+        "Geology",
+        "Botany"
+      ],
+      "optionIds": [
+        "BI002:0",
+        "BI002:1",
+        "BI002:2",
+        "BI002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "BI002:1",
+      "answerText": "Physics",
+      "explanation": "Einstein was a theoretical physicist.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI003",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "history",
+      "question": "Florence Nightingale helped transform which profession?",
+      "options": [
+        "Film directing",
+        "Architecture",
+        "Nursing",
+        "Aviation"
+      ],
+      "optionIds": [
+        "BI003:0",
+        "BI003:1",
+        "BI003:2",
+        "BI003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "BI003:2",
+      "answerText": "Nursing",
+      "explanation": "Nightingale helped establish modern nursing.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI004",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "Charles Darwin is associated with evolution by what process?",
+      "options": [
+        "Plate tectonics",
+        "Nuclear fusion",
+        "Photosynthesis",
+        "Natural selection"
+      ],
+      "optionIds": [
+        "BI004:0",
+        "BI004:1",
+        "BI004:2",
+        "BI004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "BI004:3",
+      "answerText": "Natural selection",
+      "explanation": "Darwin developed the theory of evolution by natural selection.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI005",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "history",
+      "question": "Which writer created the play Hamlet?",
+      "options": [
+        "William Shakespeare",
+        "Jane Austen",
+        "Charles Dickens",
+        "Mark Twain"
+      ],
+      "optionIds": [
+        "BI005:0",
+        "BI005:1",
+        "BI005:2",
+        "BI005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "BI005:0",
+      "answerText": "William Shakespeare",
+      "explanation": "Hamlet is a play by William Shakespeare.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI006",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "history",
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Claude Monet"
+      ],
+      "optionIds": [
+        "BI006:0",
+        "BI006:1",
+        "BI006:2",
+        "BI006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "BI006:1",
+      "answerText": "Leonardo da Vinci",
+      "explanation": "Leonardo da Vinci painted the Mona Lisa.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI007",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "Ludwig van Beethoven was primarily known as what?",
+      "options": [
+        "A chemist",
+        "An architect",
+        "A composer",
+        "An explorer"
+      ],
+      "optionIds": [
+        "BI007:0",
+        "BI007:1",
+        "BI007:2",
+        "BI007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "BI007:2",
+      "answerText": "A composer",
+      "explanation": "Beethoven was a composer and pianist.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI008",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "history",
+      "question": "Which novelist wrote Pride and Prejudice?",
+      "options": [
+        "Charlotte Brontë",
+        "George Eliot",
+        "Virginia Woolf",
+        "Jane Austen"
+      ],
+      "optionIds": [
+        "BI008:0",
+        "BI008:1",
+        "BI008:2",
+        "BI008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "BI008:3",
+      "answerText": "Jane Austen",
+      "explanation": "Pride and Prejudice was written by Jane Austen.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI009",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "history",
+      "question": "Who was the first person to walk on the Moon?",
+      "options": [
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "John Glenn",
+        "Alan Shepard"
+      ],
+      "optionIds": [
+        "BI009:0",
+        "BI009:1",
+        "BI009:2",
+        "BI009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "BI009:0",
+      "answerText": "Neil Armstrong",
+      "explanation": "Neil Armstrong took the first steps on the Moon in 1969.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "BI010",
+      "packId": "biography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "Rosa Parks is associated with the civil rights movement in which country?",
+      "options": [
+        "New Zealand",
+        "United States",
+        "Canada",
+        "Australia"
+      ],
+      "optionIds": [
+        "BI010:0",
+        "BI010:1",
+        "BI010:2",
+        "BI010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "BI010:1",
+      "answerText": "United States",
+      "explanation": "Rosa Parks was an important figure in the United States civil rights movement.",
+      "sourceRefs": [
+        "biography-facts"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}

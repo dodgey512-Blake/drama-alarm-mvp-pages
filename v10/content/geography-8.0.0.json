@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "id": "geography",
+  "version": "8.0.0",
+  "locale": "en-US",
+  "sampleOnly": true,
+  "plannedQuestionCount": 180,
+  "contentNotice": "30 original demonstration questions; not the planned 180-question commercial collection. Independent human content review is pending.",
+  "sources": [
+    {
+      "id": "noaa-oceans",
+      "title": "NOAA · Largest ocean basin",
+      "url": "https://oceanservice.noaa.gov/facts/biggestocean.html",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-reef",
+      "title": "UNESCO · Great Barrier Reef",
+      "url": "https://whc.unesco.org/en/list/154/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-canyon",
+      "title": "UNESCO · Grand Canyon National Park",
+      "url": "https://whc.unesco.org/en/list/75/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-kilimanjaro",
+      "title": "UNESCO · Kilimanjaro National Park",
+      "url": "https://whc.unesco.org/en/list/403/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-galapagos",
+      "title": "UNESCO · Galápagos Islands",
+      "url": "https://whc.unesco.org/en/list/001/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-machu",
+      "title": "UNESCO · Historic Sanctuary of Machu Picchu",
+      "url": "https://whc.unesco.org/en/list/274/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-taj",
+      "title": "UNESCO · Taj Mahal",
+      "url": "https://whc.unesco.org/en/list/252/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-wall",
+      "title": "UNESCO · Great Wall",
+      "url": "https://whc.unesco.org/en/list/438/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-petra",
+      "title": "UNESCO · Petra",
+      "url": "https://whc.unesco.org/en/list/326/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-acropolis",
+      "title": "UNESCO · Acropolis, Athens",
+      "url": "https://whc.unesco.org/en/list/404/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-borobudur",
+      "title": "UNESCO · Borobudur Temple Compounds",
+      "url": "https://whc.unesco.org/en/list/592/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-angkor",
+      "title": "UNESCO · Angkor",
+      "url": "https://whc.unesco.org/en/list/668/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    },
+    {
+      "id": "unesco-stonehenge",
+      "title": "UNESCO · Stonehenge, Avebury and Associated Sites",
+      "url": "https://whc.unesco.org/en/list/373/",
+      "checkedAt": "2026-10-30",
+      "usage": "Fact reference only. Question wording and explanations are original; no source imagery is included."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G001",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which ocean is largest by surface area?",
+      "prompt": "Which ocean is largest by surface area?",
+      "options": [
+        "Atlantic",
+        "Pacific",
+        "Indian",
+        "Arctic"
+      ],
+      "answer": 1,
+      "answerText": "Pacific",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The Pacific has the greatest area.",
+      "optionIds": [
+        "G001:0",
+        "G001:1",
+        "G001:2",
+        "G001:3"
+      ],
+      "correctOptionId": "G001:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "noaa-oceans"
+      ]
+    },
+    {
+      "id": "G002",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which ocean is second largest by surface area?",
+      "prompt": "Which ocean is second largest by surface area?",
+      "options": [
+        "Arctic",
+        "Indian",
+        "Atlantic",
+        "Southern"
+      ],
+      "answer": 2,
+      "answerText": "Atlantic",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The Atlantic ranks second in area.",
+      "optionIds": [
+        "G002:0",
+        "G002:1",
+        "G002:2",
+        "G002:3"
+      ],
+      "correctOptionId": "G002:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "noaa-oceans"
+      ]
+    },
+    {
+      "id": "G003",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which is the smallest of these ocean basins?",
+      "prompt": "Which is the smallest of these ocean basins?",
+      "options": [
+        "Pacific",
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ],
+      "answer": 3,
+      "answerText": "Arctic",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The Arctic is the smallest ocean basin.",
+      "optionIds": [
+        "G003:0",
+        "G003:1",
+        "G003:2",
+        "G003:3"
+      ],
+      "correctOptionId": "G003:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "noaa-oceans"
+      ]
+    },
+    {
+      "id": "G004",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which ocean basin is the deepest?",
+      "prompt": "Which ocean basin is the deepest?",
+      "options": [
+        "Pacific",
+        "Arctic",
+        "Atlantic",
+        "Indian"
+      ],
+      "answer": 0,
+      "answerText": "Pacific",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The Pacific is also the deepest.",
+      "optionIds": [
+        "G004:0",
+        "G004:1",
+        "G004:2",
+        "G004:3"
+      ],
+      "correctOptionId": "G004:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "noaa-oceans"
+      ]
+    },
+    {
+      "id": "G005",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which ocean is larger: the Indian or the Pacific?",
+      "prompt": "Which ocean is larger: the Indian or the Pacific?",
+      "options": [
+        "Indian",
+        "Pacific",
+        "They are equal",
+        "Neither contains salt water"
+      ],
+      "answer": 1,
+      "answerText": "Pacific",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The Pacific covers more area.",
+      "optionIds": [
+        "G005:0",
+        "G005:1",
+        "G005:2",
+        "G005:3"
+      ],
+      "correctOptionId": "G005:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "noaa-oceans"
+      ]
+    },
+    {
+      "id": "G006",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Great Barrier Reef lies off which country?",
+      "prompt": "The Great Barrier Reef lies off which country?",
+      "options": [
+        "Mexico",
+        "Japan",
+        "Australia",
+        "Chile"
+      ],
+      "answer": 2,
+      "answerText": "Australia",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "It lies off Australia's coast.",
+      "optionIds": [
+        "G006:0",
+        "G006:1",
+        "G006:2",
+        "G006:3"
+      ],
+      "correctOptionId": "G006:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-reef"
+      ]
+    },
+    {
+      "id": "G007",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Great Barrier Reef is off which Australian coast?",
+      "prompt": "The Great Barrier Reef is off which Australian coast?",
+      "options": [
+        "South-west",
+        "North-west",
+        "South-east",
+        "North-east"
+      ],
+      "answer": 3,
+      "answerText": "North-east",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The reef is off the north-east coast.",
+      "optionIds": [
+        "G007:0",
+        "G007:1",
+        "G007:2",
+        "G007:3"
+      ],
+      "correctOptionId": "G007:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-reef"
+      ]
+    },
+    {
+      "id": "G008",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "What is the Great Barrier Reef best known for?",
+      "prompt": "What is the Great Barrier Reef best known for?",
+      "options": [
+        "Coral reefs",
+        "Sand dunes",
+        "Ice sheets",
+        "High mountains"
+      ],
+      "answer": 0,
+      "answerText": "Coral reefs",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "It is a vast coral reef system.",
+      "optionIds": [
+        "G008:0",
+        "G008:1",
+        "G008:2",
+        "G008:3"
+      ],
+      "correctOptionId": "G008:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-reef"
+      ]
+    },
+    {
+      "id": "G009",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which river helped carve the Grand Canyon?",
+      "prompt": "Which river helped carve the Grand Canyon?",
+      "options": [
+        "Nile",
+        "Colorado",
+        "Thames",
+        "Danube"
+      ],
+      "answer": 1,
+      "answerText": "Colorado",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The Colorado River carved the canyon.",
+      "optionIds": [
+        "G009:0",
+        "G009:1",
+        "G009:2",
+        "G009:3"
+      ],
+      "correctOptionId": "G009:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-canyon"
+      ]
+    },
+    {
+      "id": "G010",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Grand Canyon is in which US state?",
+      "prompt": "The Grand Canyon is in which US state?",
+      "options": [
+        "Florida",
+        "Alaska",
+        "Arizona",
+        "Vermont"
+      ],
+      "answer": 2,
+      "answerText": "Arizona",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The canyon is in Arizona.",
+      "optionIds": [
+        "G010:0",
+        "G010:1",
+        "G010:2",
+        "G010:3"
+      ],
+      "correctOptionId": "G010:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-canyon"
+      ]
+    },
+    {
+      "id": "G011",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Mount Kilimanjaro is on which continent?",
+      "prompt": "Mount Kilimanjaro is on which continent?",
+      "options": [
+        "Europe",
+        "South America",
+        "Antarctica",
+        "Africa"
+      ],
+      "answer": 3,
+      "answerText": "Africa",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "It is Africa's highest mountain.",
+      "optionIds": [
+        "G011:0",
+        "G011:1",
+        "G011:2",
+        "G011:3"
+      ],
+      "correctOptionId": "G011:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-kilimanjaro"
+      ]
+    },
+    {
+      "id": "G012",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Mount Kilimanjaro is in which country?",
+      "prompt": "Mount Kilimanjaro is in which country?",
+      "options": [
+        "Tanzania",
+        "India",
+        "Peru",
+        "Canada"
+      ],
+      "answer": 0,
+      "answerText": "Tanzania",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The mountain is in Tanzania.",
+      "optionIds": [
+        "G012:0",
+        "G012:1",
+        "G012:2",
+        "G012:3"
+      ],
+      "correctOptionId": "G012:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-kilimanjaro"
+      ]
+    },
+    {
+      "id": "G013",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Kilimanjaro is a mountainous mass formed by what?",
+      "prompt": "Kilimanjaro is a mountainous mass formed by what?",
+      "options": [
+        "A coral reef",
+        "Volcanic activity",
+        "A glacier only",
+        "A river delta"
+      ],
+      "answer": 1,
+      "answerText": "Volcanic activity",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "Kilimanjaro is a volcanic massif.",
+      "optionIds": [
+        "G013:0",
+        "G013:1",
+        "G013:2",
+        "G013:3"
+      ],
+      "correctOptionId": "G013:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-kilimanjaro"
+      ]
+    },
+    {
+      "id": "G014",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Galápagos Islands are in which ocean?",
+      "prompt": "The Galápagos Islands are in which ocean?",
+      "options": [
+        "Arctic",
+        "Atlantic",
+        "Pacific",
+        "Indian"
+      ],
+      "answer": 2,
+      "answerText": "Pacific",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The islands lie in the Pacific.",
+      "optionIds": [
+        "G014:0",
+        "G014:1",
+        "G014:2",
+        "G014:3"
+      ],
+      "correctOptionId": "G014:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-galapagos"
+      ]
+    },
+    {
+      "id": "G015",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Galápagos lie off which continent?",
+      "prompt": "The Galápagos lie off which continent?",
+      "options": [
+        "Europe",
+        "Africa",
+        "Asia",
+        "South America"
+      ],
+      "answer": 3,
+      "answerText": "South America",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "They lie west of South America.",
+      "optionIds": [
+        "G015:0",
+        "G015:1",
+        "G015:2",
+        "G015:3"
+      ],
+      "correctOptionId": "G015:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-galapagos"
+      ]
+    },
+    {
+      "id": "G016",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Galápagos Islands are part of which country?",
+      "prompt": "The Galápagos Islands are part of which country?",
+      "options": [
+        "Ecuador",
+        "Greece",
+        "Japan",
+        "Iceland"
+      ],
+      "answer": 0,
+      "answerText": "Ecuador",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The islands belong to Ecuador.",
+      "optionIds": [
+        "G016:0",
+        "G016:1",
+        "G016:2",
+        "G016:3"
+      ],
+      "correctOptionId": "G016:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-galapagos"
+      ]
+    },
+    {
+      "id": "G017",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Machu Picchu is in which country?",
+      "prompt": "Machu Picchu is in which country?",
+      "options": [
+        "Egypt",
+        "Peru",
+        "Greece",
+        "India"
+      ],
+      "answer": 1,
+      "answerText": "Peru",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The site is in Peru.",
+      "optionIds": [
+        "G017:0",
+        "G017:1",
+        "G017:2",
+        "G017:3"
+      ],
+      "correctOptionId": "G017:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-machu"
+      ]
+    },
+    {
+      "id": "G018",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Machu Picchu lies in which mountain range?",
+      "prompt": "Machu Picchu lies in which mountain range?",
+      "options": [
+        "Alps",
+        "Rockies",
+        "Andes",
+        "Himalayas"
+      ],
+      "answer": 2,
+      "answerText": "Andes",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The site stands in the Andes.",
+      "optionIds": [
+        "G018:0",
+        "G018:1",
+        "G018:2",
+        "G018:3"
+      ],
+      "correctOptionId": "G018:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-machu"
+      ]
+    },
+    {
+      "id": "G019",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which setting surrounds Machu Picchu?",
+      "prompt": "Which setting surrounds Machu Picchu?",
+      "options": [
+        "Polar sea ice",
+        "A low coastal plain",
+        "A sandy ocean floor",
+        "Tropical mountain forest"
+      ],
+      "answer": 3,
+      "answerText": "Tropical mountain forest",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "It sits in tropical mountain forest.",
+      "optionIds": [
+        "G019:0",
+        "G019:1",
+        "G019:2",
+        "G019:3"
+      ],
+      "correctOptionId": "G019:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-machu"
+      ]
+    },
+    {
+      "id": "G020",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Taj Mahal is in which country?",
+      "prompt": "The Taj Mahal is in which country?",
+      "options": [
+        "India",
+        "Spain",
+        "Brazil",
+        "Thailand"
+      ],
+      "answer": 0,
+      "answerText": "India",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The monument is in India.",
+      "optionIds": [
+        "G020:0",
+        "G020:1",
+        "G020:2",
+        "G020:3"
+      ],
+      "correctOptionId": "G020:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "G021",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "In which city is the Taj Mahal?",
+      "prompt": "In which city is the Taj Mahal?",
+      "options": [
+        "Kyoto",
+        "Agra",
+        "Cairo",
+        "Athens"
+      ],
+      "answer": 1,
+      "answerText": "Agra",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "It is in Agra.",
+      "optionIds": [
+        "G021:0",
+        "G021:1",
+        "G021:2",
+        "G021:3"
+      ],
+      "correctOptionId": "G021:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "G022",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which river runs beside the Taj Mahal?",
+      "prompt": "Which river runs beside the Taj Mahal?",
+      "options": [
+        "Amazon",
+        "Rhine",
+        "Yamuna",
+        "Seine"
+      ],
+      "answer": 2,
+      "answerText": "Yamuna",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The complex stands beside the Yamuna.",
+      "optionIds": [
+        "G022:0",
+        "G022:1",
+        "G022:2",
+        "G022:3"
+      ],
+      "correctOptionId": "G022:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-taj"
+      ]
+    },
+    {
+      "id": "G023",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The Great Wall is in which country?",
+      "prompt": "The Great Wall is in which country?",
+      "options": [
+        "Greece",
+        "Mexico",
+        "Italy",
+        "China"
+      ],
+      "answer": 3,
+      "answerText": "China",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "The Great Wall is in China.",
+      "optionIds": [
+        "G023:0",
+        "G023:1",
+        "G023:2",
+        "G023:3"
+      ],
+      "correctOptionId": "G023:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-wall"
+      ]
+    },
+    {
+      "id": "G024",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Which direction does Jiayuguan mark along the Great Wall?",
+      "prompt": "Which direction does Jiayuguan mark along the Great Wall?",
+      "options": [
+        "West",
+        "East",
+        "North Pole",
+        "South Pole"
+      ],
+      "answer": 0,
+      "answerText": "West",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "Jiayuguan is at its western end.",
+      "optionIds": [
+        "G024:0",
+        "G024:1",
+        "G024:2",
+        "G024:3"
+      ],
+      "correctOptionId": "G024:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-wall"
+      ]
+    },
+    {
+      "id": "G025",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Petra is in which country?",
+      "prompt": "Petra is in which country?",
+      "options": [
+        "Norway",
+        "Jordan",
+        "Vietnam",
+        "Kenya"
+      ],
+      "answer": 1,
+      "answerText": "Jordan",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "Petra is in Jordan.",
+      "optionIds": [
+        "G025:0",
+        "G025:1",
+        "G025:2",
+        "G025:3"
+      ],
+      "correctOptionId": "G025:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-petra"
+      ]
+    },
+    {
+      "id": "G026",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Petra is between the Red Sea and which other sea?",
+      "prompt": "Petra is between the Red Sea and which other sea?",
+      "options": [
+        "Baltic Sea",
+        "North Sea",
+        "Dead Sea",
+        "Coral Sea"
+      ],
+      "answer": 2,
+      "answerText": "Dead Sea",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "Petra lies between the Red and Dead seas.",
+      "optionIds": [
+        "G026:0",
+        "G026:1",
+        "G026:2",
+        "G026:3"
+      ],
+      "correctOptionId": "G026:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-petra"
+      ]
+    },
+    {
+      "id": "G027",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "The famous Acropolis with the Parthenon is in which city?",
+      "prompt": "The famous Acropolis with the Parthenon is in which city?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Madrid",
+        "Athens"
+      ],
+      "answer": 3,
+      "answerText": "Athens",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "This Acropolis is in Athens.",
+      "optionIds": [
+        "G027:0",
+        "G027:1",
+        "G027:2",
+        "G027:3"
+      ],
+      "correctOptionId": "G027:3",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-acropolis"
+      ]
+    },
+    {
+      "id": "G028",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Borobudur is on which Indonesian island?",
+      "prompt": "Borobudur is on which Indonesian island?",
+      "options": [
+        "Java",
+        "Sicily",
+        "Honshu",
+        "Cuba"
+      ],
+      "answer": 0,
+      "answerText": "Java",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "The temple is in central Java.",
+      "optionIds": [
+        "G028:0",
+        "G028:1",
+        "G028:2",
+        "G028:3"
+      ],
+      "correctOptionId": "G028:0",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-borobudur"
+      ]
+    },
+    {
+      "id": "G029",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Angkor is in which country?",
+      "prompt": "Angkor is in which country?",
+      "options": [
+        "Japan",
+        "Cambodia",
+        "Morocco",
+        "Sweden"
+      ],
+      "answer": 1,
+      "answerText": "Cambodia",
+      "level": "Gentle",
+      "type": "World geography",
+      "explanation": "Angkor is in Cambodia.",
+      "optionIds": [
+        "G029:0",
+        "G029:1",
+        "G029:2",
+        "G029:3"
+      ],
+      "correctOptionId": "G029:1",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-angkor"
+      ]
+    },
+    {
+      "id": "G030",
+      "packId": "geography",
+      "topic": "geography",
+      "question": "Stonehenge stands in which English county?",
+      "prompt": "Stonehenge stands in which English county?",
+      "options": [
+        "Kent",
+        "Devon",
+        "Wiltshire",
+        "Essex"
+      ],
+      "answer": 2,
+      "answerText": "Wiltshire",
+      "level": "Classic",
+      "type": "World geography",
+      "explanation": "Stonehenge is in Wiltshire.",
+      "optionIds": [
+        "G030:0",
+        "G030:1",
+        "G030:2",
+        "G030:3"
+      ],
+      "correctOptionId": "G030:2",
+      "contentVersion": "8.0.0",
+      "locale": "en-US",
+      "reviewStatus": "ai-reviewed-human-review-pending",
+      "retired": false,
+      "sourceRefs": [
+        "unesco-stonehenge"
+      ]
+    }
+  ]
+}
