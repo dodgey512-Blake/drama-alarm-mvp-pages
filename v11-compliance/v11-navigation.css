@@ -1,0 +1,8 @@
+/* Real navigation only: opacity, never screen translation or scaling. */
+#app{position:relative}
+.v11-route-snapshot{position:absolute;z-index:8;overflow:hidden;pointer-events:none!important;contain:layout paint;user-select:none}
+.v11-route-snapshot,.v11-route-snapshot *{pointer-events:none!important}
+.v11-route-snapshot *{animation:none!important;transition:none!important;caret-color:transparent!important}
+.v11-route-snapshot>.screen-body{position:relative!important;inset:auto!important;flex:none!important}
+@media(prefers-reduced-motion:reduce){.v11-route-snapshot{display:none!important}}
+html[data-reduce-motion="true"] .v11-route-snapshot{display:none!important}

@@ -1,0 +1,9 @@
+/* 11.0 local SVG rigs own their transforms. Retained 7.2/8.0/10.0
+   whole-character keyframes must never compete with these joint animations. */
+.v11-mascot .drama-mascot__body,.v10-screen .v11-mascot .drama-mascot__body,
+.is-greeting-home .v11-mascot .drama-mascot__body,.is-greeting-run .v11-mascot .drama-mascot__body {
+  animation:none!important;transform:none!important;transform-origin:initial!important;transform-box:view-box!important;
+}
+.v11-mascot>svg{display:block;overflow:visible;}
+.v11-mascot[data-motion-paused="true"]{opacity:1;}
+.v10-mascot-button .v11-mascot{pointer-events:none;}

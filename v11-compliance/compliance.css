@@ -1,0 +1,10 @@
+/* Compliance edition keeps the approved tokens and fixed page shell. */
+.compliance-links{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.compliance-links a{display:inline-flex;align-items:center;min-height:48px;padding:8px 14px;border:1px solid var(--line);border-radius:14px;color:var(--ink);font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.compliance-links a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+[data-edition="compliance"] .emergency-body .v8-plan-card{width:100%;text-align:left}
+[data-edition="compliance"] .emergency-body .v8-plan-card p,[data-edition="compliance"] .emergency-body .v8-plan-card small{color:inherit}
+[data-edition="compliance"] .emergency-body .v8-plan-card{color:#26382e;background:#f5f8f6}
+[data-edition="compliance"] .emergency-body{padding-top:20px!important;gap:16px}
+[data-edition="compliance"] button:disabled{cursor:not-allowed;opacity:.65}
+@media(max-width:370px){.compliance-links{gap:8px}.compliance-links a{flex:1 1 120px}.v11-adfree-benefits{gap:10px}}

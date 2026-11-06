@@ -1,0 +1,158 @@
+/* 7.1 V3 navigation only: icon and label share the successful WebGL composition.
+   Real DOM names, focus and hit targets remain. Failure/preferences restore DOM.
+   Layout, safe areas and every non-navigation component still belong to v7.css. */
+.bottom-nav[data-liquid-nav] {
+  --glass-floor:rgba(226,229,227,.94);
+  --glass-edge:rgba(255,255,255,.82);
+  --glass-shadow:rgba(38,84,62,.13);
+  isolation:isolate;
+  overflow:visible;
+  touch-action:pan-y pinch-zoom;
+}
+/* A wrapped large-text label must expand the dock's existing auto grid row,
+   rather than overflowing a fixed 78px track. The ordinary single-line dock
+   remains 78px; no font shrinking, clipping, or absolute-positioned labels. */
+.bottom-nav[data-liquid-nav],
+.page-frame > .bottom-nav[data-liquid-nav] {
+  height:auto;
+  min-height:78px;
+  grid-auto-rows:auto;
+  align-items:stretch;
+}
+/* Real layout clearance for the elevated V3 lens and its soft upper shadow.
+   Reserve the gap in the dock row; do not hide the lens with the bar's mask. */
+.page-frame > .bottom-nav[data-liquid-nav] {
+  margin-top:18px;
+}
+[data-theme="velvet"] .bottom-nav[data-liquid-nav] {
+  --glass-floor:rgba(233,228,230,.95);
+  --glass-edge:rgba(255,253,249,.87);
+  --glass-shadow:rgba(98,46,76,.13);
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) {
+  position:relative;
+  z-index:3;
+  touch-action:pan-y pinch-zoom;
+  -webkit-user-select:none;
+  user-select:none;
+  -webkit-touch-callout:none;
+  -webkit-tap-highlight-color:transparent;
+  animation:none;
+  transition:none;
+  min-height:66px;
+  height:auto;
+  align-self:stretch;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  padding:7px;
+}
+.bottom-nav[data-liquid-nav].liquid-enhanced > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]).active,
+.bottom-nav[data-liquid-nav].liquid-enhanced > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]):active {
+  background:transparent;
+  transform:none;
+  filter:none;
+}
+.bottom-nav[data-liquid-nav].liquid-enhanced[data-liquid-mode="webgl"] {
+  background:transparent;
+  border-color:transparent;
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="webgl"][data-liquid-content="ready"] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > :is(svg,span) {
+  opacity:0;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="webgl"] > .liquid-glass-indicator {
+  visibility:hidden;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > svg,
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > span {
+  position:relative;
+  z-index:1;
+  pointer-events:none;
+  flex:0 0 auto;
+  -webkit-user-drag:none;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]) > span {
+  min-width:0;
+  max-width:100%;
+  white-space:normal;
+  line-height:1.3;
+  text-align:center;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]):focus-visible {
+  outline:3px solid var(--rose);
+  outline-offset:1px;
+}
+.bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]).glass-preview {
+  color:var(--plum);
+}
+.liquid-glass-indicator {
+  position:absolute;
+  z-index:0;
+  top:0;
+  left:0;
+  width:var(--glass-width,0px);
+  height:var(--glass-height,0px);
+  border-radius:var(--glass-radius,25px);
+  transform:translate3d(var(--glass-x,0px),var(--glass-y,0px),0);
+  background:var(--glass-floor);
+  border:1px solid var(--glass-edge);
+  box-shadow:inset 0 1px 2px rgba(255,255,255,.74),inset 0 -2px 4px var(--glass-shadow),0 3px 10px var(--glass-shadow);
+  pointer-events:none;
+  will-change:transform;
+}
+.liquid-glass-canvas {
+  position:absolute;
+  z-index:2;
+  top:-28px;
+  left:-24px;
+  width:calc(100% + 48px);
+  height:calc(100% + 56px);
+  max-width:none;
+  display:block;
+  pointer-events:none;
+  border-radius:16px;
+  /* The active lens may protrude beyond the base bar, never beyond this small
+     navigation-owned viewport. Do not mask it with the base capsule again. */
+  clip-path:inset(0px round 16px);
+}
+.bottom-nav[data-liquid-nav]:not([data-liquid-mode="webgl"]) .liquid-glass-canvas {
+  display:none;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="fallback"] .liquid-glass-indicator { background:var(--glass-floor); }
+.bottom-nav[data-liquid-nav][data-liquid-mode="reduced-transparency"],
+.bottom-nav[data-liquid-nav][data-liquid-mode="high-contrast"] {
+  background:var(--paper);
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+}
+.bottom-nav[data-liquid-nav][data-liquid-mode="reduced-transparency"] .liquid-glass-indicator,
+.bottom-nav[data-liquid-nav][data-liquid-mode="high-contrast"] .liquid-glass-indicator {
+  background:var(--rose-soft);
+  border:2px solid var(--rose);
+  box-shadow:none;
+}
+@media (prefers-reduced-motion:reduce) {
+  .bottom-nav[data-liquid-nav] *,
+  .bottom-nav[data-liquid-nav] *::before,
+  .bottom-nav[data-liquid-nav] *::after {
+    animation:none!important;
+    transition:none!important;
+  }
+  .bottom-nav[data-liquid-nav] .liquid-glass-canvas { display:none; }
+  .liquid-glass-indicator { will-change:auto; }
+}
+@media (forced-colors:active) {
+  .bottom-nav[data-liquid-nav] .liquid-glass-indicator {
+    background:Canvas;
+    border:2px solid Highlight;
+    box-shadow:none;
+    forced-color-adjust:none;
+  }
+  .bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]).active { color:Highlight; }
+  .bottom-nav[data-liquid-nav] > button:is([data-action="go-home"],[data-action="open-run"],[data-action="open-settings"]):focus-visible { outline-color:Highlight; }
+}

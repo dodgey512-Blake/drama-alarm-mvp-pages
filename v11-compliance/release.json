@@ -1,0 +1,64 @@
+{
+  "productName": "11.0 合规 抓马闹钟",
+  "version": "11.0.0-compliance.1",
+  "date": "2026-11-07",
+  "status": "demo-remediated-and-verified",
+  "storeRelease": false,
+  "productionNativeReady": false,
+  "originalPreserved": true,
+  "androidApplicationId": "com.dramaalert.android.compliance",
+  "signing": "debug",
+  "realBilling": false,
+  "realAdvertising": false,
+  "music": {
+    "count": 12,
+    "free": 6,
+    "premium": 6,
+    "bytes": 4910274,
+    "originalHashesPreserved": true,
+    "plan": "Suno Pro Plan",
+    "perTrackRightsEvidenceComplete": false
+  },
+  "verification": {
+    "webChecks": 21,
+    "webTemplates": 106,
+    "offlineChecks": 5,
+    "androidBridgeChecks": 49,
+    "androidJdkChecks": 16,
+    "androidEmulatorChecks": 76,
+    "androidLintErrors": 0,
+    "androidLintWarnings": 13,
+    "visPages": 424,
+    "visComponents": 4,
+    "visMotionBoards": 1,
+    "physicalDevice": false
+  },
+  "links": {
+    "demo": "https://dodgey512-blake.github.io/drama-alarm-mvp-pages/v11-compliance/",
+    "vis": "https://dodgey512-blake.github.io/drama-alarm-mvp-pages/v11-compliance/vis/",
+    "motion": "https://dodgey512-blake.github.io/drama-alarm-mvp-pages/v11-compliance/motion/",
+    "audit": "https://dodgey512-blake.github.io/drama-alarm-mvp-pages/v11-compliance/audit.html",
+    "feishu": "https://my.feishu.cn/docx/XbGad3DtrotBg1xUZ94c8zDynLe",
+    "apk": "https://dodgey512-blake.github.io/drama-alarm-mvp-pages/v11-compliance/downloads/11.0%20%E5%90%88%E8%A7%84%20%E6%8A%93%E9%A9%AC%E9%97%B9%E9%92%9F.apk",
+    "bundle": "https://dodgey512-blake.github.io/drama-alarm-mvp-pages/v11-compliance/downloads/11.0%20%E5%90%88%E8%A7%84%20%E6%8A%93%E9%A9%AC%E9%97%B9%E9%92%9F.zip"
+  },
+  "remainingGates": [
+    "iOS native implementation and physical-device reliability",
+    "Real store subscriptions/restore/refunds and lifecycle",
+    "Ad SDK, consent, data declarations and AdMob readiness when integrated",
+    "Legal company/privacy contact/countries/age/trader and actual store console requirements",
+    "Per-track paid download, source and company music-use evidence",
+    "Independent bilingual editorial review",
+    "Production signing/AAB and store approval"
+  ],
+  "files": {
+    "11.0 合规 抓马闹钟.apk": {
+      "bytes": 6057263,
+      "sha256": "34b8f0da04a06f384d0bf4647fd04f8af1a4e5054316b59bca0011499bb99d72"
+    },
+    "11.0 合规 抓马闹钟-Android源码.zip": {
+      "bytes": 5921749,
+      "sha256": "8bf9076e2b04a13e5ca59147cb6dc9f69f7dc97a00918f34c1a85c5070accda5"
+    }
+  }
+}

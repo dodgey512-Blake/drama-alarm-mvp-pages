@@ -1,0 +1,15 @@
+/* A three-second stylised textile opening, independent of route transitions. */
+.launch-stage{background:transparent;transition:none;pointer-events:none;isolation:isolate}
+.launch-curtain{width:50.2%;clip-path:none;background-color:#701b2e;background-image:url('assets/launch-curtain.svg');background-size:200% 100%;background-repeat:no-repeat;transition:none;will-change:transform;box-shadow:none}
+.launch-curtain--left{left:0;background-position:left center;transform:none;animation:v11-curtain-open-left 3s cubic-bezier(.38,0,.25,1) both}
+.launch-curtain--right{right:0;background-position:right center;transform:none;animation:v11-curtain-open-right 3s cubic-bezier(.38,0,.25,1) both}
+.launch-mark{color:#fff0d2;opacity:1;transform:none;gap:20px;transition:none;animation:v11-curtain-brand 3s ease both}
+.launch-mark strong{color:#fff0d2;font-size:28px;font-weight:650;letter-spacing:-.7px;text-shadow:0 2px 16px #38020a70;animation:v11-curtain-breathe 1.5s ease-in-out infinite}
+.launch-mark .spark{background:#ffe6a9;filter:drop-shadow(0 0 12px #ffd27266);animation:v11-curtain-breathe 1.5s ease-in-out infinite}
+.launch-twinkle{position:absolute;width:10px;height:10px;background:#ffe6a9;clip-path:polygon(50% 0,60% 40%,100% 50%,60% 60%,50% 100%,40% 60%,0 50%,40% 40%);animation:v11-curtain-breathe 1.5s ease-in-out infinite;opacity:.65}.launch-twinkle--one{left:-52px;top:8px;animation-delay:-.55s}.launch-twinkle--two{right:-40px;top:82px;width:7px;height:7px;animation-delay:-1.1s}
+.is-launched .launch-stage{opacity:0;visibility:hidden}.is-launched .launch-mark{transform:none}
+@keyframes v11-curtain-open-left{0%,18%{transform:translateX(0)}100%{transform:translateX(-102%)}}
+@keyframes v11-curtain-open-right{0%,18%{transform:translateX(0)}100%{transform:translateX(102%)}}
+@keyframes v11-curtain-brand{0%{opacity:0}14%,46%{opacity:1}76%,100%{opacity:0}}
+@keyframes v11-curtain-breathe{0%,100%{opacity:.56;filter:drop-shadow(0 0 7px #ffd27244)}50%{opacity:1;filter:drop-shadow(0 0 16px #ffd27288)}}
+@media(prefers-reduced-motion:reduce){.launch-stage{display:none!important}.launch-curtain,.launch-mark,.launch-mark strong,.launch-mark .spark,.launch-twinkle{animation:none!important}}

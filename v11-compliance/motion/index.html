@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23F0AE4A' d='M32 2l7 23 23 7-23 7-7 23-7-23-23-7 23-7z'/%3E%3C/svg%3E"><title>疯狂闹钟 11.0 · 九组常驻循环与六种触摸回应</title>
+  <link rel="stylesheet" href="board.css"><link rel="stylesheet" href="mascot-motion.css">
+  <script src="mascot.js" defer></script><script src="mascot-motion.js" defer></script><script src="board.js" defer></script>
+</head>
+<body>
+  <header><div><p class="eyebrow">DRAMA ALARM 11.0 / MOTION LANGUAGE</p><h1>九组持续动作，六种触摸回应。</h1><p>三个角色 × 首页招呼、晨间记录、通用陪伴。每组 4 秒循环，保留角色原有造型。</p></div>
+    <div class="controls"><button id="pause" type="button">暂停全部</button><label>幕布精灵配色<select id="palette"><option value="daybreak">薄荷晨光</option><option value="velvet">奶油绒幕</option></select></label><label>观察尺寸<select id="size"><option value="large">大图观察</option><option value="app">应用尺寸 · 128px</option></select></label><label>循环进度 <output id="time">0.00 / 4.00s</output><input id="timeline" type="range" min="0" max="4" step="0.01" value="0" aria-label="循环进度，拖动后暂停"></label></div>
+  </header>
+  <main><p class="status" id="status" role="status">载入角色中…</p><div id="board"></div><footer><p>首页挥手与记录页招呼使用不同动作；点击后的短回应叠加在独立关节层，结束后继续常驻循环，不重置循环相位。</p><p>离屏、后台及系统／产品减少动态时暂停。此画布不读取或修改闹钟、成绩、购买权益及个人设置。</p><details><summary>查看实际播放读数</summary><pre id="readings"></pre></details></footer></main>
+</body>
+</html>

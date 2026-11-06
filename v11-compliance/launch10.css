@@ -1,0 +1,16 @@
+/* The opening curtain is an intentional, launch-only theatrical scene.
+   Product pages and their hit targets never inherit this translation. */
+.launch-stage { background:transparent; transition:none; pointer-events:none; }
+.launch-curtain { width:50.2%; clip-path:none; background-image:url('assets/launch-curtain.jpg'); background-size:200% 100%; background-repeat:no-repeat; transition:none; will-change:transform; }
+.launch-curtain--left { left:0; background-position:left center; transform:none; animation:curtain-open-left 3s cubic-bezier(.32,0,.18,1) both; }
+.launch-curtain--right { right:0; background-position:right center; transform:none; animation:curtain-open-right 3s cubic-bezier(.32,0,.18,1) both; }
+.launch-mark { color:#fff4d7; opacity:1; transform:none; gap:20px; transition:none; animation:curtain-brand 3s ease both; }
+.launch-mark strong { color:#fff4d7; font-size:27px; font-weight:650; letter-spacing:-.8px; text-shadow:0 2px 16px #38020a80; }
+.launch-mark .spark { background:#ffe9b1; filter:drop-shadow(0 0 15px #ffd27277); animation:curtain-star-breathe 1.5s ease-in-out infinite; }
+.is-launched .launch-stage { opacity:0; visibility:hidden; }
+.is-launched .launch-mark { transform:none; }
+@keyframes curtain-open-left { 0%,42%{transform:translateX(0)} 100%{transform:translateX(-102%)} }
+@keyframes curtain-open-right { 0%,42%{transform:translateX(0)} 100%{transform:translateX(102%)} }
+@keyframes curtain-brand { 0%{opacity:0} 15%,48%{opacity:1} 72%,100%{opacity:0} }
+@keyframes curtain-star-breathe { 0%,100%{opacity:.65;filter:drop-shadow(0 0 8px #ffd27255)} 50%{opacity:1;filter:drop-shadow(0 0 20px #ffd272aa)} }
+@media(prefers-reduced-motion:reduce) { .launch-stage { display:none!important; } .launch-curtain,.launch-mark,.launch-mark .spark { animation:none!important; } }
