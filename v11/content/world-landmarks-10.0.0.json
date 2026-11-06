@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "world-landmarks",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "unesco",
+      "title": "UNESCO World Heritage List and standard geographical facts",
+      "url": "https://whc.unesco.org/en/list/",
+      "verification": "Heritage country associations checked; capital facts require editorial sign-off."
+    }
+  ],
+  "questions": [
+    {
+      "id": "WL001",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Which country is home to the Taj Mahal?",
+      "options": [
+        "India",
+        "Nepal",
+        "Thailand",
+        "Pakistan"
+      ],
+      "optionIds": [
+        "WL001:0",
+        "WL001:1",
+        "WL001:2",
+        "WL001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "WL001:0",
+      "answerText": "India",
+      "explanation": "The Taj Mahal is in Agra, India.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL002",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "The rock-cut city of Petra is in which country?",
+      "options": [
+        "Greece",
+        "Jordan",
+        "Egypt",
+        "Morocco"
+      ],
+      "optionIds": [
+        "WL002:0",
+        "WL002:1",
+        "WL002:2",
+        "WL002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "WL002:1",
+      "answerText": "Jordan",
+      "explanation": "Petra is an archaeological site in Jordan.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL003",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "Machu Picchu is in which country?",
+      "options": [
+        "Brazil",
+        "Mexico",
+        "Peru",
+        "Chile"
+      ],
+      "optionIds": [
+        "WL003:0",
+        "WL003:1",
+        "WL003:2",
+        "WL003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "WL003:2",
+      "answerText": "Peru",
+      "explanation": "Machu Picchu is in the Peruvian Andes.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL004",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "The Acropolis of Athens is in which country?",
+      "options": [
+        "Italy",
+        "Turkey",
+        "Bulgaria",
+        "Greece"
+      ],
+      "optionIds": [
+        "WL004:0",
+        "WL004:1",
+        "WL004:2",
+        "WL004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "WL004:3",
+      "answerText": "Greece",
+      "explanation": "The Acropolis overlooks Athens in Greece.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL005",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "Angkor is a heritage site in which country?",
+      "options": [
+        "Cambodia",
+        "Laos",
+        "Vietnam",
+        "Malaysia"
+      ],
+      "optionIds": [
+        "WL005:0",
+        "WL005:1",
+        "WL005:2",
+        "WL005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "WL005:0",
+      "answerText": "Cambodia",
+      "explanation": "Angkor is in Cambodia.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL006",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "The Great Wall is in which country?",
+      "options": [
+        "India",
+        "China",
+        "Japan",
+        "Mongolia"
+      ],
+      "optionIds": [
+        "WL006:0",
+        "WL006:1",
+        "WL006:2",
+        "WL006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "WL006:1",
+      "answerText": "China",
+      "explanation": "The Great Wall is a historic defensive system in China.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL007",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Which Italian city is home to the Colosseum?",
+      "options": [
+        "Florence",
+        "Naples",
+        "Rome",
+        "Milan"
+      ],
+      "optionIds": [
+        "WL007:0",
+        "WL007:1",
+        "WL007:2",
+        "WL007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "WL007:2",
+      "answerText": "Rome",
+      "explanation": "The Colosseum is in Rome.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL008",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "The Sydney Opera House is in which country?",
+      "options": [
+        "New Zealand",
+        "Canada",
+        "South Africa",
+        "Australia"
+      ],
+      "optionIds": [
+        "WL008:0",
+        "WL008:1",
+        "WL008:2",
+        "WL008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "WL008:3",
+      "answerText": "Australia",
+      "explanation": "Sydney Opera House is in Sydney, Australia.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL009",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "Stonehenge is in which part of the United Kingdom?",
+      "options": [
+        "England",
+        "Scotland",
+        "Wales",
+        "Northern Ireland"
+      ],
+      "optionIds": [
+        "WL009:0",
+        "WL009:1",
+        "WL009:2",
+        "WL009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "WL009:0",
+      "answerText": "England",
+      "explanation": "Stonehenge is in Wiltshire, England.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "WL010",
+      "packId": "world-landmarks",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "The pyramids of Giza are in which country?",
+      "options": [
+        "Tunisia",
+        "Egypt",
+        "Sudan",
+        "Libya"
+      ],
+      "optionIds": [
+        "WL010:0",
+        "WL010:1",
+        "WL010:2",
+        "WL010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "WL010:1",
+      "answerText": "Egypt",
+      "explanation": "The Giza pyramids are in Egypt, near Cairo.",
+      "sourceRefs": [
+        "unesco"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-v11-rig="lamp-home" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="lamp home continuous loop"><defs>
+    <linearGradient id="drama11-lunar-export-lamp-home-home-lamp-loop-mint" x1=".2" y1="0" x2=".9" y2="1">
+      <stop stop-color="#d6f1de"/>
+      <stop offset=".55" stop-color="#a6d2bd"/>
+      <stop offset="1" stop-color="#6ca58f"/>
+    </linearGradient>
+    <radialGradient id="drama11-lunar-export-lamp-home-home-lamp-loop-lens" cx=".37" cy=".3" r=".8">
+      <stop stop-color="#fff9e5"/>
+      <stop offset=".66" stop-color="#f3e7bd"/>
+      <stop offset="1" stop-color="#d6c891"/>
+    </radialGradient>
+    <clipPath id="drama11-lunar-export-lamp-home-home-lamp-loop-left-leg-clip"><rect x="60" y="158" width="66" height="64"/></clipPath>
+    <clipPath id="drama11-lunar-export-lamp-home-home-lamp-loop-right-leg-clip"><rect x="126" y="158" width="61" height="64"/></clipPath>
+    <clipPath id="drama11-lunar-export-lamp-home-home-lamp-loop-left-arm-clip"><rect x="35" y="100" width="88" height="65"/></clipPath>
+    <clipPath id="drama11-lunar-export-lamp-home-home-lamp-loop-right-arm-clip"><rect x="123" y="100" width="87" height="65"/></clipPath>
+    <path id="drama11-lunar-export-lamp-home-home-lamp-loop-leg-shape" d="M97 165c-3 18-9 32-15 40-3 6 3 10 10 9 10-1 16-9 18-17l6-28m22-1 7 32c2 8 10 15 19 14 7-1 9-5 5-10-8-10-13-24-14-39" fill="#6f9788"/>
+    <path id="drama11-lunar-export-lamp-home-home-lamp-loop-arm-shape" d="M81 116c-24 9-29 28-23 35 6 6 14 1 18-4m92-32c18 3 28 19 25 30-3 8-12 7-17 2" fill="none" stroke="#8ab7a1" stroke-width="13" stroke-linecap="round"/>
+    <g id="drama11-lunar-export-lamp-home-home-lamp-loop-torso-shape">
+      <path d="M82 66q41-23 78 0l10 79c1 16-21 32-44 33-25 1-47-12-47-28Z" fill="url(#drama11-lunar-export-lamp-home-home-lamp-loop-mint)"/>
+      <path d="M91 157c18 12 43 14 62 1" fill="none" stroke="#588c76" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+      <path d="M114 157q8 5 16 0l-3-13h-10Z" fill="#f2dfb0"/>
+      <circle cx="122" cy="150" r="3" fill="#b49352"/>
+    </g>
+    <g id="drama11-lunar-export-lamp-home-home-lamp-loop-head-shape">
+      <path d="M161 75 226 48q10 59 0 113l-65-30Z" fill="#f4e9c8" opacity=".3"/>
+      <path d="M80 72c-4-5-3-14 3-19 14-13 55-17 75-3 8 5 11 14 6 20" fill="#7aab94"/>
+      <path d="M100 50c-1-9 5-17 17-17 11 0 17 6 18 14" fill="none" stroke="#6c9b85" stroke-width="6" stroke-linecap="round"/>
+      <ellipse cx="122" cy="97" rx="51" ry="53" fill="#8eb9a2"/>
+      <ellipse cx="121" cy="94" rx="43" ry="45" fill="#e4edd9"/>
+      <ellipse cx="121" cy="94" rx="37" ry="39" fill="url(#drama11-lunar-export-lamp-home-home-lamp-loop-lens)"/>
+      <path d="M93 78c4-11 11-17 21-19" fill="none" stroke="#fffef3" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+      <ellipse cx="108" cy="94" rx="3.7" ry="5.7" fill="#385b4c"/>
+      <ellipse cx="134" cy="94" rx="3.7" ry="5.7" fill="#385b4c"/>
+      <path d="M115 111c4 4 9 4 13 0" fill="none" stroke="#55745c" stroke-width="2.8" stroke-linecap="round"/>
+      <ellipse cx="96" cy="107" rx="6" ry="3.5" fill="#cead8a" opacity=".35"/>
+      <ellipse cx="145" cy="107" rx="6" ry="3.5" fill="#cead8a" opacity=".35"/>
+      <path d="m191 51 4-10m7 18 10-4" stroke="#d1b66e" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="drama11-lunar-export-lamp-home-home-lamp-loop-static-character">
+      <ellipse cx="123" cy="218" rx="60" ry="8" fill="#22352e" opacity=".09"/>
+      <use href="#drama11-lunar-export-lamp-home-home-lamp-loop-leg-shape"/>
+      <use href="#drama11-lunar-export-lamp-home-home-lamp-loop-arm-shape"/>
+      <use href="#drama11-lunar-export-lamp-home-home-lamp-loop-torso-shape"/>
+      <use href="#drama11-lunar-export-lamp-home-home-lamp-loop-head-shape"/>
+    </g>
+  </defs><g class="drama-mascot__body">
+    <ellipse cx="123" cy="218" rx="60" ry="8" fill="#22352e" opacity=".09" data-motion-part="lamp-ground-shadow"/>
+    <g data-motion-part="lamp-left-foot">
+      <animateTransform attributeName="transform" type="rotate" values="-5 106 168;5 106 168;-5 106 168" keyTimes="0;.5;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1" dur="4s" repeatCount="indefinite"/>
+      <g clip-path="url(#drama11-lunar-export-lamp-home-home-lamp-loop-left-leg-clip)"><use href="#drama11-lunar-export-lamp-home-home-lamp-loop-leg-shape"/></g>
+    </g>
+    <g data-motion-part="lamp-right-foot">
+      <animateTransform attributeName="transform" type="rotate" values="5 147 168;-5 147 168;5 147 168" keyTimes="0;.5;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1" dur="4s" repeatCount="indefinite"/>
+      <g clip-path="url(#drama11-lunar-export-lamp-home-home-lamp-loop-right-leg-clip)"><use href="#drama11-lunar-export-lamp-home-home-lamp-loop-leg-shape"/></g>
+    </g>
+    <g data-tap-layer="lamp-breathing-body"><animateTransform data-response="run" attributeName="transform" type="rotate" values="0 122 178;4 122 178;2 122 178;-1 122 178;0 122 178" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="980ms" begin="indefinite" fill="remove"/><g data-motion-part="lamp-breathing-body">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0;0 3;0 0" keyTimes="0;.25;.5;.75;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1;.42 0 .58 1" dur="4s" repeatCount="indefinite"/>
+      <g data-tap-layer="lamp-left-hand"><animateTransform data-response="home" attributeName="transform" type="rotate" values="0 81 116;16 81 116;-10 81 116;7 81 116;0 81 116" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="820ms" begin="indefinite" fill="remove"/><animateTransform data-response="run" attributeName="transform" type="rotate" values="0 81 116;-12 81 116;-5 81 116;3 81 116;0 81 116" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="980ms" begin="indefinite" fill="remove"/><g data-motion-part="lamp-left-hand">
+        <animateTransform attributeName="transform" type="rotate" values="-14 81 116;14 81 116;-14 81 116" keyTimes="0;.5;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1" dur="4s" repeatCount="indefinite"/>
+        <g clip-path="url(#drama11-lunar-export-lamp-home-home-lamp-loop-left-arm-clip)"><use href="#drama11-lunar-export-lamp-home-home-lamp-loop-arm-shape"/></g>
+      </g></g>
+      <g data-tap-layer="lamp-right-hand"><animateTransform data-response="home" attributeName="transform" type="rotate" values="0 168 115;-24 168 115;16 168 115;-10 168 115;0 168 115" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="820ms" begin="indefinite" fill="remove"/><animateTransform data-response="run" attributeName="transform" type="rotate" values="0 168 115;12 168 115;5 168 115;-3 168 115;0 168 115" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="980ms" begin="indefinite" fill="remove"/><g data-motion-part="lamp-right-hand">
+        <animateTransform attributeName="transform" type="rotate" values="14 168 115;-14 168 115;14 168 115" keyTimes="0;.5;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1" dur="4s" repeatCount="indefinite"/>
+        <g clip-path="url(#drama11-lunar-export-lamp-home-home-lamp-loop-right-arm-clip)"><use href="#drama11-lunar-export-lamp-home-home-lamp-loop-arm-shape"/></g>
+      </g></g>
+      <use href="#drama11-lunar-export-lamp-home-home-lamp-loop-torso-shape"/>
+      <g data-tap-layer="lamp-scan-head"><animateTransform data-response="home" attributeName="transform" type="rotate" values="0 122 145;-14 122 145;9 122 145;-5 122 145;0 122 145" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="820ms" begin="indefinite" fill="remove"/><animateTransform data-response="run" attributeName="transform" type="rotate" values="0 122 145;15 122 145;8 122 145;-3 122 145;0 122 145" keyTimes="0;0.25;0.5;0.75;1" keySplines=".36 0 .4 1;.36 0 .4 1;.36 0 .4 1;.36 0 .4 1" calcMode="spline" dur="980ms" begin="indefinite" fill="remove"/><g data-motion-part="lamp-scan-head">
+        <animateTransform attributeName="transform" type="rotate" values="-9 122 145;9 122 145;-9 122 145" keyTimes="0;.5;1" calcMode="spline" keySplines=".42 0 .58 1;.42 0 .58 1" dur="4s" repeatCount="indefinite"/>
+        <use href="#drama11-lunar-export-lamp-home-home-lamp-loop-head-shape"/>
+      </g></g>
+    </g></g>
+  </g></svg>

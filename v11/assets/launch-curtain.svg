@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1200" viewBox="0 0 600 1200">
+ <defs>
+  <linearGradient id="velvet-base" x2="1" y2=".1"><stop stop-color="#581725"/><stop offset=".5" stop-color="#8f3044"/><stop offset="1" stop-color="#591b2d"/></linearGradient>
+  <linearGradient id="velvet-fold"><stop stop-color="#491323"/><stop offset=".26" stop-color="#81263c"/><stop offset=".51" stop-color="#a63d51"/><stop offset=".7" stop-color="#8b2a40"/><stop offset="1" stop-color="#57182b"/></linearGradient>
+  <pattern id="soft-folds" width="88" height="1200" patternUnits="userSpaceOnUse"><path d="M-8 0C4 250 13 540 6 800S-2 1110 1 1200H89C84 938 100 665 87 400S77 118 81 0Z" fill="url(#velvet-fold)"/><path d="M42 0C56 320 38 643 50 1200" fill="none" stroke="#d9787e" stroke-opacity=".12" stroke-width="2"/></pattern>
+  <radialGradient id="stage-light" cx=".5" cy=".28" r=".85"><stop stop-color="#e0a08a" stop-opacity=".14"/><stop offset="1" stop-color="#160a18" stop-opacity=".3"/></radialGradient>
+  <filter id="woven-grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".45 .8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+ </defs>
+ <g filter="url(#woven-grain)"><path fill="url(#velvet-base)" d="M0 0H600V1200H0Z"/><path fill="url(#soft-folds)" d="M0 0H600V1200H0Z"/><path fill="url(#stage-light)" d="M0 0H600V1200H0Z"/></g>
+</svg>

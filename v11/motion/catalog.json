@@ -1,0 +1,162 @@
+{
+  "version": "11.0.0",
+  "durationSeconds": 4,
+  "characters": 3,
+  "loopSets": 3,
+  "loopCount": 9,
+  "touchCount": 6,
+  "oldWholeBodyCssDisabled": true,
+  "templatesInline": true,
+  "files": [
+    {
+      "kind": "loop",
+      "character": "curtain",
+      "mode": "home",
+      "file": "curtain-home-loop.svg",
+      "duration": 4,
+      "sha256": "4e7350d740413ad9e75865fd4b38ff0603c49634740198481f105858817918d2"
+    },
+    {
+      "kind": "touch",
+      "character": "curtain",
+      "context": "home",
+      "file": "curtain-home-touch.svg",
+      "duration": 0.82,
+      "baseLoopContinues": true,
+      "sha256": "2786291f3a3da1fa9dd64dc88cdc80d4e9d7dd2f291c9861102cd91e48b8f641"
+    },
+    {
+      "kind": "loop",
+      "character": "curtain",
+      "mode": "run",
+      "file": "curtain-run-loop.svg",
+      "duration": 4,
+      "sha256": "dad20dbc819d95779fd980655c15fdbac4bb55604d22afa08858b40c2d83c7e8"
+    },
+    {
+      "kind": "touch",
+      "character": "curtain",
+      "context": "run",
+      "file": "curtain-run-touch.svg",
+      "duration": 0.98,
+      "baseLoopContinues": true,
+      "sha256": "376a8e75e2bbf53fce1824f89479212fc323738c4c268debda8c96b61ea0378e"
+    },
+    {
+      "kind": "loop",
+      "character": "curtain",
+      "mode": "companion",
+      "file": "curtain-companion-loop.svg",
+      "duration": 4,
+      "sha256": "f62803ca0bd8592eba3c4c0fdde5377f4baeec93064b8efa83ea78741066c583"
+    },
+    {
+      "kind": "loop",
+      "character": "lamp",
+      "mode": "home",
+      "file": "lamp-home-loop.svg",
+      "duration": 4,
+      "sha256": "8bd5b7270ccae91613ace0273a6f091f0fccb53bba78bc97460bfe37334138b2"
+    },
+    {
+      "kind": "touch",
+      "character": "lamp",
+      "context": "home",
+      "file": "lamp-home-touch.svg",
+      "duration": 0.82,
+      "baseLoopContinues": true,
+      "sha256": "ca1e48fd365a1488e36265dbf60ca4a87540f6da59fd537a9e7cfe2ea8c2ee4f"
+    },
+    {
+      "kind": "loop",
+      "character": "lamp",
+      "mode": "run",
+      "file": "lamp-run-loop.svg",
+      "duration": 4,
+      "sha256": "e9dd2b0dc69fb7f6dd6b1c6c73422fbfb2058482619a698a67bf58b974bc9813"
+    },
+    {
+      "kind": "touch",
+      "character": "lamp",
+      "context": "run",
+      "file": "lamp-run-touch.svg",
+      "duration": 0.98,
+      "baseLoopContinues": true,
+      "sha256": "51e34c68045de416b63fbee9225760c8202d7c43632251471ff7f483c9fd5337"
+    },
+    {
+      "kind": "loop",
+      "character": "lamp",
+      "mode": "companion",
+      "file": "lamp-companion-loop.svg",
+      "duration": 4,
+      "sha256": "e0eae44d48e642f56c5d886c77704bf022bf1e6f80ad0aee85496192a7734c62"
+    },
+    {
+      "kind": "loop",
+      "character": "mouse",
+      "mode": "home",
+      "file": "mouse-home-loop.svg",
+      "duration": 4,
+      "sha256": "fcd7fc129b4b22f004af425293780edcf6e439e57f573b45b293e31cf1192d09"
+    },
+    {
+      "kind": "touch",
+      "character": "mouse",
+      "context": "home",
+      "file": "mouse-home-touch.svg",
+      "duration": 0.82,
+      "baseLoopContinues": true,
+      "sha256": "7c8909e80c439302a2df7908fb88e16ba89aa5636f87216746177b42be36fd1e"
+    },
+    {
+      "kind": "loop",
+      "character": "mouse",
+      "mode": "run",
+      "file": "mouse-run-loop.svg",
+      "duration": 4,
+      "sha256": "a1177750a0753d79ee0fc1243e2d95935a7650705266aa9771d8b689e3176a5b"
+    },
+    {
+      "kind": "touch",
+      "character": "mouse",
+      "context": "run",
+      "file": "mouse-run-touch.svg",
+      "duration": 0.98,
+      "baseLoopContinues": true,
+      "sha256": "660b6f117c077beb5d33194ebf8be626b961d360d6a158a3015bf8fb325b3c30"
+    },
+    {
+      "kind": "loop",
+      "character": "mouse",
+      "mode": "companion",
+      "file": "mouse-companion-loop.svg",
+      "duration": 4,
+      "sha256": "67920b8f38b58c9a14d58029de55d750305d27fdd9bea99cafe46f12b11d41db"
+    }
+  ],
+  "provenance": [
+    {
+      "character": "curtain",
+      "path": "docs/v10/ip-motion-continuous/01-curtain.svg",
+      "sha256": "eb720c62eace5ea5eb3c5578924bca1f289e379b4b33b5092d3256aaef3c5677"
+    },
+    {
+      "character": "lamp",
+      "path": "docs/v10/ip-motion-continuous/02-lamp.svg",
+      "sha256": "8ebc046248816a701b5d8ec229d289a518bd67bcd7ffc0e5d1fa49c0b0ae1e53"
+    },
+    {
+      "character": "mouse",
+      "path": "docs/v10/ip-motion-continuous/03-mouse.svg",
+      "sha256": "a511e1aaa06b1e813ade0e4a23559e71abb27439b6697b414820f97930dc8364"
+    }
+  ],
+  "poseFaces": [
+    "think",
+    "wrong",
+    "calm",
+    "bravo"
+  ],
+  "noAudioChanges": true
+}

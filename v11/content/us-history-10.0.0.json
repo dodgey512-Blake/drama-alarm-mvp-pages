@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "id": "us-history",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "archives",
+      "title": "US National Archives founding documents, Library of Congress and NASA",
+      "url": "https://www.archives.gov/founding-docs",
+      "relatedUrls": [
+        "https://www.archives.gov/milestone-documents/19th-amendment",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://guides.loc.gov/presidential-inaugurations/1861-1893"
+      ],
+      "verification": "Primary-source spot checks completed; independent editorial sign-off pending."
+    }
+  ],
+  "questions": [
+    {
+      "id": "UH001",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "In which year was the Declaration of Independence adopted?",
+      "options": [
+        "1776",
+        "1787",
+        "1804",
+        "1812"
+      ],
+      "optionIds": [
+        "UH001:0",
+        "UH001:1",
+        "UH001:2",
+        "UH001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "UH001:0",
+      "answerText": "1776",
+      "explanation": "The Declaration was adopted on July 4, 1776.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH002",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "history",
+      "question": "In which year was the United States Constitution signed?",
+      "options": [
+        "1815",
+        "1787",
+        "1776",
+        "1799"
+      ],
+      "optionIds": [
+        "UH002:0",
+        "UH002:1",
+        "UH002:2",
+        "UH002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "UH002:1",
+      "answerText": "1787",
+      "explanation": "The Constitution was signed in Philadelphia in 1787.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH003",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "history",
+      "question": "Who was the first president of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "James Madison",
+        "George Washington",
+        "John Adams"
+      ],
+      "optionIds": [
+        "UH003:0",
+        "UH003:1",
+        "UH003:2",
+        "UH003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "UH003:2",
+      "answerText": "George Washington",
+      "explanation": "George Washington served as the first president.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH004",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "Abraham Lincoln was which numbered United States president?",
+      "options": [
+        "12th",
+        "20th",
+        "24th",
+        "16th"
+      ],
+      "optionIds": [
+        "UH004:0",
+        "UH004:1",
+        "UH004:2",
+        "UH004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "UH004:3",
+      "answerText": "16th",
+      "explanation": "Lincoln was the 16th president, serving from 1861 to 1865.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH005",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "history",
+      "question": "Independence Hall is in which city?",
+      "options": [
+        "Philadelphia",
+        "Boston",
+        "New York City",
+        "Baltimore"
+      ],
+      "optionIds": [
+        "UH005:0",
+        "UH005:1",
+        "UH005:2",
+        "UH005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "UH005:0",
+      "answerText": "Philadelphia",
+      "explanation": "Independence Hall is in Philadelphia, Pennsylvania.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH006",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "history",
+      "question": "The first ten amendments to the United States Constitution are called what?",
+      "options": [
+        "The Mayflower Compact",
+        "The Bill of Rights",
+        "The Federalist Papers",
+        "The Declaration"
+      ],
+      "optionIds": [
+        "UH006:0",
+        "UH006:1",
+        "UH006:2",
+        "UH006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "UH006:1",
+      "answerText": "The Bill of Rights",
+      "explanation": "The first ten amendments are the Bill of Rights.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH007",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "How many colonies declared independence in 1776?",
+      "options": [
+        "12",
+        "15",
+        "13",
+        "10"
+      ],
+      "optionIds": [
+        "UH007:0",
+        "UH007:1",
+        "UH007:2",
+        "UH007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "UH007:2",
+      "answerText": "13",
+      "explanation": "Thirteen colonies declared independence.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH008",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "history",
+      "question": "In which year did Apollo 11 land on the Moon?",
+      "options": [
+        "1961",
+        "1965",
+        "1972",
+        "1969"
+      ],
+      "optionIds": [
+        "UH008:0",
+        "UH008:1",
+        "UH008:2",
+        "UH008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "UH008:3",
+      "answerText": "1969",
+      "explanation": "Apollo 11 landed on the Moon in July 1969.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH009",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "history",
+      "question": "Which amendment prohibits denying voting rights on the basis of sex?",
+      "options": [
+        "19th Amendment",
+        "1st Amendment",
+        "5th Amendment",
+        "10th Amendment"
+      ],
+      "optionIds": [
+        "UH009:0",
+        "UH009:1",
+        "UH009:2",
+        "UH009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "UH009:0",
+      "answerText": "19th Amendment",
+      "explanation": "The 19th Amendment was ratified in 1920.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UH010",
+      "packId": "us-history",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "history",
+      "question": "Which country gave the Statue of Liberty to the United States?",
+      "options": [
+        "Canada",
+        "France",
+        "Spain",
+        "Italy"
+      ],
+      "optionIds": [
+        "UH010:0",
+        "UH010:1",
+        "UH010:2",
+        "UH010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "UH010:1",
+      "answerText": "France",
+      "explanation": "The statue was a gift from the people of France.",
+      "sourceRefs": [
+        "archives"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}

@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "us-geography",
+  "version": "10.0.0",
+  "locale": "en-US",
+  "provenance": "Original bilingual question and distractor wording; factual background is common knowledge or cited reference material.",
+  "sources": [
+    {
+      "id": "nps",
+      "title": "US National Park Service and standard United States geographical facts",
+      "url": "https://www.nps.gov/grca/learn/nature/index.htm",
+      "verification": "Grand Canyon and Liberty Island checked against NPS; other geographical facts require editorial sign-off."
+    }
+  ],
+  "questions": [
+    {
+      "id": "UG001",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Grand Canyon National Park is in which state?",
+      "options": [
+        "Arizona",
+        "Oregon",
+        "Florida",
+        "Vermont"
+      ],
+      "optionIds": [
+        "UG001:0",
+        "UG001:1",
+        "UG001:2",
+        "UG001:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "UG001:0",
+      "answerText": "Arizona",
+      "explanation": "Grand Canyon National Park lies in northern Arizona.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG002",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "Which river carved the Grand Canyon?",
+      "options": [
+        "Potomac River",
+        "Colorado River",
+        "Hudson River",
+        "Ohio River"
+      ],
+      "optionIds": [
+        "UG002:0",
+        "UG002:1",
+        "UG002:2",
+        "UG002:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "UG002:1",
+      "answerText": "Colorado River",
+      "explanation": "The Colorado River helped carve the Grand Canyon.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG003",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "Yosemite National Park is in which state?",
+      "options": [
+        "Maine",
+        "Georgia",
+        "California",
+        "Texas"
+      ],
+      "optionIds": [
+        "UG003:0",
+        "UG003:1",
+        "UG003:2",
+        "UG003:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "UG003:2",
+      "answerText": "California",
+      "explanation": "Yosemite is in California.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG004",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Hawaii lies in which ocean?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "optionIds": [
+        "UG004:0",
+        "UG004:1",
+        "UG004:2",
+        "UG004:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "UG004:3",
+      "answerText": "Pacific Ocean",
+      "explanation": "The Hawaiian islands lie in the Pacific Ocean.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG005",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "Which country shares a land border with Alaska?",
+      "options": [
+        "Canada",
+        "Mexico",
+        "Iceland",
+        "Japan"
+      ],
+      "optionIds": [
+        "UG005:0",
+        "UG005:1",
+        "UG005:2",
+        "UG005:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "UG005:0",
+      "answerText": "Canada",
+      "explanation": "Alaska shares a land border with Canada.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG006",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "Seattle is in which state?",
+      "options": [
+        "Idaho",
+        "Washington",
+        "Oregon",
+        "Nevada"
+      ],
+      "optionIds": [
+        "UG006:0",
+        "UG006:1",
+        "UG006:2",
+        "UG006:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "UG006:1",
+      "answerText": "Washington",
+      "explanation": "Seattle is in Washington state.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG007",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Miami is in which state?",
+      "options": [
+        "Louisiana",
+        "Texas",
+        "Florida",
+        "Alabama"
+      ],
+      "optionIds": [
+        "UG007:0",
+        "UG007:1",
+        "UG007:2",
+        "UG007:3"
+      ],
+      "answer": 2,
+      "correctOptionId": "UG007:2",
+      "answerText": "Florida",
+      "explanation": "Miami is in southeastern Florida.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG008",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Classic",
+      "type": "geography",
+      "question": "Chicago sits beside which Great Lake?",
+      "options": [
+        "Lake Erie",
+        "Lake Ontario",
+        "Lake Superior",
+        "Lake Michigan"
+      ],
+      "optionIds": [
+        "UG008:0",
+        "UG008:1",
+        "UG008:2",
+        "UG008:3"
+      ],
+      "answer": 3,
+      "correctOptionId": "UG008:3",
+      "answerText": "Lake Michigan",
+      "explanation": "Chicago sits on the southwestern shore of Lake Michigan.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG009",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Diva",
+      "type": "geography",
+      "question": "Which city is the capital of the United States?",
+      "options": [
+        "Washington, D.C.",
+        "New York City",
+        "Boston",
+        "Philadelphia"
+      ],
+      "optionIds": [
+        "UG009:0",
+        "UG009:1",
+        "UG009:2",
+        "UG009:3"
+      ],
+      "answer": 0,
+      "correctOptionId": "UG009:0",
+      "answerText": "Washington, D.C.",
+      "explanation": "Washington, D.C. is the United States capital.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    },
+    {
+      "id": "UG010",
+      "packId": "us-geography",
+      "locale": "en-US",
+      "level": "Gentle",
+      "type": "geography",
+      "question": "Liberty Island is in which harbor?",
+      "options": [
+        "Baltimore Harbor",
+        "New York Harbor",
+        "Boston Harbor",
+        "Pearl Harbor"
+      ],
+      "optionIds": [
+        "UG010:0",
+        "UG010:1",
+        "UG010:2",
+        "UG010:3"
+      ],
+      "answer": 1,
+      "correctOptionId": "UG010:1",
+      "answerText": "New York Harbor",
+      "explanation": "The Statue of Liberty stands on Liberty Island in New York Harbor.",
+      "sourceRefs": [
+        "nps"
+      ],
+      "reviewStatus": "independent-human-review-pending",
+      "retired": false,
+      "contentVersion": "10.0.0"
+    }
+  ],
+  "reviewStatus": "independent-human-review-pending",
+  "contentNotice": "10 included questions. Purchase entitlement required for use; store checkout is not connected. Independent human content review is pending."
+}
