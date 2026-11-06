@@ -1,6 +1,6 @@
 // Build replaces this cache label with a content hash. Only version-local public assets.
-const CACHE='drama-alarm-v10-shell-345d3258e6c03184';
-const SHELL=['./','./index.html','./content/catalog.json',...['everyday','geography','history','quick-math','number-logic','europe','us-geography','world-landmarks','us-history','biography'].map(id=>`./content/${id}-10.0.0.json`)];
+const CACHE='drama-alarm-v10-shell-7b68c6eda3ef35c9-music-20261106';
+const SHELL=['./','./index.html','./assets/audio/catalog.json',...['free','premium'].flatMap(tier=>Array.from({length:6},(_,i)=>`./assets/audio/${tier}-${String(i+1).padStart(2,'0')}.m4a`)),'./content/catalog.json',...['everyday','geography','history','quick-math','number-logic','europe','us-geography','world-landmarks','us-history','biography'].map(id=>`./content/${id}-10.0.0.json`)];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('drama-alarm-v10-shell-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{
