@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; object-src 'self'; frame-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>疯狂闹钟 · 三组持续 IP 动效</title>
+  <link rel="stylesheet" href="preview.css">
+  <script src="preview.js" defer></script>
+</head>
+<body>
+  <header class="toolbar">
+    <div class="heading"><p class="eyebrow">DRAMA ALARM / CONTINUOUS MOTION 01</p><h1>这一次，一直在动。</h1><p class="intro">三位舞台伙伴 · 每组 4 秒无缝循环 · 保留原角色，重新编排局部动作</p></div>
+    <div class="controls" aria-label="动效预览控制">
+      <button id="play-toggle" type="button" disabled>加载动效…</button>
+      <label class="size-label">观察尺寸<select id="view-size"><option value="large">大图观察</option><option value="app">应用尺寸 · 128px</option></select></label>
+      <label class="timeline-label" for="timeline">循环进度 <output id="time-output">0.00 / 4.00s</output><input id="timeline" type="range" min="0" max="4" step="0.01" value="0" aria-label="动画时间，拖动后暂停"></label>
+    </div>
+  </header>
+  <main>
+    <p class="status" id="play-state" role="status">正在载入三组 SVG…</p>
+    <div class="board">
+      <figure class="specimen curtain" data-case="curtain">
+        <figcaption><span class="number">01 / CURTAIN SPRITE</span><span class="duration">4s LOOP</span><h2>幕布精灵<span>持续摆布 · 轻快挥手</span></h2></figcaption>
+        <div class="stage"><object class="animation" data="01-curtain.svg" type="image/svg+xml" aria-label="幕布精灵四秒持续摆布挥手动画"><p>SVG 无法载入，<a href="01-curtain.svg">单独打开查看</a>。</p></object></div>
+        <p class="motion-description">右手连贯挥动，左手应和；布料下摆、领结和短脚各自跟随节奏。</p>
+        <div class="specimen-footer"><a href="01-curtain.svg" target="_blank" rel="noopener">Open SVG <span aria-hidden="true">↗</span></a><a href="01-curtain.svg" download>下载 SVG</a></div>
+      </figure>
+      <figure class="specimen lamp" data-case="lamp">
+        <figcaption><span class="number">02 / SPOTLIGHT HELPER</span><span class="duration">4s LOOP</span><h2>灯光精灵<span>左右巡光 · 摆臂陪伴</span></h2></figcaption>
+        <div class="stage"><object class="animation" data="02-lamp.svg" type="image/svg+xml" aria-label="灯光精灵四秒持续巡光动画"><p>SVG 无法载入，<a href="02-lamp.svg">单独打开查看</a>。</p></object></div>
+        <p class="motion-description">灯头带着五官和光束来回巡场；双臂独立摆动，身体与双脚轻轻换重心。</p>
+        <div class="specimen-footer"><a href="02-lamp.svg" target="_blank" rel="noopener">Open SVG <span aria-hidden="true">↗</span></a><a href="02-lamp.svg" download>下载 SVG</a></div>
+      </figure>
+      <figure class="specimen mouse" data-case="mouse">
+        <figcaption><span class="number">03 / BACKSTAGE MOUSE</span><span class="duration">4s LOOP</span><h2>幕后小鼠<span>交替轻踏 · 摆耳摇尾</span></h2></figcaption>
+        <div class="stage"><object class="animation" data="03-mouse.svg" type="image/svg+xml" aria-label="幕后小鼠四秒持续轻踏步动画"><p>SVG 无法载入，<a href="03-mouse.svg">单独打开查看</a>。</p></object></div>
+        <p class="motion-description">双耳错开摆动，尾巴画出小弧线；手脚交替、围巾轻扬，角色持续做动作。</p>
+        <div class="specimen-footer"><a href="03-mouse.svg" target="_blank" rel="noopener">Open SVG <span aria-hidden="true">↗</span></a><a href="03-mouse.svg" download>下载 SVG</a></div>
+      </figure>
+    </div>
+    <footer class="notes"><p>这是新动效提案，不是旧版动作陈列。没有等待段、不靠点击才开始；周期末尾接回开头。拖动进度条可暂停检查任意一帧。</p><p>采用可独立打开的矢量 SVG；当前画布中的三组默认同步播放。系统减少动态时默认暂停，离开页面时暂停。尚未替换 Demo 或 APK。</p></footer>
+    <details class="qa"><summary>查看播放读数</summary><pre id="motion-readings">等待载入</pre></details>
+  </main>
+</body>
+</html>

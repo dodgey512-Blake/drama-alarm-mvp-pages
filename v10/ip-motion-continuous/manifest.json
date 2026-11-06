@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "title": "疯狂闹钟 · 三组持续 IP 动效提案",
+  "version": "continuous-motion-01",
+  "status": "proposed-not-integrated",
+  "purpose": "Three newly authored continuous local-part animation proposals using the approved Drama Alarm characters, not a listing of the old whole-body loops",
+  "durationSeconds": 4,
+  "repeatCount": "indefinite",
+  "noClickRequired": true,
+  "noConstantKeyframeSegments": true,
+  "positionSeamContinuous": true,
+  "velocitySeamContinuous": true,
+  "source": {
+    "path": "v10-demo/mascot.js",
+    "sha256": "5de8b2f303aa7e95c04018f050acc7f950d264195314d7fbf4e00beee982b282",
+    "geometry": "Original character geometry retained or split into local joint groups; curtain cloth also receives a topology-compatible morph",
+    "colors": "Active colors of each proposal match its original character family"
+  },
+  "groups": [
+    {
+      "id": "curtain",
+      "name": "幕布精灵 · 持续摆布挥手",
+      "file": "01-curtain.svg",
+      "sourceSymbols": ["curtain-welcome", "mascot-curtain-core"],
+      "sourceTheme": "daybreak",
+      "durationSeconds": 4,
+      "repeatCount": "indefinite",
+      "animationCount": 10,
+      "parts": [
+        "curtain-body-breath",
+        "curtain-bow",
+        "curtain-cloth",
+        "curtain-eyes",
+        "curtain-fold",
+        "curtain-left-arm",
+        "curtain-left-foot",
+        "curtain-right-arm",
+        "curtain-right-foot",
+        "curtain-wave-marks"
+      ]
+    },
+    {
+      "id": "lamp",
+      "name": "灯光精灵 · 左右巡光摆臂",
+      "file": "02-lamp.svg",
+      "sourceSymbols": ["mascot-lamp"],
+      "sourceTheme": "lunar",
+      "durationSeconds": 4,
+      "repeatCount": "indefinite",
+      "animationCount": 6,
+      "parts": [
+        "lamp-breathing-body",
+        "lamp-left-foot",
+        "lamp-left-hand",
+        "lamp-right-foot",
+        "lamp-right-hand",
+        "lamp-scan-head"
+      ]
+    },
+    {
+      "id": "mouse",
+      "name": "幕后小鼠 · 交替轻踏摆耳摇尾",
+      "file": "03-mouse.svg",
+      "sourceSymbols": ["mascot-mouse"],
+      "sourceTheme": "amber",
+      "durationSeconds": 4,
+      "repeatCount": "indefinite",
+      "animationCount": 10,
+      "parts": [
+        "arm-left",
+        "arm-right",
+        "body-breath",
+        "ear-left",
+        "ear-right",
+        "foot-left",
+        "foot-right",
+        "head",
+        "scarf-end",
+        "tail"
+      ]
+    }
+  ],
+  "preview": {
+    "entry": "index.html",
+    "svgViewBox": "0 0 320 320",
+    "artworkCoordinateFrame": "Original 240-unit character artwork translated by 40,40 into a padded 320-unit observation canvas",
+    "controls": ["play-pause-all", "synchronized-four-second-timeline", "seek-and-pause", "large-or-128px-artwork-observation-size"],
+    "systemReducedMotion": "Start paused when the system requests reduced motion; deliberate preview playback remains available",
+    "hiddenDocument": "Pause while hidden and restore according to the user's play intent",
+    "storageAccess": false,
+    "externalDependencies": false,
+    "networkConnections": false
+  },
+  "scope": {
+    "proposalOnly": true,
+    "productDemoModified": false,
+    "apkModified": false,
+    "skillModified": false,
+    "releaseModified": false,
+    "previousMotionViewerModified": false
+  },
+  "files": [
+    {
+      "file": "01-curtain.svg",
+      "bytes": 7920,
+      "sha256": "eb720c62eace5ea5eb3c5578924bca1f289e379b4b33b5092d3256aaef3c5677"
+    },
+    {
+      "file": "02-lamp.svg",
+      "bytes": 5908,
+      "sha256": "8ebc046248816a701b5d8ec229d289a518bd67bcd7ffc0e5d1fa49c0b0ae1e53"
+    },
+    {
+      "file": "03-mouse.svg",
+      "bytes": 9238,
+      "sha256": "a511e1aaa06b1e813ade0e4a23559e71abb27439b6697b414820f97930dc8364"
+    },
+    {
+      "file": "index.html",
+      "bytes": 4480,
+      "sha256": "2ff82d5430871c7f4bc34270a8cf76268f6889ccab1710c7fbd670f684e424f2"
+    },
+    {
+      "file": "preview.css",
+      "bytes": 4875,
+      "sha256": "676b64403894777d696a93aca52916a5eae96b1929fda1d893a80dde14e521ca"
+    },
+    {
+      "file": "preview.js",
+      "bytes": 4023,
+      "sha256": "c52ce1a63e333b0025012f89aa07fc8389754e5003cb969c0016e0b126824516"
+    }
+  ],
+  "manifestSelfHashExcluded": true
+}
